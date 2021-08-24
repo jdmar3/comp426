@@ -1,0 +1,23 @@
+[[main]]
+  identifier = "module"
+  name = "Modules"
+  url = "module"
+  weight = 1
+
+[[main]]
+  identifier = "assignment"
+  name = "Assignments"
+  url = "assignment"
+  weight = 2
+
+[[main]]
+  identifier = "guide"
+  name = "Guides"
+  url = "guide"
+  weight = 3
+
+[[main]]
+  identifier = "syllabus"
+  name = "Syllabus"
+  url = "syllabus"
+  weight = 4
