@@ -1,3 +1,0 @@
-[submodule "zdoc"]
-	path = themes/zdoc
-	url = git@github.com:zzossig/hugo-theme-zdoc.git
