@@ -1,22 +1,45 @@
 ---
-title: "Web Refresher"
-description: ""
+title: "Web Skills Crash Course"
+description: "Knowing how to write, edit, and manipulate HTML and CSS is integral to webdevelopment. Here are some pointers for refreshing your HTML and CSS skills."
 date: 2021-08-24T14:45:03-04:00
 draft: false
-weight: 1
+weight: -1
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
----# HTML and CSS
+---
 
-In past semesters we have spent several class periods covering the basics of HTML and CSS. Knowing these languages (not considered programming languages) is very important for being a good web developer. Both HTML and CSS are straightforward and well documented. We are going to skip teaching them in class to spend more time on the stuff students actually find difficult.
+# HTML and CSS
 
-HTML describes the web page's structure while CSS describes how that structure should be styled. We are going to provide you a short online course so you can familiarize yourself with these two languages. In the second (after the initial setup) assignment we will be making a simple website using just HTML and CSS. Remember all the assignments are already published so you can look ahead and see what kinds of things you will be expected to do.
+In past synchronous semesters, this course had several class periods covering the basics of HTML and CSS.
+Knowing these markup languages (not considered programming languages) is very important for being a good web developer.
+Both HTML and CSS are straightforward and well documented.
+Since many of you have some experience with HTML and CSS, this component of the class is going to be self directed.
 
-We are essentially expecting you to teach yourself HTML and CSS if you are not already familiar. If you find anything overly confusing reach out at office hours or ask on Piazza. We will be making it very clear what you will be expected to know for a test when it comes time for that. If you can do the first assignment without constantly looking things up you can consider yourself an expert.
+Other langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.
+You will _constantly_ be learning and teaching yourself new things.
+If you take no other lessons away from this class, take this one: get comfortable looking things up and learning things on your own.
+It is the only way.
 
-HTML and CSS is probably the most googleable topic you will ever come across in your CS career. Don't be afraid to look things up, but make sure you aren't just copy-pasting things from Stack Overflow either. 
+The list of resources belows, for example, are the kinds of things that you will want to learn how to find online.
+Google.
+Everything.
 
-## Our recommendation
+HTML describes the web page's structure while CSS describes how that structure should be styled.
+We are going to provide you a short online course so you can familiarize yourself with these two languages.
+In the second (after the initial setup) assignment we will be making a simple website using just HTML and CSS.
+Remember all the assignments are already published so you can look ahead and see what kinds of things you will be expected to do.
+
+We are essentially expecting you to teach yourself HTML and CSS if you are not already familiar.
+If you find anything overly confusing, ask on Piazza or reach out during office hours.
+We will be making it very clear what you will be expected to know for a test when it comes time for that.
+If you can do the upcoming HTML and CSS assignment [(a01)](assignment/a01) without constantly looking things up you can consider yourself an expert.
+
+HTML and CSS is probably the most googleable topic you will ever come across in your CS career.
+Don't be afraid to look things up, but make sure you aren't just copy-pasting things from Stack Overflow either. 
+
+# Recommendations for self Study
+
+## Code Academy
 
 [CodeAcademy - Learn HTML and CSS](https://www.codecademy.com/catalog/language/html-css)
 
@@ -39,14 +62,39 @@ You will have to sign up for an account, but it is totally free. You should comp
 6. Grid (Skip this and learn basic [Flex](https://flexboxfroggy.com/))
 7. CSS Transitions (optional)
 
-## Other Options
+## w3schools
 
-1. Your best friend this semester should be the Mozilla Developer Network / MDN Web Docs. They have excellent guides and documentation on all things web dev. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
+The [w3schools](w3schools.com) site is an _excellent_ resource for the markup and programming languages that we will be using in this course.
+Get comfortable working through the tutorials both as self-study resource and as a reference tool.
+- [w3schools HTML](https://www.w3schools.com/html/)
+- [w3schools CSS](https://www.w3schools.com/css/)
 
-2. For those of you who just want to read things I'd check out TutorialsPoint's pages on [HTML](https://www.tutorialspoint.com/html/index.htm) and [CSS](https://www.tutorialspoint.com/css/index.htm). I don't think the CSS one is very good and you would be better off with the Code Academy one.
+## Mozilla Developer Network (MDN)
 
-3. Another option is reading the W3 guides [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp).
+The [Mozilla Developer Network](https://developer.mozilla.org/en-US/) has excellent guides and documentation on all things related to web development.
+- [MDN HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) 
+- [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
 
-## Assessment
+## TutorialsPoint
 
-We will be releasing a short Gradescope quiz in the coming weeks that you will be expected to take as proof of knowledge of HTML and CSS. A Sakai announcement will be sent and it will be mentioned in class when it is available. You can take it whenever you wish once it is available. There will be no close date.
+For those of you who just want to read things I'd check out TutorialsPoint's pages on [HTML](https://www.tutorialspoint.com/html/index.htm) and [CSS](https://www.tutorialspoint.com/css/index.htm). I don't think the CSS one is very good and you would be better off with the Code Academy one.
+
+# Assessment
+
+There is no graded assessment component for this phantom assignment.
+It will be effectively impossible to successfully work through any aspect of this course going forward without famililarity manipulating, writing, and editing HTML and CSS.
+
+Here is a list of online quizzes that you can and should take on your own to test and evaluate your knowledge.
+It would behoove you to take these quizzes and then review things that you find difficult.
+Practice. 
+
+- [GeeksforGeeks](https://www.geeksforgeeks.org/html-course-practice-quiz-1/)
+- [w3schools HTML Quiz](https://www.w3schools.com/html/html_quiz.asp)
+- [w3schools CSS Quiz](https://www.w3schools.com/css/css_quiz.asp)
+- [ProProfs HTML Quiz with Answers](https://www.proprofs.com/quiz-school/story.php?title=html-basics-quiz_1)
+- [Khan Academy HTML/CSS Recap](https://www.khanacademy.org/computing/computer-programming/html-css-js/html-css-js-intro/e/quiz--html-css-recap)
+- [TutorialsPoint HTML 5 Online Quiz](https://www.tutorialspoint.com/html5/html5_online_quiz.htm)
+- [TutorialsPoint CSS Online Quiz](https://www.tutorialspoint.com/css/css_online_quiz.htm)
+- [CSS Portal CSS Quiz](https://www.cssportal.com/css-quiz/)
+- [Quizizz HTML and CSS Quiz 1](https://quizizz.com/admin/quiz/583fc10634f88d3a751610e6/html-css-quiz-1)
+
