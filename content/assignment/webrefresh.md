@@ -1,6 +1,6 @@
 ---
 title: "Web Skills Crash Course"
-description: "Knowing how to write, edit, and manipulate HTML and CSS is integral to webdevelopment. Here are some pointers for refreshing your HTML and CSS skills."
+description: "Knowing how to write, edit, and manipulate HTML and CSS is integral to web development. Here are some pointers for refreshing your HTML and CSS skills."
 date: 2021-08-24T14:45:03-04:00
 draft: false
 weight: -1
