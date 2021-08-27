@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Modern Web Programming</title>
+    <link>https://comp426.johndmart.in/guide/</link>
+    <description>Recent content in Guides on Modern Web Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;span&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34; alt=&#34;CC-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34; alt=&#34;BY-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34; alt=&#34;NC-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1&#34; alt=&#34;ND 4.0&#34;&gt;&lt;/a&gt; 2021 John D. Martin III, some rights reserved.&lt;/span&gt;</copyright>
+    <lastBuildDate>Tue, 24 Aug 2021 03:38:46 -0400</lastBuildDate>
+    
+        <atom:link href="https://comp426.johndmart.in/guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Css</title>
+        <link>https://comp426.johndmart.in/guide/css/</link>
+        <pubDate>Tue, 24 Aug 2021 03:38:05 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Html5</title>
+        <link>https://comp426.johndmart.in/guide/html5/</link>
+        <pubDate>Tue, 24 Aug 2021 03:37:58 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/html5/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COMP 426 on Modern Web Programming</title>
+    <link>https://comp426.johndmart.in/</link>
+    <description>Recent content in COMP 426 on Modern Web Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;span&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34; alt=&#34;CC-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34; alt=&#34;BY-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34; alt=&#34;NC-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1&#34; alt=&#34;ND 4.0&#34;&gt;&lt;/a&gt; 2021 John D. Martin III, some rights reserved.&lt;/span&gt;</copyright>
+    <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
+    
+        <atom:link href="https://comp426.johndmart.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>May 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_may/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_may/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Basic Usage</title>
+        <link>https://comp426.johndmart.in/docs/gettingstarted/basicusage/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/gettingstarted/basicusage/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>April 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_april/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_april/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>https://comp426.johndmart.in/docs/gettingstarted/configuration/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/gettingstarted/configuration/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>March 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_march/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_march/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Installation</title>
+        <link>https://comp426.johndmart.in/docs/gettingstarted/installation/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/gettingstarted/installation/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>February 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_february/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_february/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Web Skills Crash Course</title>
+        <link>https://comp426.johndmart.in/assignment/webrefresh/</link>
+        <pubDate>Tue, 24 Aug 2021 14:45:03 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/webrefresh/</guid>
+        <description>HTML and CSS In past synchronous semesters, this course had several class periods covering the basics of HTML and CSS.
+Knowing these markup languages (not considered programming languages) is very important for being a good web developer.
+Both HTML and CSS are straightforward and well documented.
+Since many of you have some experience with HTML and CSS, this component of the class is going to be self directed.
+Other langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>https://comp426.johndmart.in/docs/gettingstarted/quickstart/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/gettingstarted/quickstart/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>January 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_january/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_january/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Test 1</title>
+        <link>https://comp426.johndmart.in/docs/depth1/test1/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/depth1/test1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Test 2</title>
+        <link>https://comp426.johndmart.in/docs/depth1/depth2/test2/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/depth1/depth2/test2/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Test 3</title>
+        <link>https://comp426.johndmart.in/docs/depth1/depth2/depth3/test3/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/depth1/depth2/depth3/test3/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>ttttest</title>
+        <link>https://comp426.johndmart.in/docs/depth1/ttttest/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/depth1/ttttest/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Css</title>
+        <link>https://comp426.johndmart.in/guide/css/</link>
+        <pubDate>Tue, 24 Aug 2021 03:38:05 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Html5</title>
+        <link>https://comp426.johndmart.in/guide/html5/</link>
+        <pubDate>Tue, 24 Aug 2021 03:37:58 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/html5/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Related content</title>
+        <link>https://comp426.johndmart.in/docs/relatedcontent/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:09 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/relatedcontent/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Page Resources</title>
+        <link>https://comp426.johndmart.in/docs/pageresources/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/pageresources/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Page Bundles</title>
+        <link>https://comp426.johndmart.in/docs/pagebundles/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:59 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/pagebundles/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Content Formats</title>
+        <link>https://comp426.johndmart.in/docs/contentfortmats/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:51 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/contentfortmats/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Image Processing</title>
+        <link>https://comp426.johndmart.in/docs/imageprocessing/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:48 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/imageprocessing/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Shortcodes</title>
+        <link>https://comp426.johndmart.in/docs/contentmanagement/shortcodes/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:19 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/contentmanagement/shortcodes/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Frontmatter</title>
+        <link>https://comp426.johndmart.in/docs/contentmanagement/frontmatter/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:14 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/contentmanagement/frontmatter/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>COMP 426</title>
+        <link>https://comp426.johndmart.in/backup_index/</link>
+        <pubDate>Sun, 26 Jan 2020 04:15:05 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/backup_index/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Markdown Syntax Guide</title>
+        <link>https://comp426.johndmart.in/blog/markdown-syntax/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/blog/markdown-syntax/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Section</title>
+        <link>https://comp426.johndmart.in/docs/contentmanagement/sections/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/docs/contentmanagement/sections/</guid>
+        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Rich Content</title>
+        <link>https://comp426.johndmart.in/blog/rich-content/</link>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/blog/rich-content/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Placeholder Text</title>
+        <link>https://comp426.johndmart.in/blog/placeholder-text/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/blog/placeholder-text/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Emoji Support</title>
+        <link>https://comp426.johndmart.in/blog/emoji-support/</link>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/blog/emoji-support/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on Modern Web Programming</title>
+    <link>https://comp426.johndmart.in/updates/</link>
+    <description>Recent content in Updates on Modern Web Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;span&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34; alt=&#34;CC-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34; alt=&#34;BY-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34; alt=&#34;NC-&#34;&gt;&lt;img style=&#34;height:15px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1&#34; alt=&#34;ND 4.0&#34;&gt;&lt;/a&gt; 2021 John D. Martin III, some rights reserved.&lt;/span&gt;</copyright>
+    <lastBuildDate>Tue, 28 Jan 2020 00:08:29 +0900</lastBuildDate>
+    
+        <atom:link href="https://comp426.johndmart.in/updates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>May 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_may/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_may/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>April 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_april/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_april/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>March 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_march/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_march/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>February 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_february/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_february/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>January 2019</title>
+        <link>https://comp426.johndmart.in/updates/2019_january/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        
+        <guid>https://comp426.johndmart.in/updates/2019_january/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+    
+  </channel>
+</rss>
