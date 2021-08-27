@@ -46,4 +46,3 @@ jobs:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           cname: comp426.johndmart.in
           hugoVersion: extended_0.80.0
-          extended: true
