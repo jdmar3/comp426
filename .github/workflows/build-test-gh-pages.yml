@@ -39,3 +39,11 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          cname: comp426.johndmart.in
+          hugo_version: '0.80.0'
+          extended: true

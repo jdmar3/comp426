@@ -11,9 +11,9 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
-          submodules: recursive
+          submodules: true
       - name: Publish Site
         uses: jdmar3/comp426@main
         with:
