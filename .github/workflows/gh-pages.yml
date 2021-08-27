@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
         with:
-          submodules: true
+          submodules: recursive
       - name: Publish Site
         uses: jdmar3/comp426@main
         with:
-          githubToken: ${{ secrets.PERSONAL_TOKEN }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
           cname: comp426.johndmart.in # Or anything else
           hugoVersion: extended_0.80.0
