@@ -62,8 +62,8 @@ sections:
   - bgcolor: "#7BAFD4"
     color: "#eee"
     type: card
-    description: "The web is a weird amalgam of myriad different platforms, languages, and frameworks all working together to produce things that you can view and interact with in any web browser. The technologies underlying the web change pretty rapidly, so it is important to understand the basic relationships and logics that underly web development, so that you can pick up and learn new technologies as they become available or useful to you.</br>
-
+    description: "The web is a weird amalgam of myriad different platforms, languages, and frameworks all working together to produce things that you can view and interact with in any web browser. The technologies underlying the web change pretty rapidly, so it is important to understand the basic relationships and logics that underly web development, so that you can pick up and learn new technologies as they become available or useful to you.<br/>
+<br/>
 If you're interested in designing advanced, interactive web apps, working on client/server architectures for tech companies, or just learning more about how the web works, this course is for you! We will focus on principles while working with some of the more popular available tools and framework for web development."
     header: 
       title: What is web programming?
