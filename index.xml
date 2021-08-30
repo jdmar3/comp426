@@ -153,6 +153,18 @@ Other langauges and platforms and frameworks change very rapidly and you will, a
       </item>
       
       <item>
+        <title>Github</title>
+        <link>https://comp426.johndmart.in/guide/git/github/</link>
+        <pubDate>Mon, 30 Aug 2021 19:15:55 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/github/</guid>
+        <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
+Hello World - GitHub Guides
+Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
+Syncing a fork - GitHub Help</description>
+      </item>
+      
+      <item>
         <title>Related content</title>
         <link>https://comp426.johndmart.in/docs/relatedcontent/</link>
         <pubDate>Tue, 28 Jan 2020 00:39:09 +0900</pubDate>
@@ -213,15 +225,6 @@ Other langauges and platforms and frameworks change very rapidly and you will, a
         
         <guid>https://comp426.johndmart.in/docs/contentmanagement/frontmatter/</guid>
         <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>COMP 426</title>
-        <link>https://comp426.johndmart.in/backup_index/</link>
-        <pubDate>Sun, 26 Jan 2020 04:15:05 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/backup_index/</guid>
-        <description></description>
       </item>
       
       <item>

@@ -15,6 +15,51 @@
     
       
       <item>
+        <title>CSS3</title>
+        <link>https://comp426.johndmart.in/guide/css3/</link>
+        <pubDate>Mon, 30 Aug 2021 19:38:05 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/css3/</guid>
+        <description>CSS is an acronym for &amp;ldquo;Cascading Style Sheet.&amp;rdquo; If HTML is the medium for web content, then CSS is the palette for the visual styling of the web. Whenever a website looks like anything other than just a blank page, there is CSS involved.
+CSS3 Cheat Sheet - Leslie Franke
+W3CSchools CSS Tutorial</description>
+      </item>
+      
+      <item>
+        <title>HTML5</title>
+        <link>https://comp426.johndmart.in/guide/html5/</link>
+        <pubDate>Mon, 30 Aug 2021 19:37:59 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/html5/</guid>
+        <description>HTML is an acronym for &amp;ldquo;HyperText Markup Language.&amp;rdquo; &amp;ldquo;Hypertext&amp;rdquo; is text that contains links to other text. The Web, as we know it, relies on hypertext to for us to communicate with systems and with other humans. It is the medium of Web content.
+HTML5 Cheat Sheet - WebsiteSetup.org
+W3CSchools HTML(5) Tutorial</description>
+      </item>
+      
+      <item>
+        <title>Git</title>
+        <link>https://comp426.johndmart.in/guide/git/</link>
+        <pubDate>Mon, 30 Aug 2021 19:15:35 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/</guid>
+        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
+Git - The Simple Guide (PDF) (WEB)
+Git Cheat Sheet - GitHub
+Git Tutorials and Training - Atlassian</description>
+      </item>
+      
+      <item>
+        <title>Bash</title>
+        <link>https://comp426.johndmart.in/guide/bash/</link>
+        <pubDate>Mon, 30 Aug 2021 19:15:29 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/bash/</guid>
+        <description>Bash is the name of the shell and command language that we use most frequently in Linux and other UNIX clones. Mac OSX is a UNIX clone. When you open &amp;ldquo;Terminal,&amp;rdquo; you are looking at Bash. It is a text-interface command line envrionment but it can also read commands from files in the form of scripts.
+Learning the shell - William E. Shotts, Jr.
+Writing shell scripts - William E. Shotts, Jr.</description>
+      </item>
+      
+      <item>
         <title>Software install guides</title>
         <link>https://comp426.johndmart.in/guide/software/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
