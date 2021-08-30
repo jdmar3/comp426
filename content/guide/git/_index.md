@@ -3,7 +3,7 @@ title: "Git"
 description: "Save your your whole workflow (and your sanity) with git. Never lose edits again."
 date: 2021-08-30T19:15:35-04:00
 draft: false
-weight: -1
+weight: 0
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
@@ -15,9 +15,3 @@ tocLevels: ["h2", "h3", "h4"]
 <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">Git Cheat Sheet - GitHub</a>
 
 <a href="https://www.atlassian.com/git/tutorials/" target="_blank">Git Tutorials and Training - Atlassian</a>
-
-## Reference sheets from in-class activities
-
-[Git local]({{ site.baseurl }}/refsheets/git-ref/)
-
-[Basic git workflow cheatsheet]({{ site.baseurl }}/refsheets/basic-git-workflow-cheatsheet.pdf/)
