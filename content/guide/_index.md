@@ -1,9 +1,12 @@
 ---
 title: "Guides"
-description: ""
-date: 2021-08-24T03:38:46-04:00
+description: "Resources and guides for reference and to help you complete the assignments."
+date: 2021-08-29T17:40:18-04:00
 draft: false
-weight: 0
+weight: 100
 enableToc: true
-tocLevels: ["h2", "h3", "h4"]
+tocLevels: ["h1", "h2", "h3", "h4"]
 ---
+
+These are some resources directly related to assignments that you will need for reference.
+They will typically all appear linked from one of the assignment pages.
