@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Html5 – Modern Web Programming</title>
+    <title>Software install guides – Modern Web Programming</title>
     
 
 
@@ -30,7 +30,7 @@
     
     var baseurl = JSON.parse("\"https://comp426.johndmart.in\"");
     
-    var permalink = JSON.parse("\"https://comp426.johndmart.in/guide/html5/\"");
+    var permalink = JSON.parse("\"https://comp426.johndmart.in/guide/software/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1072,21 +1072,22 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-    <meta name="description" content="" />
+    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://comp426.johndmart.in/guide/software/index.xml">
+<meta name="description" content="These guides will help you install the software required for COMP 426." />
 <meta name="keywords" content="">
-<meta name="created" content="2021-08-24T03:37:58-0400">
-<meta name="modified" content="2021-08-24T03:37:58-0400">
+<meta name="created" content="0001-01-01T00:00:00&#43;0000">
+<meta name="modified" content="0001-01-01T00:00:00&#43;0000">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
-<meta property="og:title" content="Html5">
-<meta property="og:url" content="https://comp426.johndmart.in/guide/html5/">
-<meta property="og:type" content="article">
+<meta property="og:title" content="Software install guides">
+<meta property="og:url" content="https://comp426.johndmart.in/guide/software/">
+<meta property="og:type" content="website">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://comp426.johndmart.in/guide/html5/">
+<link rel="canonical" href="https://comp426.johndmart.in/guide/software/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1110,11 +1111,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Html5",
-    "datePublished": "2021-08-24T03:37:58-04:00",
-    "dateModified": "2021-08-24T03:37:58-04:00",
-    "url" : "https://comp426.johndmart.in/guide/html5/",
-    "description": ,
+    "url" : "https://comp426.johndmart.in/guide/software/",
+    "name": "Software install guides",
+    "description": "These guides will help you install the software required for COMP 426.",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://comp426.johndmart.in"
@@ -1163,7 +1162,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      Html5
+      Software install guides
     
   </h6>
   <ul>
@@ -1185,32 +1184,9 @@
   
   
   
-  <li class="">
-    <a href="https://comp426.johndmart.in/guide/css/"
-      class="menu__title ">Css</a>
-  </li>
-  
-
-    
-      
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
   <li class="active">
-    <a href="https://comp426.johndmart.in/guide/html5/"
-      class="menu__title active">Html5</a>
+    <a href="https://comp426.johndmart.in/guide/software/"
+      class="menu__title active">Software install guides</a>
   </li>
   
 
@@ -1531,7 +1507,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Html5</h2>
+        <h2 class="title">Software install guides</h2>
       </div>
     </div>
   </div>
@@ -1565,7 +1541,7 @@
   
   <li  class="is-active" >
     
-      <span>Html5</span>
+      <span>Software install guides</span>
     
   </li>
   
@@ -1583,16 +1559,16 @@
 
         
   
-
+  
 <div class="mid">
   <div class="divider">
-    
-    <nav id="single-menu" class="l" data-dir="ltr">
+
+    <nav id="list-menu" class="l" data-dir="ltr">
       
         <div class="menu">
   <h6 class="menu__label">
     
-      Html5
+      Software install guides
     
   </h6>
   <ul>
@@ -1614,32 +1590,9 @@
   
   
   
-  <li class="">
-    <a href="https://comp426.johndmart.in/guide/css/"
-      class="menu__title ">Css</a>
-  </li>
-  
-
-    
-      
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
   <li class="active">
-    <a href="https://comp426.johndmart.in/guide/html5/"
-      class="menu__title active">Html5</a>
+    <a href="https://comp426.johndmart.in/guide/software/"
+      class="menu__title active">Software install guides</a>
   </li>
   
 
@@ -1648,6 +1601,28 @@
 </div>
 
 
+
+<script>
+  var menuTitle = document.querySelectorAll('.menu__title');
+  var modal = document.getElementById("myModal");
+  var drawer = document.getElementById('myDrawer');
+
+  var closeDrawer = function () {
+    setTimeout(function () {
+      modal.style.opacity = 0;
+      drawer.style.left = '-100%';
+      modal.style.left = '-100%';
+    }, 250);
+  }
+
+  menuTitle ? 
+  menuTitle.forEach(function(elem) {
+    elem.onclick = function() {
+      closeDrawer();
+      localStorage.setItem('isDrawerOpen', 'false');
+    }
+  }) : null;
+</script>
       
     </nav>
 
@@ -1656,39 +1631,39 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <p>These guides will help you install software required for COMP 426 on different operating systems.</p>
+
   </article>
 </div>
       
-<div class="grow"></div>
-<nav class="pagination-single">
+        
+<div class="list-section">
   
-    
-      <a href="https://comp426.johndmart.in/guide/css/" title="Css" class="pagination-single__left">
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
-        </div>
-        <div class="pagination-single__right-title">Css</div>
+    <div class="list-section__item">
+      <a href="https://comp426.johndmart.in/guide/software/mac/" class="list-section__item--link">
+        Software Setup for Mac OSX
       </a>
-    
-    <div class="grow"></div>
-    
+      <div class="list-section__item--desc">
+        Instructions for installing required software on Mac OSX
+      </div>
+    </div>
   
-</nav>
-
-
-      
-    </article>
-    
-    <section id="list-side" class="r" data-dir="ltr">
-      
-        <div class="toc">
-  <h6 class="toc__label">What&#39;s on this Page</h6>
-  <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <div class="list-section__item">
+      <a href="https://comp426.johndmart.in/guide/software/windows/" class="list-section__item--link">
+        Software setup for Windows
+      </a>
+      <div class="list-section__item--desc">
+        Instructions for installing required software on Windows
+      </div>
+    </div>
+  
   </div>
-</div>
       
+      
+
+    </article>
+
+    <section id="list-side" class="r" data-dir="ltr">
     </section>
 
   </div>
@@ -1850,7 +1825,7 @@
     
     if (lib && lib.includes('flowchartjs')) {
       
-      var options = JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");
+      var options = JSON.parse("null");
       var jsonContent = null;
 
       var flowchartPrefix = "language-flowchart";
@@ -1940,65 +1915,66 @@
 </script>
 
 <script>
-  var listSide = document.getElementById('list-side');
+  var listMenu = document.getElementById('list-menu');
   var listMain = document.getElementById('list-main');
-  var singleMenu = document.getElementById('single-menu');
+  var listSide = document.getElementById('list-side');
   var switchElem = document.querySelector('.switch');
   var wideViewAsDefault = JSON.parse("null");
-  
+
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
       if (wideViewAsDefault) {
-        singleMenu.className = 'l';  
+        listMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        singleMenu.className = 'l';
+        listMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        singleMenu.className = 'l';
+        listMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
+        listMenu.className = 'l';
         listSide.className = 'r';
         listMain.className = 'm';
-        singleMenu.className = 'l';
       }
     },
   }).register("screen and (max-width:960px)", {
     match: function () {
-      singleMenu.className = 'l';
+      listMenu.className = 'l';
       listMain.className = 'mr';
       listSide.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        singleMenu.className = 'l';
+        listMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        singleMenu.className = 'l';
+        listMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
+      
       switchElem.className = 'switch';
     },
   }).register("screen and (max-width:600px)", {
     match: function () {
-      listSide.className = 'hide';
+      listMenu.className = 'hide';
       listMain.className = 'lmr';
-      singleMenu.className = 'hide';
+      listSide.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
-      listSide.className = 'hide';
+      listMenu.className = 'l';
       listMain.className = 'mr';
-      singleMenu.className = 'l';
+      listSide.className = 'hide';
       switchElem.className = 'hide';
     },
   });
@@ -2011,7 +1987,7 @@
       <div class="lmr">
         
           <p class="caption">
-            <span><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="CC-"><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="BY-"><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="NC-"><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="ND 4.0"></a> 2021 John D. Martin III, some rights reserved.</span>
+            <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://comp426.johndmart.in">COMP 426: Modern Web Programming</a> © 2021 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://johndmart.in">John D. Martin III</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:13px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:13px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:13px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:13px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></span>
           </p>
           
               <p class="caption">Powered by <a href="https://gohugo.io/" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zdoc" rel="noreferrer">zDoc theme</a></p>
