@@ -1,8 +1,0 @@
-{{ if $.Param "enableGitInfo" }}
-  {{ $root := . }}
-  {{ with .FirstSection }}
-    <span class="editBtn" >
-      {{ .Lastmod }}
-    </span>
-  {{ end }}
-{{ end }}
