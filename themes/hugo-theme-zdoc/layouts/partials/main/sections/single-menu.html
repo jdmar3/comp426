@@ -1,13 +1,9 @@
 <div class="menu">
   <h6 class="menu__label">
-    {{ if $.Param "enableGitInfo" }}
-    Henlo
+    {{ if .IsHome }}
+      {{ .Site.Title }}
     {{ else }}
-      {{ if .IsHome }}
-        {{ .Site.Title }}
-      {{ else }}
-        {{ $.Param "Title" }}
-      {{ end }}
+      {{ $.Param "Title" }}
     {{ end }}
   </h6>
   <ul>

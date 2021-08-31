@@ -1,7 +1,6 @@
 ---
 title: "git"
 description: "Save your your whole workflow (and your sanity) with git. Never lose edits again."
-date: 2021-08-31T12:41:17-04:00
 draft: false
 weight: 1
 enableToc: true
