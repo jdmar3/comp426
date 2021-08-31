@@ -107,17 +107,6 @@ Install Required Software Below are links to guides for installing the required 
       </item>
       
       <item>
-        <title>git</title>
-        <link>https://comp426.johndmart.in/guide/git/scm/</link>
-        <pubDate>Tue, 31 Aug 2021 12:41:17 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/git/scm/</guid>
-        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
-git basics git official documentation
-You should become conversant with the official documentation for git.</description>
-      </item>
-      
-      <item>
         <title>Web Skills Crash Course</title>
         <link>https://comp426.johndmart.in/assignment/webrefresh/</link>
         <pubDate>Tue, 24 Aug 2021 14:45:03 -0400</pubDate>
@@ -152,6 +141,17 @@ Other langauges and platforms and frameworks change very rapidly and you will, a
         
         <guid>https://comp426.johndmart.in/docs/depth1/depth2/depth3/test3/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>git</title>
+        <link>https://comp426.johndmart.in/guide/git/scm/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/scm/</guid>
+        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
+git basics git official documentation
+You should become conversant with the official documentation for git.</description>
       </item>
       
       <item>
