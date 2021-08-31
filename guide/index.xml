@@ -37,14 +37,12 @@ W3CSchools HTML(5) Tutorial</description>
       </item>
       
       <item>
-        <title>Git</title>
+        <title>git and GitHub</title>
         <link>https://comp426.johndmart.in/guide/git/</link>
         <pubDate>Mon, 30 Aug 2021 19:15:35 -0400</pubDate>
         
         <guid>https://comp426.johndmart.in/guide/git/</guid>
-        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
-git official documentation
-You should become conversant with the official documentation for git. It has everything you need to know, all in one place.</description>
+        <description>This guide houses links to information about the universe of tools and techniques related to using git and GitHub for COMP 426.</description>
       </item>
       
       <item>

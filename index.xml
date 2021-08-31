@@ -107,6 +107,17 @@ Install Required Software Below are links to guides for installing the required 
       </item>
       
       <item>
+        <title>git</title>
+        <link>https://comp426.johndmart.in/guide/git/scm/</link>
+        <pubDate>Tue, 31 Aug 2021 12:41:17 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/scm/</guid>
+        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
+git official documentation
+You should become conversant with the official documentation for git. It has everything you need to know, all in one place.</description>
+      </item>
+      
+      <item>
         <title>Web Skills Crash Course</title>
         <link>https://comp426.johndmart.in/assignment/webrefresh/</link>
         <pubDate>Tue, 24 Aug 2021 14:45:03 -0400</pubDate>
@@ -150,6 +161,39 @@ Other langauges and platforms and frameworks change very rapidly and you will, a
         
         <guid>https://comp426.johndmart.in/docs/depth1/ttttest/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>GitHub</title>
+        <link>https://comp426.johndmart.in/guide/git/hub/</link>
+        <pubDate>Tue, 31 Aug 2021 12:41:37 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/hub/</guid>
+        <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
+Hello World - GitHub Guides
+Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
+Syncing a fork - GitHub Help</description>
+      </item>
+      
+      <item>
+        <title>GitHub Actions</title>
+        <link>https://comp426.johndmart.in/guide/git/hubactions/</link>
+        <pubDate>Tue, 31 Aug 2021 12:42:12 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/hubactions/</guid>
+        <description>GitHub Actions allows for testing, compiling, and other workflow tasks to be performed on GitHub after you push to a repository housed there. COMP 426 uses these for autograding and other basic evaluation of assignments when you submit them. It is useful to become familiar with how it works so that you can monitor your autograded assignments when you submit them.
+GitHub Actions - GitHub Docs</description>
+      </item>
+      
+      <item>
+        <title>GitHub Classroom</title>
+        <link>https://comp426.johndmart.in/guide/git/hubclassroom/</link>
+        <pubDate>Tue, 31 Aug 2021 12:42:18 -0400</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/hubclassroom/</guid>
+        <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
+You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
+Install GitHub Classroom extension on VSCode</description>
       </item>
       
       <item>
