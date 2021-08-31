@@ -7,6 +7,8 @@ themeOptions = ["light", "dark"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
+enableGitInfo = true
+
 enableTocSwitch = true
 enableLandingBackground = false
 enableSearch = true
@@ -15,7 +17,7 @@ enableLangChange = false
 enableDarkMode = true
 enableBreadcrumb = true
 enableBlogBreadcrumb = true
-enableEditBtn = false
+enableEditBtn = true
 enableToc = true
 enableMenu = true
 enableNavbar = true

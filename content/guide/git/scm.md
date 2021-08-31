@@ -10,6 +10,8 @@ tocLevels: ["h2", "h3", "h4"]
 
 **git** is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
 
+## git basics
+
 [git official documentation](https://git-scm.com/docs/)
 
 You should become conversant with the official documentation for git.
