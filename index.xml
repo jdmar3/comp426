@@ -113,8 +113,8 @@ Install Required Software Below are links to guides for installing the required 
         
         <guid>https://comp426.johndmart.in/guide/git/scm/</guid>
         <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
-git official documentation
-You should become conversant with the official documentation for git. It has everything you need to know, all in one place.</description>
+git basics git official documentation
+You should become conversant with the official documentation for git.</description>
       </item>
       
       <item>
@@ -170,7 +170,7 @@ Other langauges and platforms and frameworks change very rapidly and you will, a
         
         <guid>https://comp426.johndmart.in/guide/git/hub/</guid>
         <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
-Hello World - GitHub Guides
+GitHub Basics Hello World - GitHub Guides
 Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
 Syncing a fork - GitHub Help</description>
       </item>
