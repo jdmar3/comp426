@@ -34,6 +34,8 @@ If given the option, select the 64-bit option.
 3. After the download completes, open it.
 4. Continue through the installation screens using the default settings until the install is complete.
 
+You also will find a good guide to get started with installing git [here](https://rogerdudler.github.io/git-guide/).
+
 
 ## Visual Studio Code - Programming Text Editor
 This semester, we will write all assignment code using the Visual Studio Code editor.

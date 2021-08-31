@@ -40,19 +40,11 @@ We suggest making it your computer's default web browser.
 
 ## node.js - JavaScript Runtime
 1. Follow this link: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-2. Select the "Macintosh Installer" under the LTS tab.
-3. After the download completes, open the installer.
-4. Follow the installation instructions using the default settings to completion.
 
 
 ## git - Developer Tools
-1. Click on the Spotlight icon, the magnifying glass in the top right corner of your screen (or press Command+Space)
-2. Type in the word "Terminal" and press Enter
-3. In the window that pops up, type in the word "git" and press enter.
-You will be prompted to install Command Line Developer Tools.
-Agree to this, even if you are on battery power.
-Let the installation complete.
 
+You will find a good guide to get started with installing git [here](https://rogerdudler.github.io/git-guide/).
 
 ## Visual Studio Code - Programming Text Editor
 This semester, we will write all assignment code using the Visual Studio Code editor.
