@@ -23,23 +23,23 @@ jobs:
 #        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
 #        restore-keys: |
 #          ${{ runner.os }}-hugomod-
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.80.0'
-          extended: true
-
-      - name: Build
-        run: hugo
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-
+#
+#      - name: Setup Hugo
+#        uses: peaceiris/actions-hugo@v2
+#        with:
+#          hugo-version: '0.80.0'
+#          extended: true
+#
+#      - name: Build
+#        run: hugo
+#
+#      - name: Deploy
+#        uses: peaceiris/actions-gh-pages@v3
+#        if: ${{ github.ref == 'refs/heads/main' }}
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_dir: ./public
+#
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
