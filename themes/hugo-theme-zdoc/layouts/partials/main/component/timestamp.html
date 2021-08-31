@@ -1,0 +1,8 @@
+{{ if $.Param "enableGitInfo" }}
+  {{ $root := . }}
+  {{ with .FirstSection }}
+    <span class="editBtn" >
+      Updated: {{ .Lastmod }}
+    </span>
+  {{ end }}
+{{ end }}
