@@ -14,18 +14,6 @@
     
     
       
-      <item>
-        <title>Github</title>
-        <link>https://comp426.johndmart.in/guide/git/github/</link>
-        <pubDate>Mon, 30 Aug 2021 19:15:55 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/git/github/</guid>
-        <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
-Hello World - GitHub Guides
-Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
-Syncing a fork - GitHub Help</description>
-      </item>
-      
     
   </channel>
 </rss>
