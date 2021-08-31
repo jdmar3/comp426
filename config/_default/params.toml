@@ -7,7 +7,7 @@ themeOptions = ["light", "dark"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
-enableTocSwitch = false
+enableTocSwitch = true
 enableLandingBackground = false
 enableSearch = true
 enableSearchHighlight = true
