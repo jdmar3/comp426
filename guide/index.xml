@@ -15,15 +15,6 @@
     
       
       <item>
-        <title>git and GitHub</title>
-        <link>https://comp426.johndmart.in/guide/git/</link>
-        <pubDate>Tue, 31 Aug 2021 12:42:18 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/git/</guid>
-        <description>This guide houses links to information about the universe of tools and techniques related to using git and GitHub for COMP 426.</description>
-      </item>
-      
-      <item>
         <title>CSS3</title>
         <link>https://comp426.johndmart.in/guide/css3/</link>
         <pubDate>Mon, 30 Aug 2021 19:38:05 -0400</pubDate>
@@ -54,6 +45,15 @@ W3CSchools HTML(5) Tutorial</description>
         <description>Bash is the name of the shell and command language that we use most frequently in Linux and other UNIX clones. Mac OSX is a UNIX clone. When you open &amp;ldquo;Terminal,&amp;rdquo; you are looking at Bash. It is a text-interface command line envrionment but it can also read commands from files in the form of scripts.
 Learning the shell - William E. Shotts, Jr.
 Writing shell scripts - William E. Shotts, Jr.</description>
+      </item>
+      
+      <item>
+        <title>git and GitHub</title>
+        <link>https://comp426.johndmart.in/guide/git/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/</guid>
+        <description>This guide houses links to information about the universe of tools and techniques related to using git and GitHub for COMP 426.</description>
       </item>
       
       <item>
