@@ -107,16 +107,6 @@ Install Required Software Below are links to guides for installing the required 
       </item>
       
       <item>
-        <title>Web Skills Crash Course</title>
-        <link>https://comp426.johndmart.in/assignment/webrefresh/</link>
-        <pubDate>Tue, 24 Aug 2021 14:45:03 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/assignment/webrefresh/</guid>
-        <description>HTML and CSS In past synchronous semesters, this course had several class periods covering the basics of HTML and CSS. Knowing these markup languages (not considered programming languages) is very important for being a good web developer. Both HTML and CSS are straightforward and well documented. Since many of you have some experience with HTML and CSS, this component of the class is going to be self directed.
-Other langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.</description>
-      </item>
-      
-      <item>
         <title>Test 1</title>
         <link>https://comp426.johndmart.in/docs/depth1/test1/</link>
         <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
@@ -183,6 +173,16 @@ Syncing a fork - GitHub Help</description>
         <guid>https://comp426.johndmart.in/guide/git/hubactions/</guid>
         <description>GitHub Actions allows for testing, compiling, and other workflow tasks to be performed on GitHub after you push to a repository housed there. COMP 426 uses these for autograding and other basic evaluation of assignments when you submit them. It is useful to become familiar with how it works so that you can monitor your autograded assignments when you submit them.
 GitHub Actions - GitHub Docs</description>
+      </item>
+      
+      <item>
+        <title>Web Skills Crash Course</title>
+        <link>https://comp426.johndmart.in/assignment/webrefresh/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/webrefresh/</guid>
+        <description>HTML and CSS In past synchronous semesters, this course had several class periods covering the basics of HTML and CSS. Knowing these markup languages (not considered programming languages) is very important for being a good web developer. Both HTML and CSS are straightforward and well documented. Since many of you have some experience with HTML and CSS, this component of the class is going to be self directed.
+Other langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.</description>
       </item>
       
       <item>
