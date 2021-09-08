@@ -177,12 +177,12 @@ GitHub Actions - GitHub Docs</description>
       
       <item>
         <title>Web Skills Crash Course</title>
-        <link>https://comp426.johndmart.in/assignment/webrefresh/</link>
+        <link>https://comp426.johndmart.in/module/01-html&#43;css/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/assignment/webrefresh/</guid>
-        <description>HTML and CSS In past synchronous semesters, this course had several class periods covering the basics of HTML and CSS. Knowing these markup languages (not considered programming languages) is very important for being a good web developer. Both HTML and CSS are straightforward and well documented. Since many of you have some experience with HTML and CSS, this component of the class is going to be self directed.
-Other langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.</description>
+        <guid>https://comp426.johndmart.in/module/01-html&#43;css/</guid>
+        <description>HTML and CSS The first real assignment is meant to get you comfortable with the basics of HTML and CSS. Whether you know it very well already or if you need a refresher, going through this module and then a01 should put you in a good position to continue through the rest of the assignments.
+Knowing these markup languages is very important for being a good web developer. Both HTML and CSS are straightforward and well documented.</description>
       </item>
       
       <item>
@@ -194,6 +194,17 @@ Other langauges and platforms and frameworks change very rapidly and you will, a
         <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
 You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
 Install GitHub Classroom extension on VSCode</description>
+      </item>
+      
+      <item>
+        <title>a01 HTML and CSS</title>
+        <link>https://comp426.johndmart.in/assignment/a01/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/a01/</guid>
+        <description>In this assignment, we will create a set of HTML pages that are styled using CSS.
+Follow the GitHub Classroom link for a01 listed on Piazza and Sakai. Clone the repository that it sets up for you. Just like last time, there will only be LICENSE AND README.md files in the repository when you clone it. You will create the rest of the files referenced below.
+These pages should describe a mythological character or mythological story.</description>
       </item>
       
       <item>
@@ -334,6 +345,18 @@ Chrome Web Browser Your projects in this course will run in a web browser. While
         <guid>https://comp426.johndmart.in/guide/software/windows/</guid>
         <description>To be a successful web developer in COMP 426, you&amp;rsquo;ll need to install some software on your computer. Follow the guide on this page if you have a Windows computer.
 Chrome Web Browser Your projects in this course will run in a web browser. While most web browsers should work, we only support and test in the Google Chrome web browser. Install it by following the instructions below. We suggest making it your computer&amp;rsquo;s default web browser.</description>
+      </item>
+      
+      <item>
+        <title>Validators</title>
+        <link>https://comp426.johndmart.in/guide/validators/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/validators/</guid>
+        <description>Here are some links to validators that you can use to check your assignment code. We will run all your code through a validator as part of your assignment submission. You should too.
+Validators will tell you exactly what you need to know to fix the errors in your code.
+HTML, CSS, etc. W3C Markup Validation Service (HTML)
+W3C has a bunch of different validators that can check CSS, web platforms (mobile ready), dead links, RSS, and one that checks all of these things.</description>
       </item>
       
     

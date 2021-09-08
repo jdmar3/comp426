@@ -26,13 +26,14 @@ Install Required Software Below are links to guides for installing the required 
       </item>
       
       <item>
-        <title>Web Skills Crash Course</title>
-        <link>https://comp426.johndmart.in/assignment/webrefresh/</link>
+        <title>a01 HTML and CSS</title>
+        <link>https://comp426.johndmart.in/assignment/a01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/assignment/webrefresh/</guid>
-        <description>HTML and CSS In past synchronous semesters, this course had several class periods covering the basics of HTML and CSS. Knowing these markup languages (not considered programming languages) is very important for being a good web developer. Both HTML and CSS are straightforward and well documented. Since many of you have some experience with HTML and CSS, this component of the class is going to be self directed.
-Other langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.</description>
+        <guid>https://comp426.johndmart.in/assignment/a01/</guid>
+        <description>In this assignment, we will create a set of HTML pages that are styled using CSS.
+Follow the GitHub Classroom link for a01 listed on Piazza and Sakai. Clone the repository that it sets up for you. Just like last time, there will only be LICENSE AND README.md files in the repository when you clone it. You will create the rest of the files referenced below.
+These pages should describe a mythological character or mythological story.</description>
       </item>
       
     
