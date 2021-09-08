@@ -1075,7 +1075,7 @@
     <meta name="description" content="This assignment for COMP 426 will help you get through setting up tools and installing some of the basic software you will need to have for the course. It is a walkthrough for installing and setting up your development environment, including: Node.js, VIsual Studio Code, Chrome, git, and using GitHub Classroom for submissions." />
 <meta name="keywords" content="">
 <meta name="created" content="2021-08-24T00:52:13-0400">
-<meta name="modified" content="2021-09-07T19:36:51-0400">
+<meta name="modified" content="2021-09-07T21:18:06-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "a00 This is all a setup",
     "datePublished": "2021-08-24T00:52:13-04:00",
-    "dateModified": "2021-09-07T19:36:51-04:00",
+    "dateModified": "2021-09-07T21:18:06-04:00",
     "url" : "https://comp426.johndmart.in/assignment/a00/",
     "description": "This assignment for COMP 426 will help you get through setting up tools and installing some of the basic software you will need to have for the course. It is a walkthrough for installing and setting up your development environment, including: Node.js, VIsual Studio Code, Chrome, git, and using GitHub Classroom for submissions.",
     "mainEntityOfPage": {
@@ -1575,9 +1575,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/8ca1e0fb8442a07cd5c4fa8ab0f8254912906deb" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/a285a16a129dbc6f9c2e28bc14c332354e7bc6f9" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2021-09-07 19:36:51 -0400 -0400
+        This page updated: 2021-09-07 21:18:06 -0400 -0400
       </button>
     </a>
 
@@ -1738,7 +1738,7 @@ It will say that it is configuring your repository and that you should refresh t
 NB: This repository doesn&rsquo;t exist under your GH account directly, but under the &ldquo;organization&rdquo; that owns the GitHub Classroom (jdmar3-comp426).</p>
 </li>
 <li>
-<p>Open the link to your repository page for a00, which should have the form of <code>https://github.com/jdmar3-comp426/a00-YOURGITHUBUSERNAME</code>.</p>
+<p>Open the link to your repository page for a00, which should have the form of <code>https://github.com/jdmar3-comp426/</code>a00-$YOURGITHUBUSERNAME``.</p>
 </li>
 </ol>
 <h2 id="set-up-workspace">Set Up Workspace</h2>
@@ -1787,7 +1787,7 @@ Open it.</p>
 <pre><code class="language-{bash}" data-lang="{bash}">$ cd Documents
 $ mkdir comp426
 $ cd comp426
-$ git clone https://github.com/jdmar3-comp426/a00-YOURGITHUBUSERNAME.git
+$ git clone https://github.com/jdmar3-comp426/`a00-$YOURGITHUBUSERNAME`.git
 Cloning into 'a00-johnmar3'...
 remote: Enumerating objects: 12, done.
 remote: Counting objects: 100% (12/12), done.
@@ -1795,7 +1795,7 @@ remote: Compressing objects: 100% (10/10), done.
 remote: Total 12 (delta 2), reused 2 (delta 0), pack-reused 0
 Receiving objects: 100% (12/12), 14.37 KiB | 7.19 MiB/s, done.
 Resolving deltas: 100% (2/2), done.
-$ cd a00-YOURGITHUBUSERNAME
+$ cd `a00-$YOURGITHUBUSERNAME`
 $ ls
 </code></pre><p>Et voila! You are in the directory containing your repository!
 You should be able to see the base files in the repository after your <code>ls</code> command.
@@ -1814,8 +1814,8 @@ You can see these folders in the left side panel of Visual Studio Code, which sh
 <p><p class="md__image">
   <img src="/assignment/resources/a00/open-explorer.png" alt="The explorer icon in Visual Studio Code"  title="The explorer icon in Visual Studio Code"  />
 </p></p>
-<p>If you were going to be creating a new project folder, you could do it by right clicking in the empty space at the bottom of the explorer and clicking &ldquo;New Folder.&rdquo; However, for this demo we will just use the existing folder &ldquo;a00-YOURGITHUBUSERNAME&rdquo;.</p>
-<p>Next, right click on the folder &ldquo;a00-YOURGITHUBUSERNAME&rdquo; and click &ldquo;Open in Terminal.&rdquo; This will open a new terminal window <em>pointing at the a00-YOURGITHUBUSERNAME folder</em>.
+<p>If you were going to be creating a new project folder, you could do it by right clicking in the empty space at the bottom of the explorer and clicking &ldquo;New Folder.&rdquo; However, for this demo we will just use the existing folder &ldquo;<code>a00-$YOURGITHUBUSERNAME</code>&rdquo;.</p>
+<p>Next, right click on the folder &ldquo;<code>a00-$YOURGITHUBUSERNAME</code>&rdquo; and click &ldquo;Open in Terminal.&rdquo; This will open a new terminal window <em>pointing at the <code>a00-$YOURGITHUBUSERNAME</code> folder</em>.
 <strong>This raises an important fact about terminals&mdash;they always point to a specific folder location in your computer</strong>.
 Usually, the terminal prompt will give some indication of which folder it is currently pointing at.
 For instance, you might see something like this:</p>
@@ -1824,12 +1824,12 @@ For instance, you might see something like this:</p>
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">your-computer-name:a00-YOURGITHUBUSERNAME yourname$ 
+<pre class="chroma"><code class="language-bash" data-lang="bash">your-computer-name:<span class="sb">`</span>a00-<span class="nv">$YOURGITHUBUSERNAME</span><span class="sb">`</span> yourname$ 
 </code></pre></td></tr></table>
 </div>
-</div><p>The important thing here is <code>a00-YOURGITHUBUSERNAME</code>, which indicates that you are currently in the a00-YOURGITHUBUSERNAME folder.</p>
+</div><p>The important thing here is <code>a00-$YOURGITHUBUSERNAME</code>, which indicates that you are currently in the <code>a00-$YOURGITHUBUSERNAME</code> folder.</p>
 <p>There is a special terminal command, <code>pwd</code>, which tells you exactly which folder the terminal is currently in.
-<code>pwd</code> stands for &ldquo;print working directory.&rdquo; Try running <code>pwd</code> in your terminal window now, and verify that it is pointing to the a00-YOURGITHUBUSERNAME folder.</p>
+<code>pwd</code> stands for &ldquo;print working directory.&rdquo; Try running <code>pwd</code> in your terminal window now, and verify that it is pointing to the <code>a00-$YOURGITHUBUSERNAME</code> folder.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1837,7 +1837,7 @@ For instance, you might see something like this:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">pwd</span>
-/home/YOURUSERNAME/Documents/comp426/a00-YOURGITHUBUSERNAME
+/home/YOURUSERNAME/Documents/comp426/<span class="sb">`</span>a00-<span class="nv">$YOURGITHUBUSERNAME</span><span class="sb">`</span>
 </code></pre></td></tr></table>
 </div>
 </div><blockquote>
@@ -1862,7 +1862,7 @@ It includes lots of valuable information about your project including the projec
 It also includes a list of the dependencies that your project relies on, and a list of custom scripts, or actions, that may be a part of your web application.
 The answers you type to the questions asked during the <code>npm init</code> process are used to add more information to the <code>package.json</code> file that is created for your project.</p>
 </blockquote>
-<p>At this point, the a00-YOURGITHUBUSERNAME folder should now have a brand new <code>package.json</code> file with the following contents:</p>
+<p>At this point, the <code>a00-$YOURGITHUBUSERNAME</code> folder should now have a brand new <code>package.json</code> file with the following contents:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1893,7 +1893,7 @@ The answers you type to the questions asked during the <code>npm init</code> pro
 </div>
 </div><h3 id="add-some-html">Add some HTML</h3>
 <p>Next, let&rsquo;s add some html.
-Right click on the a00-YOURGITHUBUSERNAME folder, select &ldquo;New File,&rdquo; and name the new file <code>index.html</code>.</p>
+Right click on the <code>a00-$YOURGITHUBUSERNAME</code> folder, select &ldquo;New File,&rdquo; and name the new file <code>index.html</code>.</p>
 <p>Write (do not copy and paste) the following code into the new file and save:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1941,7 +1941,7 @@ This means that you have changes you need to commit.</p>
 For now, click the check mark, which will trigger a commit.
 A bar will appear at the top asking you to write a commit message.
 Write something meaningful to let your future self know what you did: &ldquo;added index.html&rdquo;.</p>
-<p>To make a commit in your terminal from inside the a00-YOURGITHUBUSERNAME directory, run the following:</p>
+<p>To make a commit in your terminal from inside the <code>a00-$YOURGITHUBUSERNAME</code> directory, run the following:</p>
 <pre><code class="language-{bash}" data-lang="{bash}">$ git add -v . 
 $ git commit -a -m &quot;added index.html&quot;
 </code></pre><p>The first command adds any new files that you created.
@@ -1953,7 +1953,7 @@ To test them, keep following these instructions.</p>
 The package we&rsquo;ll add is called <a href="https://www.browsersync.io/" target="_blank">Browsersync</a>, and it will help make web development much easier! Browsersync is a &ldquo;dev server,&rdquo; and its job is to show you what your website looks like in real time as you actively make changes to your code.
 Browsersync works by pretending to be a real web server, running in the background on your computer and monitoring changes to the files in your project directory.
 Although it&rsquo;s optional, you may wish to install and use Browsersync when working on all assignments for COMP 426.</p>
-<p>To install Browsersync as a dependency for a00-YOURGITHUBUSERNAME, run the following command inside the a00-YOURGITHUBUSERNAME terminal:</p>
+<p>To install Browsersync as a dependency for <code>a00-$YOURGITHUBUSERNAME</code>, run the following command inside the <code>a00-$YOURGITHUBUSERNAME</code> terminal:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1970,7 +1970,7 @@ One simple command automatically added a powerful third-party program to your ne
 <p><em>Note: To get credit for a00, you must have Browsersync added as a dependency to your project.</em></p>
 <h3 id="start-the-development-server">Start the development server</h3>
 <p>With the simple <code>index.html</code> file in place, its time to see if things actually work.
-Using the terminal inside the a00i-YOURGITHUBUSERNAME folder, run the following command to start the development server:</p>
+Using the terminal inside the <code>a00-$YOURGITHUBUSERNAME folder</code>, run the following command to start the development server:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
