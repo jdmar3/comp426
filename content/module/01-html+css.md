@@ -1,8 +1,8 @@
 ---
-title: "Web Skills Crash Course"
+title: "mod01 HTML + CSS Crash Course"
 description: "Knowing how to write, edit, and manipulate HTML and CSS is integral to web development. Here are some pointers for refreshing your HTML and CSS skills."
 draft: false
-weight: 5
+weight: 10
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
