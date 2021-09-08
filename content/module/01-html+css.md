@@ -82,8 +82,9 @@ For those of you who just want to read things I'd check out TutorialsPoint's pag
 
 # Assessment
 
-There is no graded assessment component for this phantom assignment.
-It will be effectively impossible to successfully work through any aspect of this course going forward without famililarity manipulating, writing, and editing HTML and CSS.
+There is no graded assessment component for course modules.
+We will not be giving you graded quizzes or anything.
+However, it will be effectively impossible to successfully work through any aspect of this course going forward without famililarity manipulating, writing, and editing HTML and CSS.
 
 Here is a list of online quizzes that you can and should take on your own to test and evaluate your knowledge.
 It would behoove you to take these quizzes and then review things that you find difficult.
