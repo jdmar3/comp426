@@ -13,10 +13,9 @@ The first real assignment is meant to get you comfortable with the basics of HTM
 Whether you know it very well already or if you need a refresher, going through this module and then [a01](assignment/a01) should put you in a good position to continue through the rest of the assignments. 
 
 Knowing these markup languages is *very* important for being a good web developer.
-Both HTML and CSS are straightforward and well documented.
-Since many of you have some experience with HTML and CSS, this component of the class is going to be self directed.
+Both HTML and CSS are straightforward and well-documented.
 
-Other langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.
+Web langauges and platforms and frameworks change very rapidly and you will, as a web developer, spend a career learning new languages and platforms and frameworks.
 You will _constantly_ be learning and teaching yourself new things.
 If you take no other lessons away from this class, take this one: get comfortable looking things up and learning things on your own.
 It is the only way.
