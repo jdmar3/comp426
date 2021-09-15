@@ -8,27 +8,12 @@
   </url>
   
   <url>
-    <loc>https://comp426.johndmart.in/docs/gettingstarted/basicusage/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://comp426.johndmart.in/updates/2019_april/</loc>
     <lastmod>2021-08-24T15:32:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://comp426.johndmart.in/docs/gettingstarted/configuration/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://comp426.johndmart.in/updates/2019_march/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/gettingstarted/installation/</loc>
     <lastmod>2021-08-24T15:32:41-04:00</lastmod>
   </url>
   
@@ -43,63 +28,13 @@
   </url>
   
   <url>
-    <loc>https://comp426.johndmart.in/docs/gettingstarted/quickstart/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://comp426.johndmart.in/updates/2019_january/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/depth1/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/depth1/depth2/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/depth1/depth2/depth3/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/depth1/test1/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/depth1/depth2/test2/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/depth1/depth2/depth3/test3/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/gettingstarted/</loc>
     <lastmod>2021-08-24T15:32:41-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://comp426.johndmart.in/guide/git/scm/</loc>
     <lastmod>2021-08-31T16:44:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/depth1/ttttest/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/contentmanagement/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
   </url>
   
   <url>
@@ -133,8 +68,23 @@
   </url>
   
   <url>
+    <loc>https://comp426.johndmart.in/assignment/a02/</loc>
+    <lastmod>2021-09-15T00:28:33-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://comp426.johndmart.in/guide/licenses/</loc>
     <lastmod>2021-09-12T20:38:21-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://comp426.johndmart.in/guide/javascript/node/</loc>
+    <lastmod>2021-09-14T19:56:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://comp426.johndmart.in/guide/javascript/</loc>
+    <lastmod>2021-09-14T19:56:25-04:00</lastmod>
   </url>
   
   <url>
@@ -168,41 +118,6 @@
   </url>
   
   <url>
-    <loc>https://comp426.johndmart.in/docs/relatedcontent/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/pageresources/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/pagebundles/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/contentfortmats/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/imageprocessing/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/contentmanagement/shortcodes/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/contentmanagement/frontmatter/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://comp426.johndmart.in/updates/</loc>
     <lastmod>2021-08-24T15:32:41-04:00</lastmod>
   </url>
@@ -210,11 +125,6 @@
   <url>
     <loc>https://comp426.johndmart.in/</loc>
     <lastmod>2021-08-30T18:54:17-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
   </url>
   
   <url>
@@ -234,11 +144,6 @@
   
   <url>
     <loc>https://comp426.johndmart.in/blog/markdown-syntax/</loc>
-    <lastmod>2021-08-24T15:32:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/docs/contentmanagement/sections/</loc>
     <lastmod>2021-08-24T15:32:41-04:00</lastmod>
   </url>
   
@@ -285,6 +190,11 @@
   <url>
     <loc>https://comp426.johndmart.in/blog/</loc>
     <lastmod>2021-08-24T15:32:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://comp426.johndmart.in/docs/</loc>
+    <lastmod>2021-09-14T19:54:26-04:00</lastmod>
   </url>
   
   <url>

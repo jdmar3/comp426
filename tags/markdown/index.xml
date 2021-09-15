@@ -27,15 +27,6 @@ caluere tempus&lt;/p&gt;</description>
       </item>
       
       <item>
-        <title>Section</title>
-        <link>https://comp426.johndmart.in/docs/contentmanagement/sections/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/contentmanagement/sections/</guid>
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-      </item>
-      
-      <item>
         <title>Placeholder Text</title>
         <link>https://comp426.johndmart.in/blog/placeholder-text/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>

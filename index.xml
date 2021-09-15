@@ -24,15 +24,6 @@
       </item>
       
       <item>
-        <title>Basic Usage</title>
-        <link>https://comp426.johndmart.in/docs/gettingstarted/basicusage/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/gettingstarted/basicusage/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
         <title>April 2019</title>
         <link>https://comp426.johndmart.in/updates/2019_april/</link>
         <pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate>
@@ -42,29 +33,11 @@
       </item>
       
       <item>
-        <title>Configuration</title>
-        <link>https://comp426.johndmart.in/docs/gettingstarted/configuration/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/gettingstarted/configuration/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
         <title>March 2019</title>
         <link>https://comp426.johndmart.in/updates/2019_march/</link>
         <pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate>
         
         <guid>https://comp426.johndmart.in/updates/2019_march/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Installation</title>
-        <link>https://comp426.johndmart.in/docs/gettingstarted/installation/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/gettingstarted/installation/</guid>
         <description>Markdown here</description>
       </item>
       
@@ -89,48 +62,12 @@ Install Required Software Below are links to guides for installing the required 
       </item>
       
       <item>
-        <title>Quick Start</title>
-        <link>https://comp426.johndmart.in/docs/gettingstarted/quickstart/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/gettingstarted/quickstart/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
         <title>January 2019</title>
         <link>https://comp426.johndmart.in/updates/2019_january/</link>
         <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
         
         <guid>https://comp426.johndmart.in/updates/2019_january/</guid>
         <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Test 1</title>
-        <link>https://comp426.johndmart.in/docs/depth1/test1/</link>
-        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/depth1/test1/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>Test 2</title>
-        <link>https://comp426.johndmart.in/docs/depth1/depth2/test2/</link>
-        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/depth1/depth2/test2/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>Test 3</title>
-        <link>https://comp426.johndmart.in/docs/depth1/depth2/depth3/test3/</link>
-        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/depth1/depth2/depth3/test3/</guid>
-        <description></description>
       </item>
       
       <item>
@@ -142,15 +79,6 @@ Install Required Software Below are links to guides for installing the required 
         <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
 git basics git official documentation
 You should become conversant with the official documentation for git.</description>
-      </item>
-      
-      <item>
-        <title>ttttest</title>
-        <link>https://comp426.johndmart.in/docs/depth1/ttttest/</link>
-        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/depth1/ttttest/</guid>
-        <description></description>
       </item>
       
       <item>
@@ -208,66 +136,22 @@ Knowing these markup languages is very important for being a good web developer.
       </item>
       
       <item>
-        <title>Related content</title>
-        <link>https://comp426.johndmart.in/docs/relatedcontent/</link>
-        <pubDate>Tue, 28 Jan 2020 00:39:09 +0900</pubDate>
+        <title>a02 CSS Frameworks</title>
+        <link>https://comp426.johndmart.in/assignment/a02/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/docs/relatedcontent/</guid>
-        <description>Markdown here</description>
+        <guid>https://comp426.johndmart.in/assignment/a02/</guid>
+        <description>Directly writing raw, static HTML and CSS is feasible for smaller sites like the mythical one you designed for a01. But it&amp;rsquo;s easy to see how designing a website from scratch can be difficult&amp;mdash;especially for large, complex, dynamic sites containing many pages.
+And although every website you have ever used is ultimately expressed in terms of CSS and HTML, modern web developers typically have many tools at their disposal to help organize the code, reduce unnecessary duplication, and promote best practices.</description>
       </item>
       
       <item>
-        <title>Page Resources</title>
-        <link>https://comp426.johndmart.in/docs/pageresources/</link>
-        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        <title>Node</title>
+        <link>https://comp426.johndmart.in/guide/javascript/node/</link>
+        <pubDate>Sun, 12 Sep 2021 19:18:19 -0400</pubDate>
         
-        <guid>https://comp426.johndmart.in/docs/pageresources/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Page Bundles</title>
-        <link>https://comp426.johndmart.in/docs/pagebundles/</link>
-        <pubDate>Tue, 28 Jan 2020 00:38:59 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/pagebundles/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Content Formats</title>
-        <link>https://comp426.johndmart.in/docs/contentfortmats/</link>
-        <pubDate>Tue, 28 Jan 2020 00:38:51 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/contentfortmats/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Image Processing</title>
-        <link>https://comp426.johndmart.in/docs/imageprocessing/</link>
-        <pubDate>Tue, 28 Jan 2020 00:38:48 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/imageprocessing/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Shortcodes</title>
-        <link>https://comp426.johndmart.in/docs/contentmanagement/shortcodes/</link>
-        <pubDate>Tue, 28 Jan 2020 00:36:19 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/contentmanagement/shortcodes/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Frontmatter</title>
-        <link>https://comp426.johndmart.in/docs/contentmanagement/frontmatter/</link>
-        <pubDate>Tue, 28 Jan 2020 00:36:14 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/contentmanagement/frontmatter/</guid>
-        <description>Markdown here</description>
+        <guid>https://comp426.johndmart.in/guide/javascript/node/</guid>
+        <description></description>
       </item>
       
       <item>
@@ -280,15 +164,6 @@ Knowing these markup languages is very important for being a good web developer.
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
 caluere tempus&lt;/p&gt;</description>
-      </item>
-      
-      <item>
-        <title>Section</title>
-        <link>https://comp426.johndmart.in/docs/contentmanagement/sections/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/docs/contentmanagement/sections/</guid>
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
       </item>
       
       <item>

@@ -36,6 +36,16 @@ Follow the GitHub Classroom link for a01 listed on Piazza and Sakai. Clone the r
 These pages should describe a mythological character or mythological story.</description>
       </item>
       
+      <item>
+        <title>a02 CSS Frameworks</title>
+        <link>https://comp426.johndmart.in/assignment/a02/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/a02/</guid>
+        <description>Directly writing raw, static HTML and CSS is feasible for smaller sites like the mythical one you designed for a01. But it&amp;rsquo;s easy to see how designing a website from scratch can be difficult&amp;mdash;especially for large, complex, dynamic sites containing many pages.
+And although every website you have ever used is ultimately expressed in terms of CSS and HTML, modern web developers typically have many tools at their disposal to help organize the code, reduce unnecessary duplication, and promote best practices.</description>
+      </item>
+      
     
   </channel>
 </rss>
