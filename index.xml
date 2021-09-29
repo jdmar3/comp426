@@ -15,42 +15,6 @@
     
       
       <item>
-        <title>May 2019</title>
-        <link>https://comp426.johndmart.in/updates/2019_may/</link>
-        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/updates/2019_may/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>April 2019</title>
-        <link>https://comp426.johndmart.in/updates/2019_april/</link>
-        <pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/updates/2019_april/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>March 2019</title>
-        <link>https://comp426.johndmart.in/updates/2019_march/</link>
-        <pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/updates/2019_march/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>February 2019</title>
-        <link>https://comp426.johndmart.in/updates/2019_february/</link>
-        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/updates/2019_february/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
         <title>a00 This is all a setup</title>
         <link>https://comp426.johndmart.in/assignment/a00/</link>
         <pubDate>Tue, 24 Aug 2021 00:52:13 -0400</pubDate>
@@ -59,15 +23,6 @@
         <description>The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
 Note that this first assignment, a00, is graded only for completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
 Install Required Software Below are links to guides for installing the required software for this course.</description>
-      </item>
-      
-      <item>
-        <title>January 2019</title>
-        <link>https://comp426.johndmart.in/updates/2019_january/</link>
-        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
-        
-        <guid>https://comp426.johndmart.in/updates/2019_january/</guid>
-        <description>Markdown here</description>
       </item>
       
       <item>
@@ -146,60 +101,22 @@ And although every website you have ever used is ultimately expressed in terms o
       </item>
       
       <item>
+        <title>a03 JS Functions</title>
+        <link>https://comp426.johndmart.in/assignment/a03/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/a03/</guid>
+        <description>While writing HTML and CSS is necessary for making websites, the technolgy that does a lot of the behind-the-curtain work is JavaScript. It is the backbone of every modern web framework and is a necessity for makng interactive web pages.
+This assignment, however, wont be using a web browser at all. When we want to execute JavaScript outside of the browser environment we use Node.js. This makes writing JavaScript like writing any other programming language.</description>
+      </item>
+      
+      <item>
         <title>Node</title>
         <link>https://comp426.johndmart.in/guide/javascript/node/</link>
         <pubDate>Sun, 12 Sep 2021 19:18:19 -0400</pubDate>
         
         <guid>https://comp426.johndmart.in/guide/javascript/node/</guid>
         <description></description>
-      </item>
-      
-      <item>
-        <title>Markdown Syntax Guide</title>
-        <link>https://comp426.johndmart.in/blog/markdown-syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/blog/markdown-syntax/</guid>
-        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
-subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-caluere tempus&lt;/p&gt;</description>
-      </item>
-      
-      <item>
-        <title>Rich Content</title>
-        <link>https://comp426.johndmart.in/blog/rich-content/</link>
-        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/blog/rich-content/</guid>
-        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
-subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-caluere tempus&lt;/p&gt;</description>
-      </item>
-      
-      <item>
-        <title>Placeholder Text</title>
-        <link>https://comp426.johndmart.in/blog/placeholder-text/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/blog/placeholder-text/</guid>
-        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
-subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-caluere tempus&lt;/p&gt;</description>
-      </item>
-      
-      <item>
-        <title>Emoji Support</title>
-        <link>https://comp426.johndmart.in/blog/emoji-support/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/blog/emoji-support/</guid>
-        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
-subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-caluere tempus&lt;/p&gt;</description>
       </item>
       
       <item>

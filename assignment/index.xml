@@ -46,6 +46,16 @@ These pages should describe a mythological character or mythological story.</des
 And although every website you have ever used is ultimately expressed in terms of CSS and HTML, modern web developers typically have many tools at their disposal to help organize the code, reduce unnecessary duplication, and promote best practices.</description>
       </item>
       
+      <item>
+        <title>a03 JS Functions</title>
+        <link>https://comp426.johndmart.in/assignment/a03/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/a03/</guid>
+        <description>While writing HTML and CSS is necessary for making websites, the technolgy that does a lot of the behind-the-curtain work is JavaScript. It is the backbone of every modern web framework and is a necessity for makng interactive web pages.
+This assignment, however, wont be using a web browser at all. When we want to execute JavaScript outside of the browser environment we use Node.js. This makes writing JavaScript like writing any other programming language.</description>
+      </item>
+      
     
   </channel>
 </rss>
