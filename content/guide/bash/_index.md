@@ -20,3 +20,9 @@ It is a text-interface command line envrionment but it can also read commands fr
 <a href="http://bconnelly.net/working-with-csvs-on-the-command-line/" target="_blank">Working with CSVs on the Command Line - Brian Connelly</a>
 
 <a href="http://steve-parker.org/sh/cheatsheet.pdf" target="_blank">Shell Scripting Cheat Sheet for Unix and Linux - Steve Parker</a>
+
+[The Ultimate Linux Command Line Guide - Full Bash Tutorial - freeCodeCamp](https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/)
+
+[Bash Scripting Tutorial for Beginners - Lubos Rendek - LinuxConfig](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
+
+[Bash scripting Tutorial - LinuxConfig](https://linuxconfig.org/bash-scripting-tutorial)
