@@ -1,6 +1,6 @@
 ---
 title: "Node"
-description: ""
+description: "Node.js makes it possible to create and package JavaScript applications and manage dependencies."
 draft: false
 weight: 0
 enableToc: true
