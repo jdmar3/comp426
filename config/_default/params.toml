@@ -17,7 +17,7 @@ enableLangChange = false
 enableDarkMode = true
 enableBreadcrumb = true
 enableBlogBreadcrumb = true
-enableEditBtn = false
+enableEditBtn = true
 enableToc = true
 enableMenu = true
 enableNavbar = true
@@ -29,6 +29,7 @@ paginateWindow = 1
 taxoPaginate = 13
 taxoGroupByDate = "2021-01" # "2006-01": group by month, "2006": group by year
 
+editBaseURL = "https://github.com/jdmar3/comp426/edit/main/"
 github = "https://github.com/jdmar3/comp426/"
 
 # comment
