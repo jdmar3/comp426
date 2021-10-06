@@ -1,6 +1,6 @@
 ---
-title: "mod2 Javascript + NPM"
-description: ""
+title: "mod2 Node.js and *npm*"
+description: "In this module we will cover using *Node.js* and *npm* (the Node Package Manager) to create and install package and manage dependencies, among other things."
 draft: true
 weight: 20
 enableToc: true
@@ -9,18 +9,21 @@ tocLevels: ["h2", "h3", "h4"]
 
 ### Download Dependencies
 
-The COMP 426 code that you downloaded uses a few "dependencies." Dependencies are another word for additional libraries and packages written by third-party developers that are required and used internally by the COMP 426 code.
+Some of the starter code that you will download for your assignments requires the use of dependencies.
+Dependencies are another word for additional libraries and packages written by third-party developers that are required and used internally by the COMP 426 code.
 In the early days of programming, managing dependencies was time consuming and difficult.
-Luckily, nowadays Node.js comes with a fantastic built-in tool, called Node Package Manager (npm), which is designed to automatically manage JavaScript dependencies for you.
+Luckily, nowadays *Node.js* comes with a fantastic built-in tool, called *Node Package Manager (npm),* which is designed to automatically manage JavaScript dependencies for you.
 
-Npm is a command line tool, which means it only works through the terminal (aka command line).
-We'll learn a lot more about how to use npm later in the semester, but for now we'll use its most basic fundamental feature: automatically selecting and downloading all relevant libraries to your computer.
+*npm* is a command line interface (CLI), which means it only works through the terminal (a.k.a. "the command line").
+We will be using *npm* quite a bit throughout semester.
+Our primary use will be its most basic feature: automatically selecting and downloading all relevant libraries for a given package to your computer.
 
-> This course requires basic familiarity with the terminal, especially for using tools like npm.
+> This course requires basic familiarity with the terminal, especially for using tools like *npm.*
 > Don't worry if you don't feel comfortable with the terminal just yet---the assignment guides will walk you through the most important commands.
-> In the long run, however, having a working knowledge of the command line is a very valuable skill, especially for aspiring software engineers.
+> In the long run, however, having a working knowledge of the command line is not just a very valuable skill, but can really be considered a form of basic literacy now for anyone who works with computers: but especially for aspiring software engineers.
 > With this in mind, it may benefit you to make sure you fully understand every command we use.
 > If you're looking to learn more about using the terminal, the [linux commands cheat sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/) is a great resource.
+> Other resources are listed on the [guide pages](guide/bash). 
 
 The following steps guide you through opening a terminal window from Visual Studio Code and using npm to automatically install dependencies.
 
