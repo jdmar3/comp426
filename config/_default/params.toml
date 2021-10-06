@@ -29,7 +29,7 @@ paginateWindow = 1
 taxoPaginate = 13
 taxoGroupByDate = "2021-01" # "2006-01": group by month, "2006": group by year
 
-editBaseURL = "https://github.com/jdmar3/comp426/edit/main"
+editBaseURL = "https://github.com/jdmar3/comp426/edit/main/content"
 github = "https://github.com/jdmar3/comp426/"
 
 # comment
