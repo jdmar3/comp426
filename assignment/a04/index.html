@@ -1075,7 +1075,7 @@
     <meta name="description" content="In this assignment we are going to build an Application Programmin Interface (API) that interacts with a user database... and talk about how easy this is." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2021-10-28T15:28:22-0400">
+<meta name="modified" content="2021-10-28T17:00:25-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "a04 Build an API from scratch",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2021-10-28T15:28:22-04:00",
+    "dateModified": "2021-10-28T17:00:25-04:00",
     "url" : "https://comp426.johndmart.in/assignment/a04/",
     "description": "In this assignment we are going to build an Application Programmin Interface (API) that interacts with a user database... and talk about how easy this is.",
     "mainEntityOfPage": {
@@ -1644,9 +1644,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/a931bb125f25f31db73ba280fb022020bd198f63" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/6e9db7ab4229e4aa964f4cc6a18d2aadb29019b0" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2021-10-28 15:28:22 -0400 -0400
+        This page updated: 2021-10-28 17:00:25 -0400 -0400
       </button>
     </a>
 
@@ -2188,7 +2188,7 @@ $ curl -X GET http://localhost:5000/app/users/
 [{&quot;id&quot;:1,&quot;user&quot;:&quot;admin&quot;,&quot;pass&quot;:&quot;bdc87b9c894da5168059e00ebffb9077&quot;},{&quot;id&quot;:3,&quot;user&quot;:&quot;jdmar3&quot;,&quot;pass&quot;:&quot;553d1b0339e9565f8e11922ad16fbf3f&quot;}
 $ curl -X GET http://localhost:5000/app/user/2/
 {&quot;id&quot;:2,&quot;user&quot;:&quot;test&quot;,&quot;pass&quot;:&quot;9241818c20435c6672dac2c4b6e6c071&quot;}
-$ curl -X POST -d &quot;user=newtest&amp;pass=supersecurepassword&quot; http://localhost:5000/app/new/user/
+$ curl -X POST -d &quot;user=newtest&amp;pass=supersecurepassword&quot; http://localhost:5000/app/new/
 {&quot;message&quot;:&quot;1 record createed: ID 3 (201)&quot;}
 $ curl -X PATCH -d &quot;user=oldtest&amp;pass=adifferentpassword&quot; http://localhost:5000/app/update/user/2/
 {&quot;message&quot;:&quot;1 record updated: ID 2 (200)&quot;}
