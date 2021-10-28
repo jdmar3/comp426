@@ -1075,7 +1075,7 @@
     <meta name="description" content="In this assignment we are going to build an Application Programmin Interface (API) that interacts with a user database... and talk about how easy this is." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2021-10-28T02:32:47-0400">
+<meta name="modified" content="2021-10-28T14:25:54-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "a04 Build an API from scratch",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2021-10-28T02:32:47-04:00",
+    "dateModified": "2021-10-28T14:25:54-04:00",
     "url" : "https://comp426.johndmart.in/assignment/a04/",
     "description": "In this assignment we are going to build an Application Programmin Interface (API) that interacts with a user database... and talk about how easy this is.",
     "mainEntityOfPage": {
@@ -1644,9 +1644,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/1045544d704fad7be2d66545d6a44b4a091fccb2" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/eb3a722f9d1bc87484247937094ec5bf565c3fa3" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2021-10-28 02:32:47 -0400 -0400
+        This page updated: 2021-10-28 14:25:54 -0400 -0400
       </button>
     </a>
 
@@ -1832,7 +1832,7 @@
 
   <article class="single__contents" data-dir="ltr">
     <p>In this assignment, we will build, from scratch, an API that talks to a database of users.
-Eventually, we will use this method (and this exact database) to add authentication to a page that you previously created in <a href="/assignment/a01">a01</a>.
+Eventually, we will use this method (and this exact database) to add authentication to a page that you previously createed in <a href="/assignment/a01">a01</a>.
 This is all a lot easier than it seems at first.</p>
 <p>There are a few basic concepts germane to this assignment that you will want to familiarize yourself with:</p>
 <ul>
@@ -1856,8 +1856,8 @@ We will use it for passwords.</p>
 For this, we need to install <code>better-sqlite</code>, which is a less vulnerable implementation of sqlite3 in JS than some of the other similar <em>Node</em> packages available.</p>
 <pre><code>npm install better-sqlite3
 </code></pre><p>Now that our dependencies are installed, we should look at our file structure.</p>
-<p>You will have only two main files for this assignment, <code>server.js</code> which contains the bulk of our code to create the API and <code>database.js</code> which deals with the database.
-Skeletons of these files have been created for you.
+<p>You will have only two main files for this assignment, <code>server.js</code> which contains the bulk of our code to createe the API and <code>database.js</code> which deals with the database.
+Skeletons of these files have been createed for you.
 You will fill in the function definitions based on the instructions below.</p>
 <blockquote>
 <p>You will notice that the examples below are using a slightly different method for defining functions.
@@ -1929,7 +1929,7 @@ Keep the <a href="https://github.com/JoshuaWise/better-sqlite3/blob/HEAD/docs/ap
 It will be useful to you and necessary.</p>
 <p>Your starter code has a database set up already for you.
 When you run <code>server.js</code> after making the edits above, it will load <code>database.js</code> and check to see if there is a database named <code>users.db</code>.
-If there is not, then it will create one and populate it with two users.
+If there is not, then it will createe one and populate it with two users.
 You should be able to identify in the code provided where this is happening.</p>
 <p>Let&rsquo;s start with those users and see what else we can do with the database.</p>
 <h2 id="database-interactions">Database interactions</h2>
@@ -1975,7 +1975,7 @@ That is, if you just read a SQL statement out loud to yourself, it should make s
 </div>
 </div><p>What is happening here?</p>
 <p>We are selecting ALL (&quot;*&quot; means ALL) records from a table called &ldquo;userinfo&rdquo;.
-This should return every record held in the table created by <code>database.js</code>.</p>
+This should return every record held in the table createed by <code>database.js</code>.</p>
 <p>Where do we put this, though?</p>
 <p>If you look in <code>server.js</code>, you should be able to find the above statement wrapped by better-sqlite functions as part of the definition for API endpoint.</p>
 <div class="highlight"><div class="chroma">
@@ -2022,7 +2022,7 @@ Here <code>all()</code> is appended to <code>prepare()</code>, but you could als
 <p>Look at the <a href="https://github.com/JoshuaWise/better-sqlite3/blob/HEAD/docs/api.md#class-statement" target="_blank">better-sqlite <em>statements</em> class</a> under <code>all()</code> and <code>get()</code> to find the relevant functions for the purposes of wrapping these two statements.
 <code>get()</code> does something similar to <code>all()</code> but instead of returning every row, it returns one row.</p>
 <h4 id="create-a-new-record-with-insert">Create a new record with INSERT</h4>
-<p>Here is a SQL statement that creates a new record with a username and password.</p>
+<p>Here is a SQL statement that createes a new record with a username and password.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -2031,7 +2031,7 @@ Here <code>all()</code> is appended to <code>prepare()</code>, but you could als
 <pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">userinfo</span> <span class="p">(</span><span class="k">user</span><span class="p">,</span> <span class="n">pass</span><span class="p">)</span> <span class="k">VALUES</span> <span class="p">(</span><span class="o">?</span><span class="p">,</span> <span class="o">?</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>For both INSERT, UPDATE, and DELETE statements, look at the <a href="https://github.com/JoshuaWise/better-sqlite3/blob/HEAD/docs/api.md#class-statement" target="_blank">better-sqlite <em>statements</em> class</a> under <code>run()</code>.
+</div><p>For INSERT, UPDATE, and DELETE statements, look at the <a href="https://github.com/JoshuaWise/better-sqlite3/blob/HEAD/docs/api.md#class-statement" target="_blank">better-sqlite <em>statements</em> class</a> under <code>run()</code>.
 Pay special attention to the the <code>info</code> object that <code>run()</code> returns.
 It is useful for generating messages in your API.</p>
 <h4 id="update-a-record-with-update">Update a record with UPDATE</h4>
@@ -2083,7 +2083,7 @@ The COALESCE verb allows a value to be updated if a new one is introduced and re
 <td>Update (replace)</td>
 <td>REPLACE</td>
 <td>PUT</td>
-<td>Searches for a record and overwrites it. If it doesn&rsquo;t exist, the record is created.</td>
+<td>Searches for a record and overwrites it. If it doesn&rsquo;t exist, the record is createed.</td>
 </tr>
 <tr>
 <td>Update (modify)</td>
@@ -2101,14 +2101,14 @@ The COALESCE verb allows a value to be updated if a new one is introduced and re
 </table>
 <p>Some of the verbs are identical.
 Others, not so much.</p>
-<p>This will be useful as we creat endpoints.</p>
+<p>This will be useful as we create endpoints.</p>
 <h2 id="api-endpoints">API endpoints</h2>
 <p>For this assignment, you need to define 5 endpoints for your API (one has already been defined for you to return all records).
 Below are descriptions of each endpoint and a test to check if they are working.</p>
-<p>I have set the assignment up using Express.js, which simplifies the creation of endpoints and various other tasks by providing a library of functions tailored to these tasks.
+<p>I have set the assignment up using Express.js, which simplifies the createion of endpoints and various other tasks by providing a library of functions tailored to these tasks.
 There are other similar libraries and frameworks.
 This is one way of doing what we are aiming at doing.</p>
-<p>Refer to the <a href="https://expressjs.com/en/4x/api.html" target="_blank">Express documentation</a> as you work through creating the endpoints.</p>
+<p>Refer to the <a href="https://expressjs.com/en/4x/api.html" target="_blank">Express documentation</a> as you work through createing the endpoints.</p>
 <h3 id="response">Response</h3>
 <p>Each endpoint should perform the intended function and then return a status code and a message as a JSON object. That will look something like this using Express:</p>
 <div class="highlight"><div class="chroma">
@@ -2159,7 +2159,7 @@ $ curl -X GET http://localhost:5000/app/users/
 $ curl -X GET http://localhost:5000/app/user/2/
 {&ldquo;id&rdquo;:2,&ldquo;user&rdquo;:&ldquo;test&rdquo;,&ldquo;pass&rdquo;:&ldquo;9241818c20435c6672dac2c4b6e6c071&rdquo;}
 $ curl -X POST -d &ldquo;user=newtest&amp;pass=supersecurepassword&rdquo; http://localhost:5000/app/new/user/
-{&ldquo;message&rdquo;:&ldquo;1 record created: ID 3 (201)&quot;}
+{&ldquo;message&rdquo;:&ldquo;1 record createed: ID 3 (201)&quot;}
 $ curl -X PATCH -d &ldquo;user=oldtest&amp;pass=adifferentpassword&rdquo; http://localhost:5000/app/update/user/2/
 {&ldquo;message&rdquo;:&ldquo;1 record updated: ID 2 (200)&quot;}
 $ curl -X DELETE http://localhost:5000/app/delete/user/2/
