@@ -143,6 +143,17 @@ Differences Between var and let - JavaScript Tutorials</description>
       </item>
       
       <item>
+        <title>mod04 REST, CRUD, and databases</title>
+        <link>https://comp426.johndmart.in/module/mod04/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/module/mod04/</guid>
+        <description>Application Programming Interface (API) An API is the interface layer between two pieces of software that don&amp;rsquo;t necessarily speak the same langauge. The function of an API is to translate from one platform/piece of software to another.
+An API call is a process through which requests are made and data is retrieved from an API by a client. It looks something like this:
+ A client makes a request for some data.</description>
+      </item>
+      
+      <item>
         <title>Node</title>
         <link>https://comp426.johndmart.in/guide/javascript/node/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
