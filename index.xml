@@ -121,6 +121,17 @@ How do functions work in JavaScript?</description>
       </item>
       
       <item>
+        <title>a04 Build an API from scratch</title>
+        <link>https://comp426.johndmart.in/assignment/a04/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/a04/</guid>
+        <description>In this assignment, we will build, from scratch, an API that talks to a database of users. Eventually, we will use this method (and this exact database) to add authentication to a page that you previously created in a01. This is all a lot easier than it seems at first.
+There are a few basic concepts germane to this assignment that you will want to familiarize yourself with:
+ REST (REpresentational State Transfer) CRUD (Create / Read / Update / Delete) SQL (Structured Query Language)  These concepts are explained in some detail in mod04, so you&amp;rsquo;ll want to have a look at that while we are working.</description>
+      </item>
+      
+      <item>
         <title>JS Functions</title>
         <link>https://comp426.johndmart.in/guide/javascript/functions/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
