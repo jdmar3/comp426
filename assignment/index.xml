@@ -75,8 +75,7 @@ There are a few basic concepts germane to this assignment that you will want to 
         <guid>https://comp426.johndmart.in/assignment/a99/</guid>
         <description>Overview As a small team, you will create an app that has users and that tracks some information related to the those users. The app will be fully documented, including setup instructions, full API documentation, and user instructions, as well as your planning workflow.
 The final product is due on the day set for the final exam by the university.
-Deliverables A GitHub repository containing your code and documentation
-The code should incorporate the following:</description>
+Deliverables A GitHub repository containing your code and documentation. Your project should take the form of a Node package, with all of the attendant items associated with that.</description>
       </item>
       
     
