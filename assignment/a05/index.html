@@ -1075,7 +1075,7 @@
     <meta name="description" content="In this assignment, we will make a form that talks to the API we created in a04." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2021-11-16T12:59:55-0500">
+<meta name="modified" content="2021-11-16T16:16:23-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "a05 making a form talk to an API",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2021-11-16T12:59:55-05:00",
+    "dateModified": "2021-11-16T16:16:23-05:00",
     "url" : "https://comp426.johndmart.in/assignment/a05/",
     "description": "In this assignment, we will make a form that talks to the API we created in a04.",
     "mainEntityOfPage": {
@@ -1690,9 +1690,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/406371fe2b86e188e9c0b4be1bc0705fa7ec56cb" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/5dffcb7f5ee6af05273fa2a1569de5a916fe61c6" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2021-11-16 12:59:55 -0500 -0500
+        This page updated: 2021-11-16 16:16:23 -0500 -0500
       </button>
     </a>
 
@@ -1951,7 +1951,56 @@ The actual interaction will happen in JS behind the scene.</p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest" target="_blank">XMLHttpRequest</a></p>
 <p><a href="https://arunrajeevan.medium.com/fetch-api-and-formdata-in-html-world-6b0322273260" target="_blank">Fetch API and FormData</a></p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data" target="_blank">Fetching data from the server</a></p>
-
+<h2 id="setup">Setup</h2>
+<p>There are some things that we have to do to be able to make all of this work.
+First, we need to gather some of our other files and put them in our new repository.</p>
+<p>After you clone the a05 repo, initialize it as a Node package:</p>
+<pre><code>$ npm init
+</code></pre><p>Once you have done that, take a look at the dependencies for a01 and a04.
+Then install them here.</p>
+<pre><code>$ npm install browser-sync better-sqlite3 express md5
+</code></pre><p>In addition, we need another package to make our client and server run concurrently.
+It is called &ldquo;concurrently.&rdquo;</p>
+<pre><code>$ npm install concurrently
+</code></pre><p>Once you have done that, add the following lines under &ldquo;scripts&rdquo; in <code>package.json</code>.
+You will also need a &ldquo;proxy&rdquo; link so that that your html can talk to the server backend without running into cross-origin resource sharing errors.
+There are other ways to make this work, but for the purposes of this demo, this should do the trick.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-json" data-lang="json">  <span class="s2">&#34;scripts&#34;</span><span class="err">:</span> <span class="p">{</span>
+    <span class="nt">&#34;client&#34;</span><span class="p">:</span> <span class="s2">&#34;npx browser-sync start -sw&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;server&#34;</span><span class="p">:</span> <span class="s2">&#34;node server.js&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;start&#34;</span><span class="p">:</span> <span class="s2">&#34;concurrently --kill-others &#39;npm run client&#39; &#39;npm run server&#39;&#34;</span>
+  <span class="p">}</span><span class="err">,</span>
+  <span class="s2">&#34;proxy&#34;</span><span class="err">:</span> <span class="s2">&#34;http://localhost:8080&#34;</span><span class="err">,</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Now we&rsquo;re ready to make some changes to our existing files and write some new ones.</p>
+<h2 id="add-a-form-script">Add a form script</h2>
+<p>You can use any technique you like to build a form and point it toward your API.
+There are several listed in the MDN tutorial listed above: <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript" target="_blank">Sending forms through JavaScript</a>.</p>
+<p>The example for this assignment uses the FormData method with XMLHttpRequest.</p>
+<h2 id="update-your-indexhtml-file">Update your index.html file</h2>
+<p>You will need to add a form and call the <code>form.js</code> script you&rsquo;ve just written in order to make it work with the form.</p>
+<p>Add a script tag in the <code>&lt;head&gt;</code> section and then put a form in the body somewhere.</p>
+<p>There are other ways you can accomplish this as well.</p>
+<p>You can also put the entire form.js script in the <code>&lt;head&gt;</code> section.
+Either way accomplishes the same thing.</p>
+<h2 id="update-your-database-and-server-scripts-to-include-email">Update your database and server scripts to include email</h2>
+<p>You will finally need to update <code>database.js</code> so that when it sets up the database, it includes an email field as well as the others that are already built in.</p>
+<h2 id="test-it">Test it</h2>
+<p>You should now be able to run your start script and it will start the backend server and also serve your website with the new form in it as the frontend.
+They should be able to talk to one another at this point.</p>
+<pre><code>npm run start
+</code></pre>
   </article>
 </div>
 
@@ -1984,6 +2033,11 @@ The actual interaction will happen in JS behind the scene.</p>
     <nav id="TableOfContents">
   <ul>
     <li><a href="#forms-and-requests">Forms and requests</a></li>
+    <li><a href="#setup">Setup</a></li>
+    <li><a href="#add-a-form-script">Add a form script</a></li>
+    <li><a href="#update-your-indexhtml-file">Update your index.html file</a></li>
+    <li><a href="#update-your-database-and-server-scripts-to-include-email">Update your database and server scripts to include email</a></li>
+    <li><a href="#test-it">Test it</a></li>
   </ul>
 </nav>
   </div>
