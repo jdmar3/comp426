@@ -143,6 +143,27 @@ Deliverables A GitHub repository containing your code and documentation. Your pr
       </item>
       
       <item>
+        <title>Mod05</title>
+        <link>https://comp426.johndmart.in/module/mod05/</link>
+        <pubDate>Thu, 11 Nov 2021 12:53:01 -0500</pubDate>
+        
+        <guid>https://comp426.johndmart.in/module/mod05/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>a05 making a form talk to an API</title>
+        <link>https://comp426.johndmart.in/assignment/a05/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/assignment/a05/</guid>
+        <description>This is an optional/informational assignment intended to help you integrate some of the work from previous assignments in support of your final project. This assignment is ungraded.
+The instructions are pretty simple.
+The starter repo intentional has nothing in it. You should copy your completed a04 code into the new repo for a05.
+Forms and requests The purpose of this assignment is to create an HTML form to add a user to your database.</description>
+      </item>
+      
+      <item>
         <title>JS Functions</title>
         <link>https://comp426.johndmart.in/guide/javascript/functions/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
