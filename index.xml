@@ -15,17 +15,6 @@
     
       
       <item>
-        <title>a00 This is all a setup</title>
-        <link>https://comp426.johndmart.in/assignment/a00/</link>
-        <pubDate>Tue, 24 Aug 2021 00:52:13 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/assignment/a00/</guid>
-        <description>The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
-Note that this first assignment, a00, is graded only for completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
-Install Required Software Below are links to guides for installing the required software for this course.</description>
-      </item>
-      
-      <item>
         <title>git</title>
         <link>https://comp426.johndmart.in/guide/git/scm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,17 +59,6 @@ Install GitHub Classroom extension on VSCode</description>
       </item>
       
       <item>
-        <title>a01 HTML and CSS</title>
-        <link>https://comp426.johndmart.in/assignment/a01/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/assignment/a01/</guid>
-        <description>In this assignment, we will create a set of HTML pages that are styled using CSS.
-Follow the GitHub Classroom link for a01 listed on Piazza and Sakai. Clone the repository that it sets up for you. Just like last time, there will only be LICENSE AND README.md files in the repository when you clone it. You will create the rest of the files referenced below.
-These pages should describe a mythological character or mythological story.</description>
-      </item>
-      
-      <item>
         <title>mod01 HTML &#43; CSS Crash Course</title>
         <link>https://comp426.johndmart.in/module/mod01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -91,23 +69,14 @@ Knowing these markup languages is very important for being a good web developer.
       </item>
       
       <item>
-        <title>a02 CSS Frameworks</title>
-        <link>https://comp426.johndmart.in/assignment/a02/</link>
+        <title>tl;dr</title>
+        <link>https://comp426.johndmart.in/syllabus/tldr/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/assignment/a02/</guid>
-        <description>Directly writing raw, static HTML and CSS is feasible for smaller sites like the mythical one you designed for a01. But it&amp;rsquo;s easy to see how designing a website from scratch can be difficult&amp;mdash;especially for large, complex, dynamic sites containing many pages.
-And although every website you have ever used is ultimately expressed in terms of CSS and HTML, modern web developers typically have many tools at their disposal to help organize the code, reduce unnecessary duplication, and promote best practices.</description>
-      </item>
-      
-      <item>
-        <title>a03 JS Functions</title>
-        <link>https://comp426.johndmart.in/assignment/a03/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/assignment/a03/</guid>
-        <description>While writing HTML and CSS is necessary for making websites, the technolgy that does a lot of the behind-the-curtain work is JavaScript. It is the backbone of every modern web framework and is a necessity for makng interactive web pages.
-This assignment, however, wont be using a web browser at all. When we want to execute JavaScript outside of the browser environment we use Node.js. This makes writing JavaScript like writing any other programming language.</description>
+        <guid>https://comp426.johndmart.in/syllabus/tldr/</guid>
+        <description>This is a class about building things that make the web go. We&amp;rsquo;re going to learn how to do that by doing that.
+This semester we are going to focus on systems for collecting and managing public health information because we are in an ongoing public health crisis and that seems really relevant.
+We&amp;rsquo;re going to be doing Zoom class for the first few weeks until we see how things are going around campus with COVID-19.</description>
       </item>
       
       <item>
@@ -121,46 +90,12 @@ How do functions work in JavaScript?</description>
       </item>
       
       <item>
-        <title>a04 Build an API from scratch</title>
-        <link>https://comp426.johndmart.in/assignment/a04/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/assignment/a04/</guid>
-        <description>In this assignment, we will build, from scratch, an API that talks to a database of users. Eventually, we will use this method (and this exact database) to add authentication to a page that you previously createed in a01. This is all a lot easier than it seems at first.
-There are a few basic concepts germane to this assignment that you will want to familiarize yourself with:
- REST (REpresentational State Transfer) CRUD (Create / Read / Update / Delete) SQL (Structured Query Language)  These concepts are explained in some detail in mod04, so you&amp;rsquo;ll want to have a look at that while we are working.</description>
-      </item>
-      
-      <item>
-        <title>a99 Final Project</title>
-        <link>https://comp426.johndmart.in/assignment/a99/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/assignment/a99/</guid>
-        <description>Overview As a small team, you will create an app that has users and that tracks some information related to the those users. The app will be fully documented, including setup instructions, full API documentation, and user instructions, as well as your planning workflow.
-The final product is due on the day set for the final exam by the university.
-Deliverables A GitHub repository containing your code and documentation. Your project should take the form of a Node package, with all of the attendant items associated with that.</description>
-      </item>
-      
-      <item>
         <title>Mod05</title>
         <link>https://comp426.johndmart.in/module/mod05/</link>
         <pubDate>Thu, 11 Nov 2021 12:53:01 -0500</pubDate>
         
         <guid>https://comp426.johndmart.in/module/mod05/</guid>
         <description></description>
-      </item>
-      
-      <item>
-        <title>a05 making a form talk to an API</title>
-        <link>https://comp426.johndmart.in/assignment/a05/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/assignment/a05/</guid>
-        <description>This is an optional/informational assignment intended to help you integrate some of the work from previous assignments in support of your final project. This assignment is ungraded.
-The instructions are pretty simple.
-The starter repo intentional has nothing in it. You should copy your completed a04 code into the new repo for a05.
-Forms and requests The purpose of this assignment is to create an HTML form to add a user to your database.</description>
       </item>
       
       <item>
