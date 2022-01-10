@@ -10,7 +10,7 @@ landing:
   title:
     - Modern Web Programming
   text:
-    - This is the course site for COMP 426 Fall 2021
+    - This is the course site for COMP 426 Spring 2022.
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
@@ -18,46 +18,46 @@ landing:
     - link: syllabus
       text: Syllabus
       color: primary
-    - link: assignment
-      text: Assignments
-      color: primary
-  # backgroundImage: 
-  #   src: images/landscape.jpg
-  #   height: 600
-footer:
-  sections:
-    - title: Course Resources (Login Required) 
-      links:
-        - title: Sakai
-          link: https://sakai.unc.edu/portal/site/comp426.001.fa21
-        - title: Piazza
-          link: https://piazza.com/class/ksggerz7gba71r
-        - title: Course.Care
-          link: https://course.care/course/61
-        - title: Zoom for Live Sessions
-          link: https://unc.zoom.us/j/93067746530
-    - title: Course Repositories
-      links:
-        - title: GitHub Classroom
-          link: https://classroom.github.com/classrooms/89449282-comp426-001-fall-2021
-        - title: Assignment Starter Source
-          link: https://github.com/jdmar3-comp426
-        - title: Course Site Source
-          link: https://github.com/jdmar3/comp426
-    - title: Useful Links
-      links:
-        - title: UNC Computer Science Department
-          link: https://cs.und.edu
-        - title: UNC Accessibility Resources and Service (ARS) 
-          link: https://ars.unc.edu/
-        - title: UNC Counseling and Psychological Services (CAPS)
-          link: https://caps.unc.edu/
-  contents: 
-    align: left
-    applySinglePageCss: false
-    markdown: 
-      |
-      <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://comp426.johndmart.in">COMP 426: Modern Web Programming</a> &copy; 2021 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://johndmart.in">John D. Martin III</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></span>
+#    - link: assignment
+#      text: Assignments
+#      color: primary
+# backgroundImage: 
+#   src: images/landscape.jpg
+#   height: 600
+#footer:
+#  sections:
+#    - title: Course Resources (Login Required) 
+#      links:
+#        - title: Sakai
+#          link: https://sakai.unc.edu/portal/site/comp426.001.fa21
+#        - title: Piazza
+#          link: https://piazza.com/class/ksggerz7gba71r
+#        - title: Course.Care
+#          link: https://course.care/course/61
+#        - title: Zoom for Live Sessions
+#          link: https://unc.zoom.us/j/93067746530
+#    - title: Course Repositories
+#      links:
+#        - title: GitHub Classroom
+#          link: https://classroom.github.com/classrooms/89449282-comp426-001-fall-2021
+#        - title: Assignment Starter Source
+#          link: https://github.com/jdmar3-comp426
+#        - title: Course Site Source
+#          link: https://github.com/jdmar3/comp426
+#    - title: Useful Links
+#      links:
+#        - title: UNC Computer Science Department
+#          link: https://cs.und.edu
+#        - title: UNC Accessibility Resources and Service (ARS) 
+#          link: https://ars.unc.edu/
+#        - title: UNC Counseling and Psychological Services (CAPS)
+#          link: https://caps.unc.edu/
+#  contents: 
+#    align: left
+#    applySinglePageCss: false
+#    markdown: 
+#      |
+#      <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://comp426.johndmart.in">COMP 426: Modern Web Programming</a> &copy; 2021 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://johndmart.in">John D. Martin III</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:17px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></span>
 sections:
   - bgcolor: "#7BAFD4"
     color: "#eee"
