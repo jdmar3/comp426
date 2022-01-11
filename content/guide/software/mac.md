@@ -17,13 +17,6 @@ We suggest making it your computer's default web browser.
 3. Accept the Agreement.
 4. Open the installer and follow it through completion.
 
-
-## node.js - JavaScript Runtime
-1. Follow this link: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-2. Select the "Macintosh Installer" under the LTS tab.
-3. After the download completes, open the installer.
-4. Follow the installation instructions using the default settings to completion.
-
 ## git - Developer Tools
 
 1. Click on the Spotlight icon, the magnifying glass in the top right corner of your screen (or press Command+Space)
@@ -33,9 +26,17 @@ You will be prompted to install Command Line Developer Tools.
 Agree to this, even if you are on battery power.
 Let the installation complete.
 
-You will also find a good guide to get started with installing git [here](https://rogerdudler.github.io/git-guide/).
+## Text editor
 
-## Visual Studio Code - Programming Text Editor
+You can use either Visual Studio Code or VIM (or both) to edit text and write program code. 
+
+### VIM
+
+VIM is alread installed on MacOS as `vi`.
+
+To bring it up to date, refer to the guide at vim.org: https://www.vim.org/download.php#mac
+
+### Visual Studio Code - Programming Text Editor
 This semester, we will write all assignment code using the Visual Studio Code editor.
 
 1. Follow this link: [https://code.visualstudio.com/#alt-downloads](https://code.visualstudio.com/#alt-downloads)
@@ -46,6 +47,14 @@ This extracts and creates an application named "Visual Studio Code" in your down
 4. Drag the "Visual Studio Code" file from your Downloads folder to your Applications folder.
 You should see the Applications folder in the left-hand sidebar of your Finder window.
 
+## Node.js via NVM - JavaScript Runtime
+
+Use Node Version Manager (NVM) to install Node.js.
+
+Follow the install instructions avaialable at the GitHub repository for NVM:
+
+https://github.com/nvm-sh/nvm
+
 **Restart your computer once all software has been installed.**
 
-[Return to a00 main page](assignment/a00)
+[Return to a00 main page](a/00)
