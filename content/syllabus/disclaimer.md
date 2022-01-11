@@ -7,6 +7,8 @@ enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
 
+## Ch-ch-ch-ch-changes
+
 The instructor reserves to right to make changes to the syllabus, including any project due dates, assessment dates, assignments, or other aspects of the schedule and structure.
 
 Things change.
