@@ -10,8 +10,6 @@ enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
 
-Do not come to the physical classroom in-person until instructed to do so.
-
 ## Modern Web Programming
 
 In this course, we will take a very practical, hands-on approach to learning how to design, build, and interact with web APIs, back-end server applications, and front-end client apps and interfaces.
@@ -29,7 +27,7 @@ The first several sessions of Spring 2022 will be held remotely on Zoom.
 Please use the Zoom Live link below.
 The password is in Sakai.
 
-Do not come to the physical classroom in-person until instructed to do so.
+***Do not come to the physical classroom in-person until instructed to do so.***
 
 ### Course info
 
