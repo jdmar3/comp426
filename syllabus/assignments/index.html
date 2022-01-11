@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Syllabus – Modern Web Programming</title>
+    <title>Deliverables and assessments – Modern Web Programming</title>
     
 
 
@@ -30,7 +30,7 @@
     
     var baseurl = JSON.parse("\"https://comp426.johndmart.in\"");
     
-    var permalink = JSON.parse("\"https://comp426.johndmart.in/syllabus/\"");
+    var permalink = JSON.parse("\"https://comp426.johndmart.in/syllabus/assignments/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1072,22 +1072,21 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://comp426.johndmart.in/syllabus/index.xml">
-<meta name="description" content="" />
+    <meta name="description" content="There will be a series of programming assignments, a final team project to develop a web application, and several assessments." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
 <meta name="modified" content="2022-01-11T01:56:29-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
-<meta property="og:title" content="Syllabus">
-<meta property="og:url" content="https://comp426.johndmart.in/syllabus/">
-<meta property="og:type" content="website">
+<meta property="og:title" content="Deliverables and assessments">
+<meta property="og:url" content="https://comp426.johndmart.in/syllabus/assignments/">
+<meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://comp426.johndmart.in/syllabus/">
+<link rel="canonical" href="https://comp426.johndmart.in/syllabus/assignments/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1111,8 +1110,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "https://comp426.johndmart.in/syllabus/",
-    "name": "Syllabus",
+    "headline": "Deliverables and assessments",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "2022-01-11T01:56:29-05:00",
+    "url" : "https://comp426.johndmart.in/syllabus/assignments/",
+    "description": "There will be a series of programming assignments, a final team project to develop a web application, and several assessments.",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://comp426.johndmart.in"
@@ -1161,7 +1163,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      Syllabus
+      Deliverables and assessments
     
   </h6>
   <ul>
@@ -1252,9 +1254,9 @@
   
   
   
-  <li class="">
+  <li class="active">
     <a href="https://comp426.johndmart.in/syllabus/assignments/"
-      class="menu__title ">Deliverables and assessments</a>
+      class="menu__title active">Deliverables and assessments</a>
   </li>
   
 
@@ -1665,7 +1667,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Syllabus</h2>
+        <h2 class="title">Deliverables and assessments</h2>
       </div>
     </div>
   </div>
@@ -1681,6 +1683,8 @@
   
   
   
+  
+  
   <li >
     
       <a href="https://comp426.johndmart.in/" class="capitalize">COMP 426</a>
@@ -1688,9 +1692,16 @@
   </li>
   
   
+  <li >
+    
+      <a href="https://comp426.johndmart.in/syllabus/" class="capitalize">Syllabus</a>
+    
+  </li>
+  
+  
   <li  class="is-active" >
     
-      <span>Syllabus</span>
+      <span>Deliverables and assessments</span>
     
   </li>
   
@@ -1712,7 +1723,7 @@
   
   
     
-    <a href="https://github.com/jdmar3/comp426/edit/main/content/syllabus/_index.md" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/edit/main/content/syllabus/assignments.md" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Edit This Page Button">
         EDIT THIS PAGE
       </button>
@@ -1744,16 +1755,16 @@
 
         
   
-  
+
 <div class="mid">
   <div class="divider">
-
-    <nav id="list-menu" class="l" data-dir="ltr">
+    
+    <nav id="single-menu" class="l" data-dir="ltr">
       
         <div class="menu">
   <h6 class="menu__label">
     
-      Syllabus
+      Deliverables and assessments
     
   </h6>
   <ul>
@@ -1844,9 +1855,9 @@
   
   
   
-  <li class="">
+  <li class="active">
     <a href="https://comp426.johndmart.in/syllabus/assignments/"
-      class="menu__title ">Deliverables and assessments</a>
+      class="menu__title active">Deliverables and assessments</a>
   </li>
   
 
@@ -1994,27 +2005,6 @@
 
 
 
-<script>
-  var menuTitle = document.querySelectorAll('.menu__title');
-  var modal = document.getElementById("myModal");
-  var drawer = document.getElementById('myDrawer');
-
-  var closeDrawer = function () {
-    setTimeout(function () {
-      modal.style.opacity = 0;
-      drawer.style.left = '-100%';
-      modal.style.left = '-100%';
-    }, 250);
-  }
-
-  menuTitle ? 
-  menuTitle.forEach(function(elem) {
-    elem.onclick = function() {
-      closeDrawer();
-      localStorage.setItem('isDrawerOpen', 'false');
-    }
-  }) : null;
-</script>
       
     </nav>
 
@@ -2023,180 +2013,163 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>Do not come to the physical classroom in-person until instructed to do so.</p>
-<h2 id="modern-web-programming">Modern Web Programming</h2>
-<p>In this course, we will take a very practical, hands-on approach to learning how to design, build, and interact with web APIs, back-end server applications, and front-end client apps and interfaces.</p>
-<p>We will also focus on learning some &ldquo;soft skills&rdquo; that often go by the wayside, including collaborative development workflows, project management, understanding errors, writing documentation, and maintaining healthy work practices.
-We will discuss licensing and make use of and operate within open source ecosystems.</p>
-<p>Given the ongoing COVID-19 pandemic, we will focus our attention on apps and systems that handle public health information.
-After years of dealing with this crisis, institutions still struggle with collecting, distributing, and managing information about COVID-19.
-We will work on ways to address that.</p>
-<h2 id="important">IMPORTANT</h2>
-<p>The first several sessions of Spring 2022 will be held remotely on Zoom.
-Please use the Zoom Live link below.
-The password is in Sakai.</p>
-<p>Do not come to the physical classroom in-person until instructed to do so.</p>
-<h3 id="course-info">Course info</h3>
+    <h2 id="assignments">Assignments</h2>
+<p>This is a tentative list of assignments.
+These may be adjusted or merged depending on how the course flows.</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th align="right"></th>
+<th>Assignment</th>
+<th>Title</th>
+<th>Topics covered</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Instructor</strong></td>
-<td align="right">John D. Martin III</td>
+<td>a00</td>
+<td>Setup</td>
+<td>Installing software; git and Github; bash/command line</td>
 </tr>
 <tr>
-<td><strong>e-mail</strong></td>
-<td align="right"><a href="/mailto:john.d.martin.iii@unc.edu">john.d.martin.iii@unc.edu</a></td>
+<td>a01</td>
+<td>Node</td>
+<td>Package management; creating packages; Node.js; npm</td>
 </tr>
 <tr>
-<td><strong>Time</strong></td>
-<td align="right">15:30-16:45 TuTh</td>
+<td>a02</td>
+<td>Functions</td>
+<td>Running JavaScript as program; JavaScript functions</td>
 </tr>
 <tr>
-<td><strong>Dates</strong></td>
-<td align="right">2022-01-11/2022-04-26</td>
+<td>a03</td>
+<td>API</td>
+<td>Turning functions into endpoints; REST; Express</td>
 </tr>
 <tr>
-<td>Spring break</td>
-<td align="right">no class 2022-03-11/2022-03-21</td>
+<td>a04</td>
+<td>Get</td>
+<td>Getting information from an API in a web interface; Next.js</td>
 </tr>
 <tr>
-<td>Wellness day</td>
-<td align="right">no class 2022-04-14</td>
+<td>a05</td>
+<td>Post</td>
+<td>Sending information to an API from a web interface</td>
 </tr>
 <tr>
-<td>Exam date</td>
-<td align="right">2022-04-27</td>
+<td>a06</td>
+<td>Async</td>
+<td>Asynchronous interactions; Database interactions</td>
 </tr>
 <tr>
-<td><strong>Location</strong></td>
-<td align="right"><a href="https://hotline.unc.edu/public/?classroom3&amp;room=Genome%20Science%20G200" target="_blank">G200</a> <a href="https://map.concept3d.com/?id=111#!m/104835" target="_blank">Genome Sciences Building</a></td>
+<td>a07</td>
+<td>DOM</td>
+<td>Manipulating the Document Object Model; CSS and HTML</td>
 </tr>
 <tr>
-<td><strong>Zoom Live</strong></td>
-<td align="right"><a href="https://unc.zoom.us/j/96341299758">https://unc.zoom.us/j/96341299758</a> (password in Sakai)</td>
+<td>a08</td>
+<td>Users</td>
+<td>Implementing login; React; Wouter</td>
 </tr>
 <tr>
-<td><strong>Sakai</strong></td>
-<td align="right"><a href="https://sakai.unc.edu/portal/site/comp426.001.sp22">https://sakai.unc.edu/portal/site/comp426.001.sp22</a></td>
+<td>a09</td>
+<td>Security</td>
+<td>Passwords; Protecting user info</td>
 </tr>
 <tr>
-<td><strong>GitHub</strong></td>
-<td align="right"><a href="https://github.com/comp426-2022-spring">https://github.com/comp426-2022-spring</a></td>
+<td>a99</td>
+<td>Final project</td>
+<td>Collaboration; Project planning and management</td>
 </tr>
 </tbody>
 </table>
-<h3 id="see-links-below-for-detailed-syllabus-info">See links below for detailed syllabus info</h3>
+<h3 id="assignment-submission">Assignment submission</h3>
+<p>All assignments will be handled by GitHub classroom.
+Pushing code to the repository created when you accept assignments will submit the assignment for grading.</p>
+<p>You can submit (push) as many times as you need to in order to pass the unit tests configured in GitHub classroom.</p>
+<p>There are due dates for the assignments, but think of these as guideposts to help you keep up so that you do not get behind.
+The due date will not cut off submission.
+You will be able to submit or resubmit after the due date has passed.</p>
+<h2 id="final-project">Final project</h2>
+<p>Your final project will be developed with a team.</p>
+<p>This Spring, we are going to focus our attention on public health information apps and systems.
+Your team will design an app that fits one of the following profiles or similar:</p>
+<ul>
+<li>Public health information dashboard</li>
+<li>Public health information tracking app (reporting test or vaccine status, etc.)</li>
+<li>Public health resource tracking app (availability of testing, masks, PPE, vaccination, other supplies, etc.)</li>
+<li>Emergency management information portal (planning and decision-making for institutions, government, agencies, etc.)</li>
+<li>Outbreak/cluster tracking app or dashboard</li>
+<li>Public health information app for end users (to provide useful information and aggregate credible sources)</li>
+</ul>
+<p>Your team will use GitHub to plan and manage your project.
+You will create documentation for both developers and users of your app.
+You will also create demos as part of that documentation.</p>
+<h3 id="presenting-final-projects">Presenting final projects</h3>
+<p>You will present your final project to the class on 19, 21, or 26 April.
+It is okay for your project to still be a work in progress when presented.</p>
+<p>All final project materials will be due on the day scheduled for the final exam.</p>
+<h2 id="assessments">Assessments</h2>
+<p>There will be several assessments throughout the course.</p>
+<p>You will take a questionnaire at the beginning of the course that gives us a baseline for your familiarity with certain tools and concepts.</p>
+<p>There will also be midterm and final questionnaires, but they will not assess specific knowledge in the way a traditional exam does.
+Instead they will assess your familiarity with concepts and tools that we are using in the course and allow us to compare across the semester.</p>
+<p>The midterm and final will include a self-assessment component and also an assessment of your team dynamics.</p>
+<p>These assessments are designed to evaluate our teaching effectiveness as much as they are designed to assess your skill and familiarity with concepts and tools.</p>
 
   </article>
 </div>
 
       
-        
-<div class="list-section">
+<div class="grow"></div>
+<nav class="pagination-single">
   
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/tldr/" class="list-section__item--link">
-        tl;dr
+    
+      <a href="https://comp426.johndmart.in/syllabus/structure/" title="Course structure" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__right-title">Course structure</div>
       </a>
-      <div class="list-section__item--desc">
-        There is a lot of information here. Please enjoy this no-bs summary.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/objectives/" class="list-section__item--link">
-        Course objectives
+    
+    <div class="grow"></div>
+    
+      <a href="https://comp426.johndmart.in/syllabus/evaluation/" title="Evaluation" class="pagination-single__right">
+        <div class="pagination-single__left-title">Evaluation</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
       </a>
-      <div class="list-section__item--desc">
-        Working through this course should give students a range of skils related to building and implementing web back-end and front-end applications as well competency in collaborative development and project management.
-      </div>
-    </div>
+    
   
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/structure/" class="list-section__item--link">
-        Course structure
-      </a>
-      <div class="list-section__item--desc">
-        Class sessions will be hyflex even when we are running in-person and will combine conceptual discussions and demos. All resources will be made available through the course website. Attendance is expected, but does not have to be in-person all the time. We will be very flexible with how you engage with the class due to COVID-19.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/assignments/" class="list-section__item--link">
-        Deliverables and assessments
-      </a>
-      <div class="list-section__item--desc">
-        There will be a series of programming assignments, a final team project to develop a web application, and several assessments.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/evaluation/" class="list-section__item--link">
-        Evaluation
-      </a>
-      <div class="list-section__item--desc">
-        Your work in this class will be evaluated in a mostly automated way that gives you immediate feedback. You will also receive qualitative feedback. Grades are reckoned on a 1,000,000-point scale.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/honor/" class="list-section__item--link">
-        Honor Code
-      </a>
-      <div class="list-section__item--desc">
-        The University of North Carolina at Chapel Hill has had a student-led honor system for over 100 years. Academic integrity is at the heart of Carolina and we all are responsible for upholding the ideals of honor and integrity.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/wellbeing/" class="list-section__item--link">
-        Mental health and well-being
-      </a>
-      <div class="list-section__item--desc">
-        It&#39;s important to take care of your emotional and mental health and well-being. You cannot learn things if you are in distress. There are resources available to you and we can help you find them.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/accessibility/" class="list-section__item--link">
-        Accessibility
-      </a>
-      <div class="list-section__item--desc">
-        The University of North Carolina at Chapel Hill facilitates the implementation of reasonable accommodations, including resources and services, for students with disabilities, chronic medical conditions, a temporary disability or pregnancy complications resulting in barriers to fully accessing University courses, programs and activities.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/title9/" class="list-section__item--link">
-        Title IX
-      </a>
-      <div class="list-section__item--desc">
-        Any student who is impacted by discrimination, harassment, interpersonal (relationship) violence, sexual violence, sexual exploitation, or stalking is encouraged to seek resources on campus or in the community.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="https://comp426.johndmart.in/syllabus/disclaimer/" class="list-section__item--link">
-        Disclaimer
-      </a>
-      <div class="list-section__item--desc">
-        The instructor reserves to right to make changes to the syllabus, including any project due dates, assessment dates, assignments, or other aspects of the schedule and structure.
-      </div>
-    </div>
-  
-  </div>
-      
-      
+</nav>
 
+
+      
     </article>
-
+    
     <section id="list-side" class="r" data-dir="ltr">
+      
+        <div class="toc">
+  <h6 class="toc__label">What&#39;s on this Page</h6>
+  <div class="toc__body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#assignments">Assignments</a>
+      <ul>
+        <li><a href="#assignment-submission">Assignment submission</a></li>
+      </ul>
+    </li>
+    <li><a href="#final-project">Final project</a>
+      <ul>
+        <li><a href="#presenting-final-projects">Presenting final projects</a></li>
+      </ul>
+    </li>
+    <li><a href="#assessments">Assessments</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+      
     </section>
 
   </div>
@@ -2358,7 +2331,7 @@ The password is in Sakai.</p>
     
     if (lib && lib.includes('flowchartjs')) {
       
-      var options = JSON.parse("null");
+      var options = JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");
       var jsonContent = null;
 
       var flowchartPrefix = "language-flowchart";
@@ -2448,66 +2421,65 @@ The password is in Sakai.</p>
 </script>
 
 <script>
-  var listMenu = document.getElementById('list-menu');
-  var listMain = document.getElementById('list-main');
   var listSide = document.getElementById('list-side');
+  var listMain = document.getElementById('list-main');
+  var singleMenu = document.getElementById('single-menu');
   var switchElem = document.querySelector('.switch');
   var wideViewAsDefault = JSON.parse("null");
-
+  
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';  
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
         listSide.className = 'r';
         listMain.className = 'm';
+        singleMenu.className = 'l';
       }
     },
   }).register("screen and (max-width:960px)", {
     match: function () {
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
       listMain.className = 'mr';
       listSide.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
-      
       switchElem.className = 'switch';
     },
   }).register("screen and (max-width:600px)", {
     match: function () {
-      listMenu.className = 'hide';
-      listMain.className = 'lmr';
       listSide.className = 'hide';
+      listMain.className = 'lmr';
+      singleMenu.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
-      listMenu.className = 'l';
-      listMain.className = 'mr';
       listSide.className = 'hide';
+      listMain.className = 'mr';
+      singleMenu.className = 'l';
       switchElem.className = 'hide';
     },
   });

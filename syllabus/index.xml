@@ -24,6 +24,97 @@ What are we doing? This semester we are going to focus on systems for collecting
 COVID-19 is still a thing We&amp;rsquo;re going to be doing Zoom class for the first few weeks until we see how things are going around campus with COVID-19.</description>
       </item>
       
+      <item>
+        <title>Course objectives</title>
+        <link>https://comp426.johndmart.in/syllabus/objectives/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/objectives/</guid>
+        <description>Technical skills Working through this course facliltates students to exercise a range of skils:
+ Design and build RESTful API endpoints for access to a server-side information source (database, third-party API, etc.) Design objects using the JavaScript prototype-based object model Employ functional programming techniques implemented in JavaScript for asynchronous event-handling Use asynchronous techniques to implement client-server interactions with a RESTful API Manipulate the Document Oject Model (DOM) using a variety of techniques for presenting information client-side Construct client-side/browesr-based interactive applications/interfaces Use CSS and HTML for basic aesthetics in interface design  Planning and management skills In addition to the above, students will be able to:</description>
+      </item>
+      
+      <item>
+        <title>Course structure</title>
+        <link>https://comp426.johndmart.in/syllabus/structure/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/structure/</guid>
+        <description>Class sessions We will combine demonstrations and lectures with hand-on work in class. Some class time will be reserved for you to work with your teams.
+Remote availability Class sessions are all going to be available to stream live on Zoom. This is intended to help manage dealing with the uncertainty of conditions this semester.
+Session recordings Sessions will all be recorded and archived in Panopto so that you can access them later.</description>
+      </item>
+      
+      <item>
+        <title>Deliverables and assessments</title>
+        <link>https://comp426.johndmart.in/syllabus/assignments/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/assignments/</guid>
+        <description>Assignments This is a tentative list of assignments. These may be adjusted or merged depending on how the course flows.
+   Assignment Title Topics covered     a00 Setup Installing software; git and Github; bash/command line   a01 Node Package management; creating packages; Node.js; npm   a02 Functions Running JavaScript as program; JavaScript functions   a03 API Turning functions into endpoints; REST; Express   a04 Get Getting information from an API in a web interface; Next.</description>
+      </item>
+      
+      <item>
+        <title>Evaluation</title>
+        <link>https://comp426.johndmart.in/syllabus/evaluation/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/evaluation/</guid>
+        <description>Grade breakdown Grading will be based on 1,000,000 points. The breakdown is as follows.
+   Component Description Quantity Points Subtotal     Assignments Individual programmind assignments 10 50,000 500,000   Final project Team-based app development 1 300,000 300,000   Assessments Questionnaires 3 50,000 150,000   Engagement GitHub commits 100 500 50,000   Total    1,000,000    Components Assignments Each of the individual programmin assignments will be worth 50,000 points and will be automatically evaluated.</description>
+      </item>
+      
+      <item>
+        <title>Honor Code</title>
+        <link>https://comp426.johndmart.in/syllabus/honor/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/honor/</guid>
+        <description>The University of North Carolina at Chapel Hill has had a student-led honor system for over 100 years. Academic integrity is at the heart of Carolina and we all are responsible for upholding the ideals of honor and integrity. The student-led Honor System is responsible for adjudicating any suspected violations of the Honor Code and all suspected instances of academic dishonesty will be reported to the Honor System. Information, including your responsibilities as a student, is outlined in the Instrument of Student Judicial Governance.</description>
+      </item>
+      
+      <item>
+        <title>Mental health and well-being</title>
+        <link>https://comp426.johndmart.in/syllabus/wellbeing/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/wellbeing/</guid>
+        <description>Counseling and Psychological Services (CAPS) CAPS is strongly committed to addressing the mental health needs of a diverse student body throughtimely access to consultation and connection to clinically appropriate services, whether for short or long-term needs.
+Go to their website: https://caps.unc.edu/ or visit their facilities on the third floor of the Campus Health Services building for a walk-in evaluation to learn more.
+Help us help you If you are struggling, speak to a TA and/or the instructor.</description>
+      </item>
+      
+      <item>
+        <title>Accessibility</title>
+        <link>https://comp426.johndmart.in/syllabus/accessibility/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/accessibility/</guid>
+        <description>Accessibility Resources The University of North Carolina at Chapel Hill facilitates the implementation of reasonable accommodations, including resources and services, for students with disabilities, chronic medical conditions, a temporary disability or pregnancy complications resulting in barriers to fully accessing University courses, programs and activities.
+Accommodations are determined through the Office of Accessibility. Resources and Service (ARS) for individuals with documented qualifying disabilities in accordance with applicable state and federal laws. See the ARS Website for contact information: https://ars.</description>
+      </item>
+      
+      <item>
+        <title>Title IX</title>
+        <link>https://comp426.johndmart.in/syllabus/title9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/title9/</guid>
+        <description>Title IX Resources Any student who is impacted by discrimination, harassment, interpersonal (relationship) violence, sexual violence, sexual exploitation, or stalking is encouraged to seek resources on campus or in the community.
+Please contact the Director of Title IX Compliance (Adrienne Allison – Adrienne.allison@unc.edu), Report and Response Coordinators in the Equal Opportunity and Compliance Office (reportandresponse@unc.edu), Counseling and Psychological Services (confidential), or the Gender Violence Services Coordinators (gvsc@unc.edu; confidential) to discuss your specific needs.</description>
+      </item>
+      
+      <item>
+        <title>Disclaimer</title>
+        <link>https://comp426.johndmart.in/syllabus/disclaimer/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/syllabus/disclaimer/</guid>
+        <description>The instructor reserves to right to make changes to the syllabus, including any project due dates, assessment dates, assignments, or other aspects of the schedule and structure.
+Things change. We live in uncertain times. We will adjust the course accordingly if it becomes necessary to do so.</description>
+      </item>
+      
     
   </channel>
 </rss>
