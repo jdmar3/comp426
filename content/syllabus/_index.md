@@ -10,12 +10,6 @@ enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
 
-## IMPORTANT
-
-The first several sessions of Spring 2022 will be held remotely on Zoom.
-Please use the Zoom Live link below.
-The password is in Sakai.
-
 Do not come to the physical classroom in-person until instructed to do so.
 
 ## Modern Web Programming
@@ -29,16 +23,24 @@ Given the ongoing COVID-19 pandemic, we will focus our attention on apps and sys
 After years of dealing with this crisis, institutions still struggle with collecting, distributing, and managing information about COVID-19.
 We will work on ways to address that.
 
+## IMPORTANT
+
+The first several sessions of Spring 2022 will be held remotely on Zoom.
+Please use the Zoom Live link below.
+The password is in Sakai.
+
+Do not come to the physical classroom in-person until instructed to do so.
+
 ### Course info
 
 |   |   |
-|---|---|
+|---|---:|
 | **Instructor** | John D. Martin III |
 | **e-mail** | [john.d.martin.iii@unc.edu](mailto:john.d.martin.iii@unc.edu) |
 | **Time** | 15:30-16:45 TuTh |
 | **Dates** | 2022-01-11/2022-04-26 | 
-| Spring break | 2022-03-11/2022-03-21 (no class)|
-| Wellness day | 2022-04-14 (no class) |
+| Spring break | no class 2022-03-11/2022-03-21 |
+| Wellness day | no class 2022-04-14 |
 | Exam date | 2022-04-27 |
 | **Location** | [G200](https://hotline.unc.edu/public/?classroom3&room=Genome%20Science%20G200) [Genome Sciences Building](https://map.concept3d.com/?id=111#!m/104835) |
 | **Zoom Live** | https://unc.zoom.us/j/96341299758 (password in Sakai)|
