@@ -15,6 +15,18 @@
     
       
       <item>
+        <title>a00 Setup</title>
+        <link>https://comp426.johndmart.in/a/00/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/00/</guid>
+        <description>DUE: 2022-01-18 00:00
+The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
+Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
+Install Required Software Below are links to guides for installing the required software for this course.</description>
+      </item>
+      
+      <item>
         <title>git</title>
         <link>https://comp426.johndmart.in/guide/git/scm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
