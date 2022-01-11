@@ -14,7 +14,7 @@ The breakdown is as follows.
 
 | **Component** | **Description** | **Quantity** | **Points** | **Subtotal** |
 |:--- |:--- | ---:| ---:| ---:|
-| Assignments | Individual programmind assignments | 10 | 50,000 | 500,000 |
+| Assignments | Individual programming assignments | 10 | 50,000 | 500,000 |
 | Final project | Team-based app development | 1 | 300,000 | 300,000 |
 | Assessments | Questionnaires | 3 | 50,000 | 150,000 |
 | Engagement | GitHub commits | 100 | 500 | 50,000 | 
