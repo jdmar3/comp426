@@ -15,18 +15,6 @@
     
       
       <item>
-        <title>a00 Setup</title>
-        <link>https://comp426.johndmart.in/a/00/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/a/00/</guid>
-        <description>DUE: 2022-01-18 00:00
-The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
-Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
-Install Required Software Below are links to guides for installing the required software for this course.</description>
-      </item>
-      
-      <item>
         <title>git</title>
         <link>https://comp426.johndmart.in/guide/git/scm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -68,6 +56,18 @@ GitHub Actions - GitHub Docs</description>
         <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
 You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
 Install GitHub Classroom extension on VSCode</description>
+      </item>
+      
+      <item>
+        <title>a00 Setup</title>
+        <link>https://comp426.johndmart.in/a/00/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/00/</guid>
+        <description>DUE: 2022-01-18 00:00
+The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
+Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
+Install Required Software Below are links to guides for installing the required software for this course.</description>
       </item>
       
       <item>
