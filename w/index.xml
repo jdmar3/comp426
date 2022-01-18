@@ -28,6 +28,18 @@ GitHub organization for info You can find general information about the course (
 For questions and general troubleshooting/problems/etc. related to this class, create an issue on the general-info repo: https://github.</description>
       </item>
       
+      <item>
+        <title>w01 Node</title>
+        <link>https://comp426.johndmart.in/w/01/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/01/</guid>
+        <description>a00 walkthrough + Node.js setup 2022-01-18T15:30:00-05:00
+ Installing Node with NVM Setting up SSH key authentication Accepting assignments Cloning a repository Getting started with NPM Write and edit some HTML Using browser-sync Write and edit some HTML Ports for testing Adding, committing, and pushing your changes Troubleshooting the output from autograders on GitHub  Useful links a00 instructions
+Installing Node with NVM
+Adding a new SSH key to your GitHub account</description>
+      </item>
+      
     
   </channel>
 </rss>
