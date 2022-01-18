@@ -35,7 +35,10 @@ You can submit (push) as many times as you need to in order to pass the unit tes
 
 There are due dates for the assignments, but think of these as guideposts to help you keep up so that you do not get behind.
 The due date will not cut off submission.
-You will be able to submit or resubmit after the due date has passed. 
+
+You will **always** be able to submit or resubmit after the due date has passed. 
+
+**You will not lose points for pushing code to your assignment repos after the due date for a given assignment has passed, ever.**
 
 ## Final project
 
