@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://comp426.johndmart.in/w/00/</loc>
+    <lastmod>2022-01-18T13:00:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://comp426.johndmart.in/a/00/</loc>
+    <lastmod>2022-01-18T12:04:11-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://comp426.johndmart.in/guide/git/scm/</loc>
     <lastmod>2021-08-31T16:44:10-04:00</lastmod>
   </url>
@@ -25,11 +35,6 @@
   <url>
     <loc>https://comp426.johndmart.in/guide/git/hubclassroom/</loc>
     <lastmod>2021-08-31T13:39:26-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://comp426.johndmart.in/a/00/</loc>
-    <lastmod>2022-01-14T17:18:29-05:00</lastmod>
   </url>
   
   <url>
@@ -59,12 +64,12 @@
   
   <url>
     <loc>https://comp426.johndmart.in/syllabus/assignments/</loc>
-    <lastmod>2022-01-11T01:56:29-05:00</lastmod>
+    <lastmod>2022-01-18T12:06:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://comp426.johndmart.in/syllabus/evaluation/</loc>
-    <lastmod>2022-01-11T02:59:42-05:00</lastmod>
+    <loc>https://comp426.johndmart.in/syllabus/grading/</loc>
+    <lastmod>2022-01-18T13:00:38-05:00</lastmod>
   </url>
   
   <url>
@@ -130,6 +135,11 @@
   <url>
     <loc>https://comp426.johndmart.in/</loc>
     <lastmod>2022-01-10T03:44:53-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://comp426.johndmart.in/w/</loc>
+    <lastmod>2022-01-18T13:00:38-05:00</lastmod>
   </url>
   
   <url>

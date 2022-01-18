@@ -15,6 +15,33 @@
     
       
       <item>
+        <title>w00 Onboarding</title>
+        <link>https://comp426.johndmart.in/w/00/</link>
+        <pubDate>Tue, 11 Jan 2022 15:30:00 -0500</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/00/</guid>
+        <description>Syllabus day 2022-01-11T15:30:00-05:00
+Read the syllabus and learn how you can get a million points!
+Using GitHub for class 2022-01-13T15:30:00-05:00
+Web basics History of the Web - Sir Tim Berners Lee
+A Short History of the Web - CERN
+GitHub organization for info You can find general information about the course (in addition to what is provided on this site) here: https://github.com/comp426-2022-spring/general-info
+For questions and general troubleshooting/problems/etc. related to this class, create an issue on the general-info repo: https://github.</description>
+      </item>
+      
+      <item>
+        <title>a00 Setup</title>
+        <link>https://comp426.johndmart.in/a/00/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/00/</guid>
+        <description>DUE: 2022-01-21T00:00:00-5:00
+The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
+Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
+Install Required Software Below are links to guides for installing the required software for this course.</description>
+      </item>
+      
+      <item>
         <title>git</title>
         <link>https://comp426.johndmart.in/guide/git/scm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,18 +83,6 @@ GitHub Actions - GitHub Docs</description>
         <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
 You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
 Install GitHub Classroom extension on VSCode</description>
-      </item>
-      
-      <item>
-        <title>a00 Setup</title>
-        <link>https://comp426.johndmart.in/a/00/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/a/00/</guid>
-        <description>DUE: 2022-01-18 00:00
-The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
-Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
-Install Required Software Below are links to guides for installing the required software for this course.</description>
       </item>
       
       <item>
@@ -133,11 +148,11 @@ How do functions work in JavaScript?</description>
       </item>
       
       <item>
-        <title>Evaluation</title>
-        <link>https://comp426.johndmart.in/syllabus/evaluation/</link>
+        <title>Grading</title>
+        <link>https://comp426.johndmart.in/syllabus/grading/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/evaluation/</guid>
+        <guid>https://comp426.johndmart.in/syllabus/grading/</guid>
         <description>Grade breakdown Grading will be based on 1,000,000 points. The breakdown is as follows.
    Component Description Quantity Points Subtotal     Assignments Individual programming assignments 10 50,000 500,000   Final project Team-based app development 1 300,000 300,000   Assessments Questionnaires 3 50,000 150,000   Engagement GitHub commits 100 500 50,000   Total    1,000,000    Components Assignments Each of the individual programmin assignments will be worth 50,000 points and will be automatically evaluated.</description>
       </item>

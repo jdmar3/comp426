@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Assignments on Modern Web Programming</title>
-    <link>https://comp426.johndmart.in/a/</link>
-    <description>Recent content in Assignments on Modern Web Programming</description>
+    <title>Agenda on Modern Web Programming</title>
+    <link>https://comp426.johndmart.in/w/</link>
+    <description>Recent content in Agenda on Modern Web Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;span xmlns:cc=&#34;http://creativecommons.org/ns#&#34; xmlns:dct=&#34;http://purl.org/dc/terms/&#34;&gt;&lt;a property=&#34;dct:title&#34; rel=&#34;cc:attributionURL&#34; href=&#34;https://comp426.johndmart.in&#34;&gt;COMP 426: Modern Web Programming&lt;/a&gt; &amp;copy; {year} by &lt;a rel=&#34;cc:attributionURL dct:creator&#34; property=&#34;cc:attributionName&#34; href=&#34;https://johndmart.in&#34;&gt;John D. Martin III&lt;/a&gt; is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;CC BY-NC-SA 4.0&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1&#34;&gt;&lt;/a&gt;&lt;/span&gt;</copyright>
     
-        <atom:link href="https://comp426.johndmart.in/a/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://comp426.johndmart.in/w/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
-        <title>a00 Setup</title>
-        <link>https://comp426.johndmart.in/a/00/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <title>w00 Onboarding</title>
+        <link>https://comp426.johndmart.in/w/00/</link>
+        <pubDate>Tue, 11 Jan 2022 15:30:00 -0500</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/00/</guid>
-        <description>DUE: 2022-01-21T00:00:00-5:00
-The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
-Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
-Install Required Software Below are links to guides for installing the required software for this course.</description>
+        <guid>https://comp426.johndmart.in/w/00/</guid>
+        <description>Syllabus day 2022-01-11T15:30:00-05:00
+Read the syllabus and learn how you can get a million points!
+Using GitHub for class 2022-01-13T15:30:00-05:00
+Web basics History of the Web - Sir Tim Berners Lee
+A Short History of the Web - CERN
+GitHub organization for info You can find general information about the course (in addition to what is provided on this site) here: https://github.com/comp426-2022-spring/general-info
+For questions and general troubleshooting/problems/etc. related to this class, create an issue on the general-info repo: https://github.</description>
       </item>
       
     
