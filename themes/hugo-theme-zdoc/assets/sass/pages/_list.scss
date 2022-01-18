@@ -44,6 +44,15 @@
     &--desc {
       font-size: 1rem;
       margin: 0.25rem 0;
+
+      code:not([class^=language]) {  
+        padding: 3px 7px;
+		border-radius: 4px;
+		@include themify($codeblock) {
+		  color: themed('content-code-color');
+		  background-color: themed('content-code-background-color')
+		}
+      }
     }
   }
 }

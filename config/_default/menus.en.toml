@@ -1,9 +1,9 @@
-#[[main]]
-#  identifier = "module"
-#  name = "Modules"
-#  url = "module"
-#  weight = 1
-#
+[[main]]
+  identifier = "agenda"
+  name = "Agenda"
+  url = "agenda"
+  weight = 20
+
 [[main]]
   identifier = "assignment"
   name = "Assignments"

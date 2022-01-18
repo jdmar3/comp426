@@ -6,7 +6,7 @@
         {{ .Title }}
       </a>
       <div class="list-section__item--desc">
-        {{ .Description }}
+        {{ .Description | markdownify }}
       </div>
     </div>
   {{ end }}
