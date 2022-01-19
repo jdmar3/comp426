@@ -77,6 +77,16 @@ Writing shell scripts - William E. Shotts, Jr.</description>
       </item>
       
       <item>
+        <title>Networks</title>
+        <link>https://comp426.johndmart.in/guide/networks/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/networks/</guid>
+        <description>Network layer Cloudflare has an excellent tutorial series on the network layer. It is worth reading through the entire thing just to have a good general sense of the parts of networks, how they work, were they are, and what they do. The glossary is also excellent.
+What is the network layer? - Cloudflare</description>
+      </item>
+      
+      <item>
         <title>Software install guides</title>
         <link>https://comp426.johndmart.in/guide/software/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

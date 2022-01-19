@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will introduce Node.js and learn about package management with NPM, creating Node packages, and generally working with packages in git repos." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-01-18T13:42:08-0500">
+<meta name="modified" content="2022-01-18T20:22:51-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w01 Node",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-01-18T13:42:08-05:00",
+    "dateModified": "2022-01-18T20:22:51-05:00",
     "url" : "https://comp426.johndmart.in/w/01/",
     "description": "This week we will introduce Node.js and learn about package management with NPM, creating Node packages, and generally working with packages in git repos.",
     "mainEntityOfPage": {
@@ -1575,9 +1575,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/ebd5827ea7dd99153c948258c4a19b6eb3a17937" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/135728e7a40e73c7c1490f1f0d6f4fc607d8e158" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-01-18 13:42:08 -0500 -0500
+        This page updated: 2022-01-18 20:22:51 -0500 -0500
       </button>
     </a>
 
@@ -1708,12 +1708,30 @@
 <li>Adding, committing, and pushing your changes</li>
 <li>Troubleshooting the output from autograders on GitHub</li>
 </ol>
+<h3 id="notes">Notes</h3>
+<h4 id="installing-nvm">Installing NVM</h4>
+<p>If you install NVM using the supremely straightforward instructions linked below, don&rsquo;t make the mistake of over-thinking it the way that your instructor did today.</p>
+<p>The only reason that it did not work was that I needed to exit and reload the terminal OR I could have run <code>source ~/.bashrc</code> and it would have reloaded my path so that the <code>nvm</code> command would run properly.
+I just didn&rsquo;t read the next set of instructions about doing exactly that.</p>
+<p>So, learn from my mistakes.</p>
+<p>I&rsquo;ll demo NVM on Thursday and we can troubleshoot a version mismatch issue.</p>
+<h4 id="ports">Ports</h4>
+<p>Similarly, the issue that I had displaying a test page served by <code>browser-sync</code> would have been easily dealt with if I had thought about it for a minute.</p>
+<p>When I set the firewall up initially, it was to serve only to requests coming from high-number ports from a specific address (the address in my home) and I forgot about that immediately after doing it, of course.
+So that is fixed now and we&rsquo;ll be able to proceed with demos.</p>
+<p>If you are interested in learning more about what ports do for us, see the link below.</p>
+<p>Also, if you are interested in learning to set up a remote server for running things like this, I can post a tutorial.
+It is relatively easy and nice to have some experience working on remote servers.</p>
 <h3 id="useful-links">Useful links</h3>
 <p><a href="/a/00/">a00 instructions</a></p>
 <p><a href="https://github.com/nvm-sh/nvm#installing-and-updating" target="_blank">Installing Node with NVM</a></p>
+<p><a href="https://code.visualstudio.com/docs/editor/github" target="_blank">https://code.visualstudio.com/docs/editor/github</a></p>
 <p><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub account</a></p>
 <p><a href="https://validator.w3.org/" target="_blank">The W3C Markup Validation Service</a></p>
 <p><a href="https://www.w3schools.com/tags/att_th_scope.asp" target="_blank">HTML <code>&lt;th&gt;</code> scope Attribute</a></p>
+<p><a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank">Service Name and Transport Protocol Port Number Registry</a> - IANA</p>
+<p><a href="http://www.steves-internet-guide.com/tcpip-ports-sockets/" target="_blank">TCP/IP Ports and Sockets Explained</a> - Steve&rsquo;s Internet Guide</p>
+<p><a href="https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/" target="_blank">What is a computer port? | Ports in networking</a> - Cloudflare</p>
 <h2 id="running-js-with-node">Running JS with Node</h2>
 <p><code>2022-01-18T15:30:00-05:00</code></p>
 <ol>
@@ -1756,6 +1774,12 @@
   <ul>
     <li><a href="#a00-walkthrough--nodejs-setup">a00 walkthrough + Node.js setup</a>
       <ul>
+        <li><a href="#notes">Notes</a>
+          <ul>
+            <li><a href="#installing-nvm">Installing NVM</a></li>
+            <li><a href="#ports">Ports</a></li>
+          </ul>
+        </li>
         <li><a href="#useful-links">Useful links</a></li>
       </ul>
     </li>

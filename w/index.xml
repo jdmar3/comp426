@@ -35,9 +35,7 @@ For questions and general troubleshooting/problems/etc. related to this class, c
         
         <guid>https://comp426.johndmart.in/w/01/</guid>
         <description>a00 walkthrough + Node.js setup 2022-01-18T15:30:00-05:00
- Installing Node with NVM Setting up SSH key authentication Accepting assignments Cloning a repository Getting started with NPM Write and edit some HTML Using browser-sync Write and edit some HTML Ports for testing Adding, committing, and pushing your changes Troubleshooting the output from autograders on GitHub  Useful links a00 instructions
-Installing Node with NVM
-Adding a new SSH key to your GitHub account</description>
+ Installing Node with NVM Setting up SSH key authentication Accepting assignments Cloning a repository Getting started with NPM Write and edit some HTML Using browser-sync Write and edit some HTML Ports for testing Adding, committing, and pushing your changes Troubleshooting the output from autograders on GitHub  Notes Installing NVM If you install NVM using the supremely straightforward instructions linked below, don&amp;rsquo;t make the mistake of over-thinking it the way that your instructor did today.</description>
       </item>
       
     
