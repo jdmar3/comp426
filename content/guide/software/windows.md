@@ -36,11 +36,17 @@ https://linuxhint.com/install-vim-editor-on-windows/
 
 ## Windows Subsystem for Linux
 
-Windows Subsystem for Linux (WSL) lets you run a Linux development environment on Windows and access it from VSCode. 
+[Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/) lets you run a Linux development environment on Windows and access it from VSCode. 
 
 My recommendation is that you use Debian 11 as your chosen distro. 
 
 Follow the instructions here to install it:
+
+https://docs.microsoft.com/en-us/windows/wsl/install
+
+See this link for an overview of getting started with using WSL in VSCode:
+
+https://code.visualstudio.com/docs/remote/wsl#_getting-started
 
 ### Install required software in WSL
 
