@@ -86,6 +86,19 @@ Install GitHub Classroom extension on VSCode</description>
       </item>
       
       <item>
+        <title>a01 Node</title>
+        <link>https://comp426.johndmart.in/a/01/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/01/</guid>
+        <description>DUE: 2022-01-28T00:00:00-5:00
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/KxHQIQzJ
+Issues: https://github.com/comp426-2022-spring/a01/issues
+Build your own web server from scratch! In this assignment, you will write a script that uses mostly built-in Node.js modules to serve a single web page from a file that you have stored in a www subdirectory next to your server file.
+The cool thing about this assignment is that it should take about 20 lines of code in toto.</description>
+      </item>
+      
+      <item>
         <title>mod01 HTML &#43; CSS Crash Course</title>
         <link>https://comp426.johndmart.in/module/mod01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
