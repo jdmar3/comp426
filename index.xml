@@ -94,8 +94,8 @@ Install GitHub Classroom extension on VSCode</description>
         <description>DUE: 2022-01-28T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/KxHQIQzJ
 Issues: https://github.com/comp426-2022-spring/a01/issues
-Build your own web server from scratch! In this assignment, you will write a script that uses mostly built-in Node.js modules to serve a single web page from a file that you have stored in a www subdirectory next to your server file.
-The cool thing about this assignment is that it should take about 20 lines of code in toto.</description>
+NOTE: As of the release of this assignment on 2022-01-20, the autograder is not yet configured. SO, do not worry if there isn&amp;rsquo;t any test output. When it is, GH will run the action and then you will be able to see the output. I will have it configured shortly (i.e., probably on Friday 2022-01-21).
+Build your own web server from scratch!</description>
       </item>
       
       <item>
