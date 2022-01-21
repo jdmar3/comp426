@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will introduce Node.js and learn about package management with NPM, creating Node packages, and generally working with packages in git repos." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-01-20T17:09:13-0500">
+<meta name="modified" content="2022-01-20T19:58:02-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w01 Node",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-01-20T17:09:13-05:00",
+    "dateModified": "2022-01-20T19:58:02-05:00",
     "url" : "https://comp426.johndmart.in/w/01/",
     "description": "This week we will introduce Node.js and learn about package management with NPM, creating Node packages, and generally working with packages in git repos.",
     "mainEntityOfPage": {
@@ -1575,9 +1575,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/471864317d4e95c33e4a9afb264cbc052a987031" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/52876c971c3a0dae99d9949d16666c92190c644e" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-01-20 17:09:13 -0500 -0500
+        This page updated: 2022-01-20 19:58:02 -0500 -0500
       </button>
     </a>
 
@@ -1749,7 +1749,55 @@ It is relatively easy and nice to have some experience working on remote servers
 <p><a href="https://www.w3schools.com/js/" target="_blank">JavaScript Tutorial</a> - w3 schools</p>
 <p><a href="https://www.freecodecamp.org/news/javascript-variables-beginners-guide/" target="_blank">JavaScript Variables – A Beginner&rsquo;s Guide to var, const, and let</a> - Madison Kenna</p>
 <p><a href="https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc" target="_blank">Arrow functions for beginners</a> - Brandon Morelli</p>
+<h3 id="notes-1">Notes</h3>
+<p>In class today, I was trying to set environment variables so that we could see what happened when we used one instead of letting the basic webserver use its default, but <code>setenv</code> wasn&rsquo;t working.</p>
+<p>This is because <code>setenv</code> doesn&rsquo;t belong to <code>bash</code>.
+It belongs to a different shell.
+I was recently working on a system using <code>tcsh</code> instead of <code>bash</code> and those commands got stuck in my head.</p>
+<p>The correct commands for setting (and viewing) an environment variable called PORT are below:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># `export` will set an environment varialble</span>
+<span class="nb">export</span> <span class="nv">PORT</span><span class="o">=</span><span class="m">5000</span>
 
+<span class="c1"># If set, the following should give you the value saved in the variable:</span>
+<span class="nb">echo</span> <span class="nv">$PORT</span>
+
+<span class="c1"># To see an environmental variable you can call `env` and pipe it through `grep`</span>
+env <span class="p">|</span> grep PORT
+
+<span class="c1"># `env` without any options will put ALL environment variables into STDOUT.</span>
+env
+
+<span class="c1"># `env` will set a variable similarly to `export` above and then put all environment variables into STDOUT</span>
+env <span class="nv">PORT</span><span class="o">=</span><span class="m">5000</span>
+
+<span class="c1"># You can un-set a variable with `env` as well</span>
+env -u PORT
+env --unset PORT
+</code></pre></td></tr></table>
+</div>
+</div>
   </article>
 </div>
 
@@ -1796,6 +1844,7 @@ It is relatively easy and nice to have some experience working on remote servers
       <ul>
         <li><a href="#slides">Slides</a></li>
         <li><a href="#useful-links-1">Useful links</a></li>
+        <li><a href="#notes-1">Notes</a></li>
       </ul>
     </li>
   </ul>
