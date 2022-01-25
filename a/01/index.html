@@ -1075,7 +1075,7 @@
     <meta name="description" content="This assignment for COMP 426 will help you get started working with Node.js and hacking your way through creating a webserver from scratch. This assignment is intended also to hone your skill at reading documentation and engaging in problem-solving." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-01-20T18:52:52-0500">
+<meta name="modified" content="2022-01-25T11:33:43-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "a01 Node",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-01-20T18:52:52-05:00",
+    "dateModified": "2022-01-25T11:33:43-05:00",
     "url" : "https://comp426.johndmart.in/a/01/",
     "description": "This assignment for COMP 426 will help you get started working with Node.js and hacking your way through creating a webserver from scratch. This assignment is intended also to hone your skill at reading documentation and engaging in problem-solving.",
     "mainEntityOfPage": {
@@ -1575,9 +1575,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/1a685db64b00804714f0de3c6320637000b6a6ea" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/b10859afe626ecabf4a227ed5acd845df148897b" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-01-20 18:52:52 -0500 -0500
+        This page updated: 2022-01-25 11:33:43 -0500 -0500
       </button>
     </a>
 
@@ -1728,7 +1728,7 @@ Search for things (Stack Overflow is your friend).</p>
 <p>You should see a couple of files, but it should be mostly empty.</p>
 <p>Like this:</p>
 <pre><code>$ ls
-LICENSE  README.md  server.js
+LICENSE  README.md  server.js.example
 </code></pre><h3 id="initialize-the-repo-as-an-npm-package">Initialize the repo as an NPM package</h3>
 <p>Run <code>npm init</code> following and fill in the prompts accordingly.</p>
 <p>Make sure to do the following:</p>
@@ -1800,7 +1800,7 @@ This is going to help us accept arguments from the command line to interact with
 <p>Run <code>npm install minimist</code> to install the package.</p>
 <p>You should now see a <code>package-lock.json</code> file and a <code>node_modules</code> subdirectory in your directory as well:</p>
 <pre><code>$ ls
-node_modules  package.json  package-lock.json  server.js
+node_modules  package.json  package-lock.json  server.js.example
 </code></pre><h3 id="add-gitignore">Add <code>.gitignore</code></h3>
 <p>Add a file named <code>.gitignore</code> and put <code>node_modules/</code> in it:</p>
 <pre><code class="language-.gitignore" data-lang=".gitignore">node_modules/
@@ -1814,7 +1814,7 @@ node_modules  package.json  package-lock.json  server.js
 <h3 id="ready-set-go">Ready, set, go!</h3>
 <p>With that you are all ready to begin actually writing your web server script.</p>
 <h2 id="read-and-code">Read and code</h2>
-<p>Look inside the <code>server.js</code> script file.</p>
+<p>Look inside the <code>server.js.example</code> script file.</p>
 <p>It should look like this:</p>
 <pre><code class="language-server.js.example" data-lang="server.js.example">// Require http module
 
@@ -1865,6 +1865,7 @@ The blank lines are just there to give you a sense of what it should look like.<
 <p>As noted above, you can do this in 20 lines.</p>
 <h3 id="instructions">Instructions</h3>
 <p>The instructions are in the comments, but I will reiterate them below with links to places in the documentation that will guide you in putting this together.</p>
+<p>The first thing you need to do is either rename or copy <code>server.js.example</code> to <code>server.js</code> so that you can start writing your server script.</p>
 <h4 id="overview">Overview</h4>
 <p>The resources that you will want to lean on most heavily for this assignment are:</p>
 <p><a href="https://nodejs.dev/learn" target="_blank">Introduction to Node.js</a> - Node.js</p>
