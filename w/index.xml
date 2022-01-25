@@ -38,6 +38,18 @@ For questions and general troubleshooting/problems/etc. related to this class, c
  Installing Node with NVM Setting up SSH key authentication Accepting assignments Cloning a repository Getting started with NPM Write and edit some HTML Using browser-sync Write and edit some HTML Ports for testing Adding, committing, and pushing your changes Troubleshooting the output from autograders on GitHub  Notes Installing NVM If you install NVM using the supremely straightforward instructions linked below, don&amp;rsquo;t make the mistake of over-thinking it the way that your instructor did today.</description>
       </item>
       
+      <item>
+        <title>w02 HTTP</title>
+        <link>https://comp426.johndmart.in/w/02/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/02/</guid>
+        <description>Headers, requests, responses, status, and curl 2022-01-25T15:30:00-05:00
+ Pearl Hacks What do headers do? How can we see them?  curl Inspector   Requests and responses What do statuses tell us?  Slides https://comp426-2022-spring.github.io/slides/w02-00.html
+Pearl Hacks We will have a brief presentation from a member of the planning committee for Pearl Hacks, a beginner-friendly hackathon for women and non-binady students.
+Please see the Pearl Hacks site for more information about the program: https://pearlhacks.</description>
+      </item>
+      
     
   </channel>
 </rss>
