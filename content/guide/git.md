@@ -2,7 +2,7 @@
 title: "git"
 description: "Save your your whole workflow (and your sanity) with git. Never lose edits again."
 draft: false
-weight: 1
+weight: 0
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---

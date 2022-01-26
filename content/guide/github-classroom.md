@@ -1,9 +1,8 @@
 ---
 title: "GitHub Classroom"
 description: "Interact with the assignments for COMP 426 in a GitHub Classroom instance."
-date: 2021-08-31T12:42:18-04:00
 draft: false
-weight: 7
+weight: 0
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---

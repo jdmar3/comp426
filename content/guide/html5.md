@@ -1,7 +1,6 @@
 ---
 title: "HTML5"
 description: "HTML has been with us from almost the beginning of the web. It's how we make the Internet accessible to humans."
-date: 2021-08-30T19:37:59-04:00
 draft: false
 weight: 0
 enableToc: true

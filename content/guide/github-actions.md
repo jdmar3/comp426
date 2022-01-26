@@ -1,9 +1,8 @@
 ---
 title: "GitHub Actions"
 description: "Automate a variety of test and compile workflows server-side on GitHub."
-date: 2021-08-31T12:42:12-04:00
 draft: false
-weight: 5
+weight: 0
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---

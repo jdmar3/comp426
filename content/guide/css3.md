@@ -1,7 +1,6 @@
 ---
 title: "CSS3"
 description: "CSS3 is the current standard in styling markup on line. You can't make pretty things on the Internet without it."
-date: 2021-08-30T19:38:05-04:00
 draft: false
 weight: 0
 enableToc: true

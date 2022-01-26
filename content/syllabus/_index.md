@@ -35,14 +35,15 @@ The password is in Sakai.
 |---|---:|
 | **Instructor** | John D. Martin III |
 | **e-mail** | [john.d.martin.iii@unc.edu](mailto:john.d.martin.iii@unc.edu) |
-| **Time** | 15:30-16:45 TuTh |
+| **Time and Days** | [R31/T15:30-5:00/T1H15M/FREQ=WE;BYDY=TU,TH](assets/comp426-2022-spring.ics) |
 | **Dates** | 2022-01-11/2022-04-26 | 
 | Spring break | no class 2022-03-11/2022-03-21 |
 | Wellness day | no class 2022-04-14 |
-| Exam date | 2022-04-27 |
+| Exam date | 2022-04-30T16:00-5:00/T3H |
 | **Location** | [G200](https://hotline.unc.edu/public/?classroom3&room=Genome%20Science%20G200) [Genome Sciences Building](https://map.concept3d.com/?id=111#!m/104835) |
-| **Zoom Live** | https://unc.zoom.us/j/96341299758 (password in Sakai)|
-| **Sakai** | https://sakai.unc.edu/portal/site/comp426.001.sp22 |
-| **GitHub**  | https://github.com/comp426-2022-spring |
+| **Zoom Live Sessions** | (password in [SECRETS](https://github.com/comp426-2022-spring/secrets/) repo on [GH Org](https://github.com/comp426-2022-spring)) https://unc.zoom.us/j/96341299758 |
+| **Archived Live Sessions** | [UNC Panopto](https://uncch.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b3744f3a-fa37-4574-88bf-ae16016474af%22) |
+| **GitHub Organization**  | https://github.com/comp426-2022-spring |
+| **Grades** | [UNC Sakai](https://sakai.unc.edu/portal/site/comp426.001.sp22) |
 
 ### See links below for detailed syllabus info

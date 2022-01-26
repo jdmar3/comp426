@@ -1,7 +1,6 @@
 ---
 title: "Bash"
 description: "Bash is your best friend if you work on remote machines. You can navigate a system with no GUI and you can automate practically anything because it is a scripting language as well."
-date: 2021-08-30T19:15:29-04:00
 draft: false
 weight: 0
 enableToc: true

@@ -1,7 +1,6 @@
 ---
 title: "Licenses"
 description: ""
-date: 2021-09-12T19:19:07-04:00
 draft: false
 weight: 0
 enableToc: true

@@ -1,9 +1,8 @@
 ---
 title: "GitHub"
 description: "Keep your git repos in the cloud for redundancy and collaboration."
-date: 2021-08-31T12:41:37-04:00
 draft: false
-weight: 3
+weight: 0
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
