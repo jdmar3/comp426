@@ -316,6 +316,19 @@ HTML, CSS, etc. W3C Markup Validation Service (HTML)
 W3C has a bunch of different validators that can check CSS, web platforms (mobile ready), dead links, RSS, and one that checks all of these things.</description>
       </item>
       
+      <item>
+        <title>Visual Studio Code</title>
+        <link>https://comp426.johndmart.in/guide/vscode/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/vscode/</guid>
+        <description>Getting started guides This is a great series of video tutorials to help you get started using VSCode:
+https://code.visualstudio.com/docs/getstarted/introvideos
+I recommend starting with the first one and working your way through until you are comfortable using the various features in VSCode.
+Each video guide links out to other helpful information as well.
+WSL in VSCode The Windows Subsystem for Linux allows you to set up a Linux development environment without installing a virtual machine or manually setting up a separate container.</description>
+      </item>
+      
     
   </channel>
 </rss>
