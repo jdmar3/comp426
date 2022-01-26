@@ -42,50 +42,6 @@ Install Required Software Below are links to guides for installing the required 
       </item>
       
       <item>
-        <title>git</title>
-        <link>https://comp426.johndmart.in/guide/git/scm/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/git/scm/</guid>
-        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
-git basics git official documentation
-You should become conversant with the official documentation for git.</description>
-      </item>
-      
-      <item>
-        <title>GitHub</title>
-        <link>https://comp426.johndmart.in/guide/git/hub/</link>
-        <pubDate>Tue, 31 Aug 2021 12:41:37 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/git/hub/</guid>
-        <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
-GitHub Basics Hello World - GitHub Guides
-Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
-Syncing a fork - GitHub Help</description>
-      </item>
-      
-      <item>
-        <title>GitHub Actions</title>
-        <link>https://comp426.johndmart.in/guide/git/hubactions/</link>
-        <pubDate>Tue, 31 Aug 2021 12:42:12 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/git/hubactions/</guid>
-        <description>GitHub Actions allows for testing, compiling, and other workflow tasks to be performed on GitHub after you push to a repository housed there. COMP 426 uses these for autograding and other basic evaluation of assignments when you submit them. It is useful to become familiar with how it works so that you can monitor your autograded assignments when you submit them.
-GitHub Actions - GitHub Docs</description>
-      </item>
-      
-      <item>
-        <title>GitHub Classroom</title>
-        <link>https://comp426.johndmart.in/guide/git/hubclassroom/</link>
-        <pubDate>Tue, 31 Aug 2021 12:42:18 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/git/hubclassroom/</guid>
-        <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
-You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
-Install GitHub Classroom extension on VSCode</description>
-      </item>
-      
-      <item>
         <title>a01 Node</title>
         <link>https://comp426.johndmart.in/a/01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -252,14 +208,111 @@ Things change. We live in uncertain times. We will adjust the course accordingly
       </item>
       
       <item>
-        <title>JS Functions</title>
-        <link>https://comp426.johndmart.in/guide/javascript/functions/</link>
+        <title>Bash</title>
+        <link>https://comp426.johndmart.in/guide/bash/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/javascript/functions/</guid>
+        <guid>https://comp426.johndmart.in/guide/bash/</guid>
+        <description>Bash is the name of the shell and command language that we use most frequently in Linux and other UNIX clones. Mac OSX is a UNIX clone. When you open &amp;ldquo;Terminal,&amp;rdquo; you are looking at Bash. It is a text-interface command line envrionment but it can also read commands from files in the form of scripts.
+Learning the shell - William E. Shotts, Jr.
+Writing shell scripts - William E. Shotts, Jr.</description>
+      </item>
+      
+      <item>
+        <title>CSS3</title>
+        <link>https://comp426.johndmart.in/guide/css3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/css3/</guid>
+        <description>CSS is an acronym for &amp;ldquo;Cascading Style Sheet.&amp;rdquo; If HTML is the medium for web content, then CSS is the palette for the visual styling of the web. Whenever a website looks like anything other than just a blank page, there is CSS involved.
+CSS3 Cheat Sheet - Leslie Franke
+W3CSchools CSS Tutorial</description>
+      </item>
+      
+      <item>
+        <title>git</title>
+        <link>https://comp426.johndmart.in/guide/git/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/git/</guid>
+        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
+git basics git official documentation
+You should become conversant with the official documentation for git.</description>
+      </item>
+      
+      <item>
+        <title>GitHub</title>
+        <link>https://comp426.johndmart.in/guide/github/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/github/</guid>
+        <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
+GitHub Basics Hello World - GitHub Guides
+Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
+Syncing a fork - GitHub Help</description>
+      </item>
+      
+      <item>
+        <title>GitHub Actions</title>
+        <link>https://comp426.johndmart.in/guide/github-actions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/github-actions/</guid>
+        <description>GitHub Actions allows for testing, compiling, and other workflow tasks to be performed on GitHub after you push to a repository housed there. COMP 426 uses these for autograding and other basic evaluation of assignments when you submit them. It is useful to become familiar with how it works so that you can monitor your autograded assignments when you submit them.
+GitHub Actions - GitHub Docs</description>
+      </item>
+      
+      <item>
+        <title>GitHub Classroom</title>
+        <link>https://comp426.johndmart.in/guide/github-classroom/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/github-classroom/</guid>
+        <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
+You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
+Install GitHub Classroom extension on VSCode</description>
+      </item>
+      
+      <item>
+        <title>HTML5</title>
+        <link>https://comp426.johndmart.in/guide/html5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/html5/</guid>
+        <description>HTML is an acronym for &amp;ldquo;HyperText Markup Language.&amp;rdquo; &amp;ldquo;Hypertext&amp;rdquo; is text that contains links to other text. The Web, as we know it, relies on hypertext to for us to communicate with systems and with other humans. It is the medium of Web content.
+HTML5 Cheat Sheet - WebsiteSetup.org
+W3CSchools HTML(5) Tutorial</description>
+      </item>
+      
+      <item>
+        <title>Javascript</title>
+        <link>https://comp426.johndmart.in/guide/javascript/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/javascript/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>JS Functions</title>
+        <link>https://comp426.johndmart.in/guide/functions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/functions/</guid>
         <description>JavaScript Functions - w3schools
 Functions - JavaScript - Mozilla Developer Network
 Differences Between var and let - JavaScript Tutorials</description>
+      </item>
+      
+      <item>
+        <title>Licenses</title>
+        <link>https://comp426.johndmart.in/guide/licenses/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/licenses/</guid>
+        <description>Choosing licenses Choosing a license for your work can seem daunting, but it is a matter of deciding what you want to be able to do with your content or source code and how you want it to be distributed.
+GitHub GitHub has a very good guide to choosing licenses for your repositories and also a tool to help you through the process.
+[Customize your repository &amp;gt; Licensing a repository - GitHub Docs)[https://docs.</description>
       </item>
       
       <item>
@@ -274,11 +327,21 @@ An API call is a process through which requests are made and data is retrieved f
       </item>
       
       <item>
-        <title>Node</title>
-        <link>https://comp426.johndmart.in/guide/javascript/node/</link>
+        <title>Networks</title>
+        <link>https://comp426.johndmart.in/guide/networks/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/javascript/node/</guid>
+        <guid>https://comp426.johndmart.in/guide/networks/</guid>
+        <description>Network layer Cloudflare has an excellent tutorial series on the network layer. It is worth reading through the entire thing just to have a good general sense of the parts of networks, how they work, were they are, and what they do. The glossary is also excellent.
+What is the network layer? - Cloudflare</description>
+      </item>
+      
+      <item>
+        <title>Node</title>
+        <link>https://comp426.johndmart.in/guide/node/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/node/</guid>
         <description>Node.js v16.10.0 documentation
 ECMAScript Modules (ESM) ECMAScript Modules (ESM) documentation
 Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>

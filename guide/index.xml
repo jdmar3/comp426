@@ -7,7 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;span xmlns:cc=&#34;http://creativecommons.org/ns#&#34; xmlns:dct=&#34;http://purl.org/dc/terms/&#34;&gt;&lt;a property=&#34;dct:title&#34; rel=&#34;cc:attributionURL&#34; href=&#34;https://comp426.johndmart.in&#34;&gt;COMP 426: Modern Web Programming&lt;/a&gt; &amp;copy; {year} by &lt;a rel=&#34;cc:attributionURL dct:creator&#34; property=&#34;cc:attributionName&#34; href=&#34;https://johndmart.in&#34;&gt;John D. Martin III&lt;/a&gt; is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;CC BY-NC-SA 4.0&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1&#34;&gt;&lt;/a&gt;&lt;/span&gt;</copyright>
-    <lastBuildDate>Sun, 29 Aug 2021 17:40:18 -0400</lastBuildDate>
     
         <atom:link href="https://comp426.johndmart.in/guide/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,51 +14,18 @@
     
       
       <item>
-        <title>Licenses</title>
-        <link>https://comp426.johndmart.in/guide/licenses/</link>
-        <pubDate>Sun, 12 Sep 2021 19:19:07 -0400</pubDate>
+        <title>Software install guides</title>
+        <link>https://comp426.johndmart.in/guide/software/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/licenses/</guid>
-        <description>Choosing licenses Choosing a license for your work can seem daunting, but it is a matter of deciding what you want to be able to do with your content or source code and how you want it to be distributed.
-GitHub GitHub has a very good guide to choosing licenses for your repositories and also a tool to help you through the process.
-[Customize your repository &amp;gt; Licensing a repository - GitHub Docs)[https://docs.</description>
-      </item>
-      
-      <item>
-        <title>Javascript</title>
-        <link>https://comp426.johndmart.in/guide/javascript/</link>
-        <pubDate>Sun, 12 Sep 2021 19:18:00 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/javascript/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>CSS3</title>
-        <link>https://comp426.johndmart.in/guide/css3/</link>
-        <pubDate>Mon, 30 Aug 2021 19:38:05 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/css3/</guid>
-        <description>CSS is an acronym for &amp;ldquo;Cascading Style Sheet.&amp;rdquo; If HTML is the medium for web content, then CSS is the palette for the visual styling of the web. Whenever a website looks like anything other than just a blank page, there is CSS involved.
-CSS3 Cheat Sheet - Leslie Franke
-W3CSchools CSS Tutorial</description>
-      </item>
-      
-      <item>
-        <title>HTML5</title>
-        <link>https://comp426.johndmart.in/guide/html5/</link>
-        <pubDate>Mon, 30 Aug 2021 19:37:59 -0400</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/html5/</guid>
-        <description>HTML is an acronym for &amp;ldquo;HyperText Markup Language.&amp;rdquo; &amp;ldquo;Hypertext&amp;rdquo; is text that contains links to other text. The Web, as we know it, relies on hypertext to for us to communicate with systems and with other humans. It is the medium of Web content.
-HTML5 Cheat Sheet - WebsiteSetup.org
-W3CSchools HTML(5) Tutorial</description>
+        <guid>https://comp426.johndmart.in/guide/software/</guid>
+        <description>These guides will help you install software required for COMP 426 on different operating systems.</description>
       </item>
       
       <item>
         <title>Bash</title>
         <link>https://comp426.johndmart.in/guide/bash/</link>
-        <pubDate>Mon, 30 Aug 2021 19:15:29 -0400</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://comp426.johndmart.in/guide/bash/</guid>
         <description>Bash is the name of the shell and command language that we use most frequently in Linux and other UNIX clones. Mac OSX is a UNIX clone. When you open &amp;ldquo;Terminal,&amp;rdquo; you are looking at Bash. It is a text-interface command line envrionment but it can also read commands from files in the form of scripts.
@@ -68,12 +34,100 @@ Writing shell scripts - William E. Shotts, Jr.</description>
       </item>
       
       <item>
-        <title>git and GitHub</title>
+        <title>CSS3</title>
+        <link>https://comp426.johndmart.in/guide/css3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/css3/</guid>
+        <description>CSS is an acronym for &amp;ldquo;Cascading Style Sheet.&amp;rdquo; If HTML is the medium for web content, then CSS is the palette for the visual styling of the web. Whenever a website looks like anything other than just a blank page, there is CSS involved.
+CSS3 Cheat Sheet - Leslie Franke
+W3CSchools CSS Tutorial</description>
+      </item>
+      
+      <item>
+        <title>git</title>
         <link>https://comp426.johndmart.in/guide/git/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://comp426.johndmart.in/guide/git/</guid>
-        <description>This guide houses links to information about the universe of tools and techniques related to using git and GitHub for COMP 426.</description>
+        <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
+git basics git official documentation
+You should become conversant with the official documentation for git.</description>
+      </item>
+      
+      <item>
+        <title>GitHub</title>
+        <link>https://comp426.johndmart.in/guide/github/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/github/</guid>
+        <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
+GitHub Basics Hello World - GitHub Guides
+Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
+Syncing a fork - GitHub Help</description>
+      </item>
+      
+      <item>
+        <title>GitHub Actions</title>
+        <link>https://comp426.johndmart.in/guide/github-actions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/github-actions/</guid>
+        <description>GitHub Actions allows for testing, compiling, and other workflow tasks to be performed on GitHub after you push to a repository housed there. COMP 426 uses these for autograding and other basic evaluation of assignments when you submit them. It is useful to become familiar with how it works so that you can monitor your autograded assignments when you submit them.
+GitHub Actions - GitHub Docs</description>
+      </item>
+      
+      <item>
+        <title>GitHub Classroom</title>
+        <link>https://comp426.johndmart.in/guide/github-classroom/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/github-classroom/</guid>
+        <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
+You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
+Install GitHub Classroom extension on VSCode</description>
+      </item>
+      
+      <item>
+        <title>HTML5</title>
+        <link>https://comp426.johndmart.in/guide/html5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/html5/</guid>
+        <description>HTML is an acronym for &amp;ldquo;HyperText Markup Language.&amp;rdquo; &amp;ldquo;Hypertext&amp;rdquo; is text that contains links to other text. The Web, as we know it, relies on hypertext to for us to communicate with systems and with other humans. It is the medium of Web content.
+HTML5 Cheat Sheet - WebsiteSetup.org
+W3CSchools HTML(5) Tutorial</description>
+      </item>
+      
+      <item>
+        <title>Javascript</title>
+        <link>https://comp426.johndmart.in/guide/javascript/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/javascript/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>JS Functions</title>
+        <link>https://comp426.johndmart.in/guide/functions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/functions/</guid>
+        <description>JavaScript Functions - w3schools
+Functions - JavaScript - Mozilla Developer Network
+Differences Between var and let - JavaScript Tutorials</description>
+      </item>
+      
+      <item>
+        <title>Licenses</title>
+        <link>https://comp426.johndmart.in/guide/licenses/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/licenses/</guid>
+        <description>Choosing licenses Choosing a license for your work can seem daunting, but it is a matter of deciding what you want to be able to do with your content or source code and how you want it to be distributed.
+GitHub GitHub has a very good guide to choosing licenses for your repositories and also a tool to help you through the process.
+[Customize your repository &amp;gt; Licensing a repository - GitHub Docs)[https://docs.</description>
       </item>
       
       <item>
@@ -87,12 +141,14 @@ What is the network layer? - Cloudflare</description>
       </item>
       
       <item>
-        <title>Software install guides</title>
-        <link>https://comp426.johndmart.in/guide/software/</link>
+        <title>Node</title>
+        <link>https://comp426.johndmart.in/guide/node/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/software/</guid>
-        <description>These guides will help you install software required for COMP 426 on different operating systems.</description>
+        <guid>https://comp426.johndmart.in/guide/node/</guid>
+        <description>Node.js v16.10.0 documentation
+ECMAScript Modules (ESM) ECMAScript Modules (ESM) documentation
+Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>
       </item>
       
       <item>
