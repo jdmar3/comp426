@@ -39,7 +39,7 @@ For questions and general troubleshooting/problems/etc. related to this class, c
       </item>
       
       <item>
-        <title>w02 HTTP</title>
+        <title>w02 HTTP, Scripting, and Testing</title>
         <link>https://comp426.johndmart.in/w/02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -48,6 +48,22 @@ For questions and general troubleshooting/problems/etc. related to this class, c
  Pearl Hacks What do headers do? How can we see them?  curl Inspector   Requests and responses What do statuses tell us?  Slides https://comp426-2022-spring.github.io/slides/w02-00.html
 Pearl Hacks We will have a brief presentation from a member of the planning committee for Pearl Hacks, a beginner-friendly hackathon for women and non-binady students.
 Please see the Pearl Hacks site for more information about the program: https://pearlhacks.</description>
+      </item>
+      
+      <item>
+        <title>w03 Functions and Modules</title>
+        <link>https://comp426.johndmart.in/w/03/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/03/</guid>
+        <description>Functions and Modules 2022-01-27T15:30:00-05:00
+ What do we do with a function in JS? Exporting functions Module export  Slides Useful links Arrow functions for beginners - Brandon Morelli
+Functions Functions - MDN Web Docs
+Modules, export, and import Export and Import - JavaScript.info
+The module object - Node.js
+Node.js export module - GeeksforGeeks
+Node Module Exports Explained – With JavaScript Export Function Examples - Stanley Nguyen
+w3 schools JavaScript Functions</description>
       </item>
       
     

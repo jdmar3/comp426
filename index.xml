@@ -96,7 +96,7 @@ COVID-19 is still a thing We&amp;rsquo;re going to be doing Zoom class for the f
       </item>
       
       <item>
-        <title>w02 HTTP</title>
+        <title>w02 HTTP, Scripting, and Testing</title>
         <link>https://comp426.johndmart.in/w/02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -126,6 +126,22 @@ Session recordings Sessions will all be recorded and archived in Panopto so that
         <guid>https://comp426.johndmart.in/module/mod03/</guid>
         <description>In a03, we&amp;rsquo;re writing some basic JS functions that can be called to return values outside of a web browser. This module includes some information and links about JS functions and a walkthrough of creating a very basic set. Some of this is covered in the a03 instructions as well. You can use this as a reference to expand on the information presented in the instructions.
 How do functions work in JavaScript?</description>
+      </item>
+      
+      <item>
+        <title>w03 Functions and Modules</title>
+        <link>https://comp426.johndmart.in/w/03/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/03/</guid>
+        <description>Functions and Modules 2022-01-27T15:30:00-05:00
+ What do we do with a function in JS? Exporting functions Module export  Slides Useful links Arrow functions for beginners - Brandon Morelli
+Functions Functions - MDN Web Docs
+Modules, export, and import Export and Import - JavaScript.info
+The module object - Node.js
+Node.js export module - GeeksforGeeks
+Node Module Exports Explained – With JavaScript Export Function Examples - Stanley Nguyen
+w3 schools JavaScript Functions</description>
       </item>
       
       <item>
