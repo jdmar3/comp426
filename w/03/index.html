@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will discuss and demo writing functions to simplify repeated or recurring rasks. We will also discuss creating modules to contain multiple functions and operate as packages that we can port from project to project." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-01-27T14:24:21-0500">
+<meta name="modified" content="2022-02-01T14:58:58-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w03 Functions and Modules",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-01-27T14:24:21-05:00",
+    "dateModified": "2022-02-01T14:58:58-05:00",
     "url" : "https://comp426.johndmart.in/w/03/",
     "description": "This week we will discuss and demo writing functions to simplify repeated or recurring rasks. We will also discuss creating modules to contain multiple functions and operate as packages that we can port from project to project.",
     "mainEntityOfPage": {
@@ -1621,9 +1621,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/44bc65ae9df3219c88e07bbe83eff96d13682743" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/6a8ef583cdac0680d5dceaecf245fd27100f095e" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-01-27 14:24:21 -0500 -0500
+        This page updated: 2022-02-01 14:58:58 -0500 -0500
       </button>
     </a>
 
@@ -1785,28 +1785,51 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <h2 id="functions-and-modules">Functions and Modules</h2>
+    <h2 id="functions-and-evolution">Functions and Evolution</h2>
 <p><code>2022-01-27T15:30:00-05:00</code></p>
 <ol>
-<li>What do we do with a function in JS?</li>
-<li>Exporting functions</li>
-<li>Module export</li>
+<li>Old-school JS and modern JS</li>
+<li>History and evolution</li>
+<li>Functions three ways</li>
 </ol>
 <h3 id="slides">Slides</h3>
+<p><a href="https://comp426-2022-spring.github.io/slides/w03-00.html">https://comp426-2022-spring.github.io/slides/w03-00.html</a></p>
 <h3 id="useful-links">Useful links</h3>
-<p><a href="https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc" target="_blank">Arrow functions for beginners</a> - Brandon Morelli</p>
+<h4 id="evolution">Evolution</h4>
+<p><a href="https://www.w3schools.com/js/js_history.asp" target="_blank">JavaScript History</a> - w3schools</p>
+<p><a href="https://www.geeksforgeeks.org/difference-between-es5-and-es6/" target="_blank">Difference between ES5 and ES6</a> - GeeksforGeeks</p>
+<p><a href="https://www.geeksforgeeks.org/difference-between-es5-and-es6/" target="_blank">Difference between ES6 and TypeScript</a></p>
+<p><a href="https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/" target="_blank">Difference between JavaScript and TypeScript</a></p>
 <h4 id="functions">Functions</h4>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions" target="_blank">Functions</a> - MDN Web Docs</p>
+<p><a href="https://www.w3schools.com/js/js_functions.asp" target="_blank">JavaScript Functions</a></p>
+<p><a href="https://learn.co/lessons/javascript-intro-to-functions" target="_blank">Javascript Intro to Functions</a> - Learn.co</p>
+<p><a href="https://www.javascripttutorial.net/javascript-function/" target="_blank">JavaScript Functions</a> - JavaScript Tutorial</p>
+<p><a href="https://www.learn-js.org/en/Functions" target="_blank">Functions</a> - learn-js.org</p>
+<p><a href="https://www.w3schools.com/js/js_function_definition.asp" target="_blank">JavaScript Function Definitions</a></p>
+<h4 id="es6-arrow-functions">ES6 arrow functions</h4>
+<p><a href="https://www.w3schools.com/js/js_arrow_function.asp" target="_blank">Javascript Arrow Function</a></p>
+<p><a href="https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc" target="_blank">Arrow functions for beginners</a> - Brandon Morelli</p>
+<p><a href="https://levelup.gitconnected.com/arrow-function-vs-regular-function-in-javascript-b6337fb87032" target="_blank">Arrow functions vs regular functions in JavaScript</a> - Madhavan Nagarajan</p>
+<p>[When (and why) you should use ES6 arrow functions — and when you shouldn&rsquo;t] - Cynthia Lee</p>
+<h4 id="typescript-functions">TypeScript functions</h4>
+<p><a href="https://www.typescriptlang.org/docs/handbook/intro.html" target="_blank">The TypeScript Handbook</a></p>
+<p><a href="https://www.geeksforgeeks.org/introduction-to-typescript/?ref=gcse" target="_blank">Introduction to TypeScript</a> - GeeksforGeeks</p>
+<p><a href="https://www.typescriptlang.org/docs/handbook/2/functions.html" target="_blank">More on Functions</a> - TypeScript</p>
+<h3 id="notes">Notes</h3>
+<p>JavaScript was invented in 1995 by Brendan Eich.</p>
+<p>In 1996, it was developed into a standard scripting langage by ECMA&rsquo;s (then the European Computer Manufacturers Association) Technical Committe (TC39) and released as ECMAScript 1 (ES1) in 1997.</p>
+<p>TypeScript was developed and released by MicroSoft in 2012 to deal with some of the deficits of JS as a programming language.</p>
+<p>It is technically a superset of ES6 (which is a superset of ES5).</p>
+<p>The current release of TypeScript (TS4.5) incorporates ES2022 modules and is supported by Node.js 16.x.x.</p>
+<h2 id="modules-and-export">Modules and export</h2>
+<p><code>2022-02-01T15:30:00-05:00</code></p>
+<h3 id="useful-links-1">Useful links</h3>
 <h4 id="modules-export-and-import">Modules, export, and import</h4>
 <p><a href="https://javascript.info/import-export" target="_blank">Export and Import</a> - JavaScript.info</p>
 <p><a href="https://nodejs.org/api/modules.html#the-module-object" target="_blank">The module object</a> - Node.js</p>
 <p><a href="https://www.geeksforgeeks.org/node-js-export-module/" target="_blank">Node.js export module</a> - GeeksforGeeks</p>
 <p><a href="https://www.freecodecamp.org/news/node-module-exports-explained-with-javascript-export-function-examples/" target="_blank">Node Module Exports Explained – With JavaScript Export Function Examples</a> - Stanley Nguyen</p>
-<h4 id="w3-schools">w3 schools</h4>
-<p><a href="https://www.w3schools.com/js/js_functions.asp" target="_blank">JavaScript Functions</a></p>
-<p><a href="https://www.w3schools.com/js/js_arrow_function.asp" target="_blank">Javascript Arrow Function</a></p>
-<p><a href="https://www.w3schools.com/js/js_function_definition.asp" target="_blank">JavaScript Function Definitions</a></p>
-<h3 id="notes">Notes</h3>
 
   </article>
 </div>
@@ -1839,17 +1862,27 @@
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#functions-and-modules">Functions and Modules</a>
+    <li><a href="#functions-and-evolution">Functions and Evolution</a>
       <ul>
         <li><a href="#slides">Slides</a></li>
         <li><a href="#useful-links">Useful links</a>
           <ul>
+            <li><a href="#evolution">Evolution</a></li>
             <li><a href="#functions">Functions</a></li>
-            <li><a href="#modules-export-and-import">Modules, export, and import</a></li>
-            <li><a href="#w3-schools">w3 schools</a></li>
+            <li><a href="#es6-arrow-functions">ES6 arrow functions</a></li>
+            <li><a href="#typescript-functions">TypeScript functions</a></li>
           </ul>
         </li>
         <li><a href="#notes">Notes</a></li>
+      </ul>
+    </li>
+    <li><a href="#modules-and-export">Modules and export</a>
+      <ul>
+        <li><a href="#useful-links-1">Useful links</a>
+          <ul>
+            <li><a href="#modules-export-and-import">Modules, export, and import</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>

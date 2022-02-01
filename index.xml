@@ -134,14 +134,19 @@ How do functions work in JavaScript?</description>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://comp426.johndmart.in/w/03/</guid>
-        <description>Functions and Modules 2022-01-27T15:30:00-05:00
- What do we do with a function in JS? Exporting functions Module export  Slides Useful links Arrow functions for beginners - Brandon Morelli
+        <description>Functions and Evolution 2022-01-27T15:30:00-05:00
+ Old-school JS and modern JS History and evolution Functions three ways  Slides https://comp426-2022-spring.github.io/slides/w03-00.html
+Useful links Evolution JavaScript History - w3schools
+Difference between ES5 and ES6 - GeeksforGeeks
+Difference between ES6 and TypeScript
+Difference between JavaScript and TypeScript
 Functions Functions - MDN Web Docs
-Modules, export, and import Export and Import - JavaScript.info
-The module object - Node.js
-Node.js export module - GeeksforGeeks
-Node Module Exports Explained – With JavaScript Export Function Examples - Stanley Nguyen
-w3 schools JavaScript Functions</description>
+JavaScript Functions
+Javascript Intro to Functions - Learn.co
+JavaScript Functions - JavaScript Tutorial
+Functions - learn-js.org
+JavaScript Function Definitions
+ES6 arrow functions Javascript Arrow Function</description>
       </item>
       
       <item>
