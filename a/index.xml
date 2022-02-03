@@ -38,6 +38,19 @@ NOTE: As of the release of this assignment on 2022-01-20, the autograder is not 
 Build your own web server from scratch!</description>
       </item>
       
+      <item>
+        <title>a02 Functions and modules</title>
+        <link>https://comp426.johndmart.in/a/02/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/02/</guid>
+        <description>DUE: 2022-02-11T00:00:00-5:00
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/4U2bhooL
+Issues: https://github.com/comp426-2022-spring/a01/issues
+NOTE: As of 2022-02-03, the autograder for this assignment is not fullly configured. It will tell you this when you push. Give the staff a couple of days to finish configuring it. You don&amp;rsquo;t have to do anything other than push to your assignment repo. When the grader is ready, it will update and spit out feedback.
+Write some functions and make a module in Node.</description>
+      </item>
+      
     
   </channel>
 </rss>

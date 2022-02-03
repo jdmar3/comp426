@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will discuss and demo writing functions to simplify repeated or recurring rasks. We will also discuss creating modules to contain multiple functions and operate as packages that we can port from project to project." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-02-01T14:58:58-0500">
+<meta name="modified" content="2022-02-03T12:40:09-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w03 Functions and Modules",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-02-01T14:58:58-05:00",
+    "dateModified": "2022-02-03T12:40:09-05:00",
     "url" : "https://comp426.johndmart.in/w/03/",
     "description": "This week we will discuss and demo writing functions to simplify repeated or recurring rasks. We will also discuss creating modules to contain multiple functions and operate as packages that we can port from project to project.",
     "mainEntityOfPage": {
@@ -1621,9 +1621,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/6a8ef583cdac0680d5dceaecf245fd27100f095e" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/1ea5d6a21d4807316c4bddd88aeedb1abb0ffe8a" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-02-01 14:58:58 -0500 -0500
+        This page updated: 2022-02-03 12:40:09 -0500 -0500
       </button>
     </a>
 
@@ -1811,17 +1811,35 @@
 <p><a href="https://www.w3schools.com/js/js_arrow_function.asp" target="_blank">Javascript Arrow Function</a></p>
 <p><a href="https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc" target="_blank">Arrow functions for beginners</a> - Brandon Morelli</p>
 <p><a href="https://levelup.gitconnected.com/arrow-function-vs-regular-function-in-javascript-b6337fb87032" target="_blank">Arrow functions vs regular functions in JavaScript</a> - Madhavan Nagarajan</p>
-<p>[When (and why) you should use ES6 arrow functions — and when you shouldn&rsquo;t] - Cynthia Lee</p>
+<p><a href="https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/" target="_blank">When (and why) you should use ES6 arrow functions — and when you shouldn&rsquo;t</a> - Cynthia Lee</p>
 <h4 id="typescript-functions">TypeScript functions</h4>
 <p><a href="https://www.typescriptlang.org/docs/handbook/intro.html" target="_blank">The TypeScript Handbook</a></p>
 <p><a href="https://www.geeksforgeeks.org/introduction-to-typescript/?ref=gcse" target="_blank">Introduction to TypeScript</a> - GeeksforGeeks</p>
 <p><a href="https://www.typescriptlang.org/docs/handbook/2/functions.html" target="_blank">More on Functions</a> - TypeScript</p>
 <h3 id="notes">Notes</h3>
+<h4 id="history">History</h4>
 <p>JavaScript was invented in 1995 by Brendan Eich.</p>
 <p>In 1996, it was developed into a standard scripting langage by ECMA&rsquo;s (then the European Computer Manufacturers Association) Technical Committe (TC39) and released as ECMAScript 1 (ES1) in 1997.</p>
 <p>TypeScript was developed and released by MicroSoft in 2012 to deal with some of the deficits of JS as a programming language.</p>
 <p>It is technically a superset of ES6 (which is a superset of ES5).</p>
 <p>The current release of TypeScript (TS4.5) incorporates ES2022 modules and is supported by Node.js 16.x.x.</p>
+<h4 id="semicolons">Semicolons</h4>
+<p>It turns out that the seemingly arbitrary and undisciplined way I use semicolons is&hellip; fine I guess?</p>
+<p>I have always just used them intuitively based on what I thought was happening and I realize now that my usage was a vestige of writing bash scripts, where they have somewhat more explicit use as a command terminator.
+So when I would write one-liners, this was the mechanism that I used to put the lines together into one.</p>
+<p>Apparently some people get <em>mad</em> about semicolons in JS.</p>
+<p>This is a good discussion of what semicolons are doing in JS and where the parser inserts them automatically and why: <a href="https://www.freecodecamp.org/news/lets-talk-about-semicolons-in-javascript-f1fe08ab4e53/">https://www.freecodecamp.org/news/lets-talk-about-semicolons-in-javascript-f1fe08ab4e53/</a></p>
+<p>So, my advice is to use them if you feel like it and if you ever encounter someone who gets super upset about them, then avoid that person.</p>
+<h4 id="this">This</h4>
+<p>Regular functions bind their own scope whereas arrow functions inherit from the parent scope.</p>
+<p>What does this mean?</p>
+<p>It means that arrow functions are limited in terms of what they can and can&rsquo;t do:</p>
+<ul>
+<li>No binding to <code>this</code></li>
+<li>Can&rsquo;t use as methods or constructors</li>
+<li>No good for anything that rely on a scope</li>
+</ul>
+<p>But they can be used with closures.</p>
 <h2 id="modules-and-export">Modules and export</h2>
 <p><code>2022-02-01T15:30:00-05:00</code></p>
 <h3 id="useful-links-1">Useful links</h3>
@@ -1873,7 +1891,13 @@
             <li><a href="#typescript-functions">TypeScript functions</a></li>
           </ul>
         </li>
-        <li><a href="#notes">Notes</a></li>
+        <li><a href="#notes">Notes</a>
+          <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#semicolons">Semicolons</a></li>
+            <li><a href="#this">This</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li><a href="#modules-and-export">Modules and export</a>
