@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will discuss and demo writing functions to simplify repeated or recurring rasks. We will also discuss creating modules to contain multiple functions and operate as packages that we can port from project to project." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-02-03T12:40:09-0500">
+<meta name="modified" content="2022-02-03T15:03:06-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w03 Functions and Modules",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-02-03T12:40:09-05:00",
+    "dateModified": "2022-02-03T15:03:06-05:00",
     "url" : "https://comp426.johndmart.in/w/03/",
     "description": "This week we will discuss and demo writing functions to simplify repeated or recurring rasks. We will also discuss creating modules to contain multiple functions and operate as packages that we can port from project to project.",
     "mainEntityOfPage": {
@@ -1621,9 +1621,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/1ea5d6a21d4807316c4bddd88aeedb1abb0ffe8a" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/f40e1fc2fdea001e063b2021665aba99b6fcf7e7" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-02-03 12:40:09 -0500 -0500
+        This page updated: 2022-02-03 15:03:06 -0500 -0500
       </button>
     </a>
 
@@ -1837,17 +1837,24 @@ So when I would write one-liners, this was the mechanism that I used to put the 
 <ul>
 <li>No binding to <code>this</code></li>
 <li>Can&rsquo;t use as methods or constructors</li>
+<li>No good for <code>bind()</code>, <code>call()</code>, and <code>apply()</code></li>
 <li>No good for anything that rely on a scope</li>
 </ul>
-<p>But they can be used with closures.</p>
+<p>But they can be used with closures and are nice for when we are creating API endpoints, which we will do next week.</p>
 <h2 id="modules-and-export">Modules and export</h2>
 <p><code>2022-02-01T15:30:00-05:00</code></p>
+<h3 id="slides-1">Slides</h3>
+<p><a href="https://comp426-2022-spring.github.io/slides/w03-01.html">https://comp426-2022-spring.github.io/slides/w03-01.html</a></p>
 <h3 id="useful-links-1">Useful links</h3>
 <h4 id="modules-export-and-import">Modules, export, and import</h4>
 <p><a href="https://javascript.info/import-export" target="_blank">Export and Import</a> - JavaScript.info</p>
 <p><a href="https://nodejs.org/api/modules.html#the-module-object" target="_blank">The module object</a> - Node.js</p>
 <p><a href="https://www.geeksforgeeks.org/node-js-export-module/" target="_blank">Node.js export module</a> - GeeksforGeeks</p>
 <p><a href="https://www.freecodecamp.org/news/node-module-exports-explained-with-javascript-export-function-examples/" target="_blank">Node Module Exports Explained – With JavaScript Export Function Examples</a> - Stanley Nguyen</p>
+<h4 id="mdn-links">MDN links</h4>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules" target="_blank">JavaScript Modules</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export" target="_blank">Export</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import" target="_blank">Import</a></p>
 
   </article>
 </div>
@@ -1902,9 +1909,11 @@ So when I would write one-liners, this was the mechanism that I used to put the 
     </li>
     <li><a href="#modules-and-export">Modules and export</a>
       <ul>
+        <li><a href="#slides-1">Slides</a></li>
         <li><a href="#useful-links-1">Useful links</a>
           <ul>
             <li><a href="#modules-export-and-import">Modules, export, and import</a></li>
+            <li><a href="#mdn-links">MDN links</a></li>
           </ul>
         </li>
       </ul>
