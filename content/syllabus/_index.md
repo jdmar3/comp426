@@ -36,6 +36,7 @@ We will work on ways to address that.
 | **Zoom live sessions** | (password in [SECRETS](https://github.com/comp426-2022-spring/secrets/) repo on [GH Org](https://github.com/comp426-2022-spring)) https://unc.zoom.us/j/96341299758 |
 | **Archived live sessions** | [UNC Panopto](https://uncch.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b3744f3a-fa37-4574-88bf-ae16016474af%22) |
 | **GitHub organization**  | https://github.com/comp426-2022-spring |
+| **Office hours** | https://github.com/comp426-2022-spring/general-info/blob/main/README.md#office-hours |
 | **Grades** | [UNC Sakai](https://sakai.unc.edu/portal/site/comp426.001.sp22) |
 
 ### See links below for detailed syllabus info
