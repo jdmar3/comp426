@@ -84,6 +84,23 @@ Useful links Collaborating with your team - GitHub Docs
 GitHub projects Using project boards for task management - lecoursen (GitHub support community)</description>
       </item>
       
+      <item>
+        <title>w05 Time to make the APIs</title>
+        <link>https://comp426.johndmart.in/w/05/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/05/</guid>
+        <description>APIs 2022-01-27T15:30:00-05:00
+Agenda  API anatomy Walkthrough: create your own API in Express (aka a03)  Useful links Node HTTP interfaces documentation
+Express API reference
+Express getting started: Hello world example
+Express guide: Routing
+Building a REST API with Node and Express - David Landup
+Google. It.
+There is A LOT of information out there about using Express to build an API. Don&amp;rsquo;t be afraid of it. Use it.
+Notes </description>
+      </item>
+      
     
   </channel>
 </rss>

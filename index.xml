@@ -121,6 +121,19 @@ Please see the Pearl Hacks site for more information about the program: https://
       </item>
       
       <item>
+        <title>a03 Make an API</title>
+        <link>https://comp426.johndmart.in/a/03/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/03/</guid>
+        <description>DUE: 2022-02-25T00:00:00-5:00
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/cyXk13b7
+Issues: https://github.com/comp426-2022-spring/a03/issues
+Creating a API In this assignment, you are going to convert the functions that you wrote for a02 to emulate a simple random coin flip and then do things with the resulting information. The focus of the assignment is not necessarily on creating basic API endpoints in Node using Express.js.
+The instructions for this are very sparse because I want you to be creative in how you approach this.</description>
+      </item>
+      
+      <item>
         <title>Course structure</title>
         <link>https://comp426.johndmart.in/syllabus/structure/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -193,6 +206,23 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
         <guid>https://comp426.johndmart.in/syllabus/grading/</guid>
         <description>Grade breakdown Grading will be based on 1,000,000 points. The breakdown is as follows.
    Component Description Quantity Points Subtotal     Assignments Individual programming assignments 10 50,000 500,000   Final project Team-based app development 1 300,000 300,000   Assessments Questionnaires 3 50,000 150,000   Engagement GitHub commits 100 500 50,000   Total    1,000,000    Components Assignments Each of the individual programmin assignments will be worth 50,000 points and will be automatically evaluated.</description>
+      </item>
+      
+      <item>
+        <title>w05 Time to make the APIs</title>
+        <link>https://comp426.johndmart.in/w/05/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/05/</guid>
+        <description>APIs 2022-01-27T15:30:00-05:00
+Agenda  API anatomy Walkthrough: create your own API in Express (aka a03)  Useful links Node HTTP interfaces documentation
+Express API reference
+Express getting started: Hello world example
+Express guide: Routing
+Building a REST API with Node and Express - David Landup
+Google. It.
+There is A LOT of information out there about using Express to build an API. Don&amp;rsquo;t be afraid of it. Use it.
+Notes </description>
       </item>
       
       <item>

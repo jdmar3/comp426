@@ -51,6 +51,19 @@ NOTE: As of 2022-02-03, the autograder for this assignment is not fullly configu
 Write some functions and make a module in Node.</description>
       </item>
       
+      <item>
+        <title>a03 Make an API</title>
+        <link>https://comp426.johndmart.in/a/03/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/03/</guid>
+        <description>DUE: 2022-02-25T00:00:00-5:00
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/cyXk13b7
+Issues: https://github.com/comp426-2022-spring/a03/issues
+Creating a API In this assignment, you are going to convert the functions that you wrote for a02 to emulate a simple random coin flip and then do things with the resulting information. The focus of the assignment is not necessarily on creating basic API endpoints in Node using Express.js.
+The instructions for this are very sparse because I want you to be creative in how you approach this.</description>
+      </item>
+      
     
   </channel>
 </rss>
