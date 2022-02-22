@@ -189,24 +189,6 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
       </item>
       
       <item>
-        <title>w06 More fun with APIs</title>
-        <link>https://comp426.johndmart.in/w/06/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/w/06/</guid>
-        <description>Request body and middleware 2022-02-22T15:30:00-05:00
-Agenda  Questions about a99 Review endpoints Middleware Request body  Slides https://comp426-2022-spring.github.io/slides/w06-00.html
-Useful links req variables Request (req object)
-Middleware Using middleware
-Writing middleware for use in Express apps
-What is middleware in Express.js?
-How to save logs to files instead of showing it to the console in Node.js
-Curl Run Curl Commands Online
-How do I post JSON request body with Curl?
-Nodemon Nodemon is like browsersync but for your Node apps.</description>
-      </item>
-      
-      <item>
         <title>Deliverables and assessments</title>
         <link>https://comp426.johndmart.in/syllabus/assignments/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -249,6 +231,24 @@ There is A LOT of information out there about using Express to build an API. Don
         
         <guid>https://comp426.johndmart.in/syllabus/honor/</guid>
         <description>The University of North Carolina at Chapel Hill has had a student-led honor system for over 100 years. Academic integrity is at the heart of Carolina and we all are responsible for upholding the ideals of honor and integrity. The student-led Honor System is responsible for adjudicating any suspected violations of the Honor Code and all suspected instances of academic dishonesty will be reported to the Honor System. Information, including your responsibilities as a student, is outlined in the Instrument of Student Judicial Governance.</description>
+      </item>
+      
+      <item>
+        <title>w06 More fun with APIs</title>
+        <link>https://comp426.johndmart.in/w/06/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/06/</guid>
+        <description>Request body and middleware 2022-02-22T15:30:00-05:00
+Agenda  Questions about a99 Review endpoints Middleware Request body  Slides https://comp426-2022-spring.github.io/slides/w06-00.html
+Useful links req variables Request (req object)
+Middleware Using middleware
+Writing middleware for use in Express apps
+What is middleware in Express.js?
+How to save logs to files instead of showing it to the console in Node.js
+Curl Run Curl Commands Online
+How do I post JSON request body with Curl?
+Nodemon Nodemon is like browsersync but for your Node apps.</description>
       </item>
       
       <item>

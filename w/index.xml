@@ -85,6 +85,22 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
       </item>
       
       <item>
+        <title>w05 Time to make the APIs</title>
+        <link>https://comp426.johndmart.in/w/05/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/05/</guid>
+        <description>Getting started with Express 2022-02-15T15:30:00-05:00
+Agenda  API anatomy Walkthrough: create your own API in Express (aka a03)  Useful links Node HTTP interfaces documentation
+Express API reference
+Express getting started: Hello world example
+Express guide: Routing
+Building a REST API with Node and Express - David Landup
+Google. It.
+There is A LOT of information out there about using Express to build an API. Don&amp;rsquo;t be afraid of it. Use it.</description>
+      </item>
+      
+      <item>
         <title>w06 More fun with APIs</title>
         <link>https://comp426.johndmart.in/w/06/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -100,22 +116,6 @@ How to save logs to files instead of showing it to the console in Node.js
 Curl Run Curl Commands Online
 How do I post JSON request body with Curl?
 Nodemon Nodemon is like browsersync but for your Node apps.</description>
-      </item>
-      
-      <item>
-        <title>w05 Time to make the APIs</title>
-        <link>https://comp426.johndmart.in/w/05/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/w/05/</guid>
-        <description>Getting started with Express 2022-02-15T15:30:00-05:00
-Agenda  API anatomy Walkthrough: create your own API in Express (aka a03)  Useful links Node HTTP interfaces documentation
-Express API reference
-Express getting started: Hello world example
-Express guide: Routing
-Building a REST API with Node and Express - David Landup
-Google. It.
-There is A LOT of information out there about using Express to build an API. Don&amp;rsquo;t be afraid of it. Use it.</description>
       </item>
       
     
