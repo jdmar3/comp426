@@ -85,6 +85,24 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
       </item>
       
       <item>
+        <title>w06 More fun with APIs</title>
+        <link>https://comp426.johndmart.in/w/06/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/06/</guid>
+        <description>Request body and middleware 2022-02-22T15:30:00-05:00
+Agenda  Questions about a99 Review endpoints Middleware Request body  Slides https://comp426-2022-spring.github.io/slides/w06-00.html
+Useful links req variables Request (req object)
+Middleware Using middleware
+Writing middleware for use in Express apps
+What is middleware in Express.js?
+How to save logs to files instead of showing it to the console in Node.js
+Curl Run Curl Commands Online
+How do I post JSON request body with Curl?
+Nodemon Nodemon is like browsersync but for your Node apps.</description>
+      </item>
+      
+      <item>
         <title>w05 Time to make the APIs</title>
         <link>https://comp426.johndmart.in/w/05/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
