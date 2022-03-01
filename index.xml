@@ -189,6 +189,21 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
       </item>
       
       <item>
+        <title>w07 Errors and storing data</title>
+        <link>https://comp426.johndmart.in/w/07/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/07/</guid>
+        <description>What to do with errors 2022-03-01T15:30:00-05:00
+Agenda  Logging wrap-up Thinking about sources of error Errors in Express Writing error and other logs to file  Slides Useful links Generating logs Express.js and Morgan Logging
+How to use morgan in your Express project - Cooper Makhijani
+Morgan NPM Logger - The Beginner&amp;rsquo;s Guide - Fernando Doglio
+Morgan NPM Logger (source code)
+Morgan (npm package)
+A guide to Node.js logging - Dominik Kundel</description>
+      </item>
+      
+      <item>
         <title>Deliverables and assessments</title>
         <link>https://comp426.johndmart.in/syllabus/assignments/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
