@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will finish looking at logging and error handling and begin considering how to store data and where." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-03-03T18:08:16-0500">
+<meta name="modified" content="2022-03-03T18:11:31-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w07 Errors and storing data",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-03-03T18:08:16-05:00",
+    "dateModified": "2022-03-03T18:11:31-05:00",
     "url" : "https://comp426.johndmart.in/w/07/",
     "description": "This week we will finish looking at logging and error handling and begin considering how to store data and where.",
     "mainEntityOfPage": {
@@ -1713,9 +1713,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/8d832e4291a94ac05b9bcfd54c2f24a3f0dc896d" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/81dd9732c083c0190da32fee4a66277b38c1d0af" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-03-03 18:08:16 -0500 -0500
+        This page updated: 2022-03-03 18:11:31 -0500 -0500
       </button>
     </a>
 
@@ -2028,7 +2028,14 @@
 <span class="p">...</span>
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="databases">Databases</h2>
+</div><p>The above code will produse a file <code>access.log</code> that looks like this:</p>
+<pre><code class="language-access.log" data-lang="access.log">::1 - - [02/Mar/2022:01:45:47 +0000] &quot;GET /app/flips/60 HTTP/1.1&quot; 200 523 &quot;-&quot; &quot;curl/7.74.0&quot;
+::1 - - [02/Mar/2022:01:46:08 +0000] &quot;GET /app/flip/call/heads HTTP/1.1&quot; 200 47 &quot;-&quot; &quot;curl/7.74.0&quot;
+::1 - - [02/Mar/2022:01:46:14 +0000] &quot;GET /app/flips/700 HTTP/1.1&quot; 200 5645 &quot;-&quot; &quot;curl/7.74.0&quot;
+::1 - - [02/Mar/2022:01:46:23 +0000] &quot;GET /app/flips/9000 HTTP/1.1&quot; 200 72047 &quot;-&quot; &quot;curl/7.74.0&quot;
+::1 - - [02/Mar/2022:01:46:32 +0000] &quot;GET /app/flips/90000 HTTP/1.1&quot; 200 720049 &quot;-&quot; &quot;curl/7.74.0&quot;
+::1 - - [03/Mar/2022:22:57:18 +0000] &quot;GET /app/flip/ HTTP/1.1&quot; 200 16 &quot;-&quot; &quot;curl/7.74.0&quot;
+</code></pre><h2 id="databases">Databases</h2>
 <h3 id="agenda-1">Agenda</h3>
 <ol>
 <li>Types of database</li>
