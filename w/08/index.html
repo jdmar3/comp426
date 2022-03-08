@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will continue working with SQLite3 databases as both a source and target for data through endpoint definitions using Express." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-03-08T15:07:16-0500">
+<meta name="modified" content="2022-03-08T17:39:53-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w08 Data from endpoints to database",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-03-08T15:07:16-05:00",
+    "dateModified": "2022-03-08T17:39:53-05:00",
     "url" : "https://comp426.johndmart.in/w/08/",
     "description": "This week we will continue working with SQLite3 databases as both a source and target for data through endpoint definitions using Express.",
     "mainEntityOfPage": {
@@ -1736,9 +1736,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/1f89678b80c7a2ed8bf119f37d3a918b9163631e" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/c745abd36b572b537536731e96df03d6ea0608c6" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-03-08 15:07:16 -0500 -0500
+        This page updated: 2022-03-08 17:39:53 -0500 -0500
       </button>
     </a>
 
@@ -2025,7 +2025,261 @@
 <li>Delete data through endpoint</li>
 </ol>
 <h3 id="useful-links">Useful links</h3>
+<h4 id="general-database-integration">General database integration</h4>
+<p><a href="https://expressjs.com/en/guide/database-integration.html" target="_blank">Express Database Integration Guide</a></p>
+<p><a href="https://www.geeksforgeeks.org/database-integration-in-express-js/" target="_blank">Database integration in Express</a></p>
+<h4 id="sqlite3">SQLite3</h4>
+<p><a href="https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/api.md" target="_blank">better-sqlite3 API documentation</a></p>
+<p><a href="https://www.npmjs.com/package/better-sqlite3" target="_blank">better-sqlite3</a> - NPM</p>
+<p><a href="https://www.sqlite.org/datatype3.html" target="_blank">SQLite3 data types</a></p>
+<h3 id="notes">Notes</h3>
+<p>Below is the database service script that I used in class today:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-database.js" data-lang="database.js"><span class="c1">// This ensures that things do not fail silently but will throw errors instead.
+</span><span class="c1"></span><span class="s2">&#34;use strict&#34;</span><span class="p">;</span>
+<span class="c1">// Require better-sqlite.
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">Database</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;better-sqlite3&#39;</span><span class="p">);</span>
 
+<span class="c1">// Connect to a database or create one if it doesn&#39;t exist yet.
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">db</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Database</span><span class="p">(</span><span class="s1">&#39;user.db&#39;</span><span class="p">);</span>
+
+<span class="c1">// Is the database initialized or do we need to initialize it?
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">stmt</span> <span class="o">=</span> <span class="nx">db</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="sb">`
+</span><span class="sb">    SELECT name FROM sqlite_master WHERE type=&#39;table&#39; and name=&#39;userinfo&#39;;`</span>
+    <span class="p">);</span>
+<span class="c1">// Define row using `get()` from better-sqlite3
+</span><span class="c1"></span><span class="kd">let</span> <span class="nx">row</span> <span class="o">=</span> <span class="nx">stmt</span><span class="p">.</span><span class="nx">get</span><span class="p">();</span>
+<span class="c1">// Check if there is a table. If row is undefined then no table exists.
+</span><span class="c1"></span><span class="k">if</span> <span class="p">(</span><span class="nx">row</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">)</span> <span class="p">{</span>
+<span class="c1">// Echo information about what you are doing to the console.
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Your database appears to be empty. I will initialize it now.&#39;</span><span class="p">);</span>
+<span class="c1">// Set a const that will contain your SQL commands to initialize the database.
+</span><span class="c1"></span>    <span class="kr">const</span> <span class="nx">sqlInit</span> <span class="o">=</span> <span class="sb">`
+</span><span class="sb">        CREATE TABLE userinfo ( id INTEGER PRIMARY KEY, username TEXT, password TEXT );
+</span><span class="sb">        INSERT INTO userinfo (username, password) VALUES (&#39;user1&#39;,&#39;supersecurepassword&#39;),(&#39;test&#39;,&#39;anotherpassword&#39;);
+</span><span class="sb">    `</span><span class="p">;</span>
+<span class="c1">// Execute SQL commands that we just wrote above.
+</span><span class="c1"></span>    <span class="nx">db</span><span class="p">.</span><span class="nx">exec</span><span class="p">(</span><span class="nx">sqlInit</span><span class="p">);</span>
+<span class="c1">// Echo information about what we just did to the console.
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Your database has been initialized with a new table and two entries containing a username and password.&#39;</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+<span class="c1">// Since the database already exists, echo that to the console.
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Database exists.&#39;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">// Export all of the above as a module so that we can use it elsewhere.
+</span><span class="c1"></span><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">db</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>And the server script with the endpoint definitions we demoed in class is included below:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span><span class="lnt">82
+</span><span class="lnt">83
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-server.js" data-lang="server.js"><span class="c1">// Define app using express
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;express&#34;</span><span class="p">)</span>
+<span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">()</span>
+<span class="c1">// Require database SCRIPT file
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">db</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;./database.js&#34;</span><span class="p">)</span>
+<span class="c1">// Require md5 MODULE
+</span><span class="c1">//var md5 = require(&#34;md5&#34;)
+</span><span class="c1">// Make Express use its own built-in body parser for both urlencoded and JSON body data.
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="nx">urlencoded</span><span class="p">({</span> <span class="nx">extended</span><span class="o">:</span> <span class="kc">true</span> <span class="p">}));</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="nx">json</span><span class="p">());</span>
+
+<span class="c1">// Server port
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">HTTP_PORT</span> <span class="o">=</span> <span class="mi">5000</span> 
+<span class="c1">// Start server
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">server</span> <span class="o">=</span> <span class="nx">app</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="nx">HTTP_PORT</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Server running on port %PORT%&#34;</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s2">&#34;%PORT%&#34;</span><span class="p">,</span><span class="nx">HTTP_PORT</span><span class="p">))</span>
+<span class="p">});</span>
+<span class="c1">// READ (HTTP method GET) at root endpoint /app/
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&#34;/app/&#34;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">({</span><span class="s2">&#34;message&#34;</span><span class="o">:</span><span class="s2">&#34;Your API works! (200)&#34;</span><span class="p">});</span>
+	<span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="c1">// Define other CRUD API endpoints using express.js and better-sqlite3
+</span><span class="c1">// CREATE a new user (HTTP method POST) at endpoint /app/new/
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s2">&#34;/app/new/user&#34;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">data</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="nx">user</span><span class="o">:</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">username</span><span class="p">,</span>
+        <span class="nx">pass</span><span class="o">:</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">password</span>
+    <span class="p">}</span>
+    <span class="kr">const</span> <span class="nx">stmt</span> <span class="o">=</span> <span class="nx">db</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="s1">&#39;INSERT INTO userinfo (username, password) VALUES (?, ?)&#39;</span><span class="p">)</span>
+    <span class="kr">const</span> <span class="nx">info</span> <span class="o">=</span> <span class="nx">stmt</span><span class="p">.</span><span class="nx">run</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">user</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">pass</span><span class="p">)</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">).</span><span class="nx">json</span><span class="p">(</span><span class="nx">info</span><span class="p">)</span>
+<span class="p">});</span>
+<span class="c1">// READ a list of users (HTTP method GET) at endpoint /app/users/
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&#34;/app/users&#34;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>	
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="kr">const</span> <span class="nx">stmt</span> <span class="o">=</span> <span class="nx">db</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="s1">&#39;SELECT * FROM userinfo&#39;</span><span class="p">).</span><span class="nx">all</span><span class="p">()</span>
+        <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">).</span><span class="nx">json</span><span class="p">(</span><span class="nx">stmt</span><span class="p">)</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="c1">// READ a single user (HTTP method GET) at endpoint /app/user/:id
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&#34;/app/user/:id&#34;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="kr">const</span> <span class="nx">stmt</span> <span class="o">=</span> <span class="nx">db</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="s1">&#39;SELECT * FROM userinfo WHERE id = ?&#39;</span><span class="p">).</span><span class="nx">get</span><span class="p">(</span><span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+        <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">).</span><span class="nx">json</span><span class="p">(</span><span class="nx">stmt</span><span class="p">)</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span>
+    <span class="p">}</span>
+
+<span class="p">});</span>
+
+<span class="c1">// UPDATE a single user (HTTP method PATCH) at endpoint /app/update/user/:id
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">patch</span><span class="p">(</span><span class="s2">&#34;/app/update/user/:id&#34;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">data</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="nx">user</span><span class="o">:</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">username</span><span class="p">,</span>
+        <span class="nx">pass</span><span class="o">:</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">password</span>
+    <span class="p">}</span>
+    <span class="kr">const</span> <span class="nx">stmt</span> <span class="o">=</span> <span class="nx">db</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="s1">&#39;UPDATE userinfo SET username = COALESCE(?,username), password = COALESCE(?,password) WHERE id = ?&#39;</span><span class="p">)</span>
+    <span class="kr">const</span> <span class="nx">info</span> <span class="o">=</span> <span class="nx">stmt</span><span class="p">.</span><span class="nx">run</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">user</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">pass</span><span class="p">,</span> <span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">).</span><span class="nx">json</span><span class="p">(</span><span class="nx">info</span><span class="p">)</span>
+<span class="p">});</span>
+
+<span class="c1">// DELETE a single user (HTTP method DELETE) at endpoint /app/delete/user/:id
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="s2">&#34;/app/delete/user/:id&#34;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">stmt</span> <span class="o">=</span> <span class="nx">db</span><span class="p">.</span><span class="nx">prepare</span><span class="p">(</span><span class="s1">&#39;DELETE FROM userinfo WHERE id = ?&#39;</span><span class="p">)</span>
+    <span class="kr">const</span> <span class="nx">info</span> <span class="o">=</span> <span class="nx">stmt</span><span class="p">.</span><span class="nx">run</span><span class="p">(</span><span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">).</span><span class="nx">json</span><span class="p">(</span><span class="nx">info</span><span class="p">)</span>
+<span class="p">});</span>
+<span class="c1">// Default response for any other request
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">){</span>
+	<span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">({</span><span class="s2">&#34;message&#34;</span><span class="o">:</span><span class="s2">&#34;Endpoint not found. (404)&#34;</span><span class="p">});</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">404</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="nx">process</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;SIGTERM&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">server</span><span class="p">.</span><span class="nx">close</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server stopped&#39;</span><span class="p">)</span>
+    <span class="p">})</span>
+<span class="p">})</span>
+</code></pre></td></tr></table>
+</div>
+</div>
   </article>
 </div>
 
@@ -2059,7 +2313,13 @@
   <ul>
     <li><a href="#database-interaction-endpoints">Database interaction endpoints</a>
       <ul>
-        <li><a href="#useful-links">Useful links</a></li>
+        <li><a href="#useful-links">Useful links</a>
+          <ul>
+            <li><a href="#general-database-integration">General database integration</a></li>
+            <li><a href="#sqlite3">SQLite3</a></li>
+          </ul>
+        </li>
+        <li><a href="#notes">Notes</a></li>
       </ul>
     </li>
   </ul>

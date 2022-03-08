@@ -140,7 +140,13 @@ A guide to Node.js logging - Dominik Kundel</description>
         
         <guid>https://comp426.johndmart.in/w/08/</guid>
         <description>Database interaction endpoints 2022-03-08T15:30:00-05:00
- Create database for arbitrary data Create endpoint to send arbitrary data to DB Read data through endpoint Update data through endpoint Delete data through endpoint  Useful links </description>
+ Create database for arbitrary data Create endpoint to send arbitrary data to DB Read data through endpoint Update data through endpoint Delete data through endpoint  Useful links General database integration Express Database Integration Guide
+Database integration in Express
+SQLite3 better-sqlite3 API documentation
+better-sqlite3 - NPM
+SQLite3 data types
+Notes Below is the database service script that I used in class today:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33  // This ensures that things do not fail silently but will throw errors instead.</description>
       </item>
       
     
