@@ -149,6 +149,37 @@ Notes Below is the database service script that I used in class today:
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33  // This ensures that things do not fail silently but will throw errors instead.</description>
       </item>
       
+      <item>
+        <title>Spring Break</title>
+        <link>https://comp426.johndmart.in/w/09/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/09/</guid>
+        <description>No class No class on 2022-03-15T15:30:00-05:00 or 2022-03-17T15:30:00-05:00.
+There will be no office hours held the week of spring break.
+Take some time for yourself, rest, and don&amp;rsquo;t do anything for this class.</description>
+      </item>
+      
+      <item>
+        <title>JavaScript in the browser</title>
+        <link>https://comp426.johndmart.in/w/10/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/10/</guid>
+        <description>HTML, CSS, JS, and the DOM 2022-03-22T15:30:00-05:00
+Client-side scripting 2022-03-24T15:30:00-5:00</description>
+      </item>
+      
+      <item>
+        <title>Fetch and login</title>
+        <link>https://comp426.johndmart.in/w/11/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/11/</guid>
+        <description>Fetch 2022-03-29T15:30:00-05:00
+Login sessions 2022-03-31T15:30:00-05:00</description>
+      </item>
+      
     
   </channel>
 </rss>

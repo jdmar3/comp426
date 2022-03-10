@@ -145,6 +145,18 @@ Session recordings Sessions will all be recorded and archived in Panopto so that
       </item>
       
       <item>
+        <title>Databases, logs, errors, and middleware</title>
+        <link>https://comp426.johndmart.in/a/04/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/04/</guid>
+        <description>DUE: 2022-03-29T00:00:00-5:00
+GitHub Classroom Assignment Invite:
+Issues: https://github.com/comp426-2022-spring/a04/issues
+Logging transactions and handling errors This assignment for COMP 426 will help you to create and connect a database and to record access logs and test errors for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software.</description>
+      </item>
+      
+      <item>
         <title>mod03 JavaScript Functions</title>
         <link>https://comp426.johndmart.in/module/mod03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -317,6 +329,17 @@ Notes Below is the database service script that I used in class today:
       </item>
       
       <item>
+        <title>Spring Break</title>
+        <link>https://comp426.johndmart.in/w/09/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/09/</guid>
+        <description>No class No class on 2022-03-15T15:30:00-05:00 or 2022-03-17T15:30:00-05:00.
+There will be no office hours held the week of spring break.
+Take some time for yourself, rest, and don&amp;rsquo;t do anything for this class.</description>
+      </item>
+      
+      <item>
         <title>Title IX</title>
         <link>https://comp426.johndmart.in/syllabus/title9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -334,6 +357,26 @@ Please contact the Director of Title IX Compliance (Adrienne Allison – Adrienn
         <guid>https://comp426.johndmart.in/syllabus/disclaimer/</guid>
         <description>Ch-ch-ch-ch-changes The instructor reserves to right to make changes to the syllabus, including any project due dates, assessment dates, assignments, or other aspects of the schedule and structure.
 Things change. We live in uncertain times. We will adjust the course accordingly if it becomes necessary to do so.</description>
+      </item>
+      
+      <item>
+        <title>JavaScript in the browser</title>
+        <link>https://comp426.johndmart.in/w/10/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/10/</guid>
+        <description>HTML, CSS, JS, and the DOM 2022-03-22T15:30:00-05:00
+Client-side scripting 2022-03-24T15:30:00-5:00</description>
+      </item>
+      
+      <item>
+        <title>Fetch and login</title>
+        <link>https://comp426.johndmart.in/w/11/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/11/</guid>
+        <description>Fetch 2022-03-29T15:30:00-05:00
+Login sessions 2022-03-31T15:30:00-05:00</description>
       </item>
       
       <item>
