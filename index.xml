@@ -145,18 +145,6 @@ Session recordings Sessions will all be recorded and archived in Panopto so that
       </item>
       
       <item>
-        <title>Databases, logs, errors, and middleware</title>
-        <link>https://comp426.johndmart.in/a/04/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/a/04/</guid>
-        <description>DUE: 2022-03-29T00:00:00-5:00
-GitHub Classroom Assignment Invite:
-Issues: https://github.com/comp426-2022-spring/a04/issues
-Logging transactions and handling errors This assignment for COMP 426 will help you to create and connect a database and to record access logs and test errors for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software.</description>
-      </item>
-      
-      <item>
         <title>mod03 JavaScript Functions</title>
         <link>https://comp426.johndmart.in/module/mod03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -198,6 +186,18 @@ Today we are mostly going to spend class time orienting ourselves within a99 tea
 At the beginning of today&amp;rsquo;s session, I will go over the tools that I want you to use in GitHub to get yourselves into a collaborative workflow habit.
 Useful links Collaborating with your team - GitHub Docs
 GitHub projects Using project boards for task management - lecoursen (GitHub support community)</description>
+      </item>
+      
+      <item>
+        <title>a04 Databases, logs, errors, and middleware</title>
+        <link>https://comp426.johndmart.in/a/04/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/04/</guid>
+        <description>DUE: 2022-03-29T00:00:00-5:00
+GitHub Classroom Assignment Invite:
+Issues: https://github.com/comp426-2022-spring/a04/issues
+Logging transactions and handling errors This assignment for COMP 426 will help you to create and connect a database and to record access logs and test errors for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software.</description>
       </item>
       
       <item>
