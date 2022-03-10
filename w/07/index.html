@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>w07 Errors and storing data – Modern Web Programming</title>
+    <title>w07 Logging – Modern Web Programming</title>
     
 
 
@@ -1075,11 +1075,11 @@
     <meta name="description" content="This week we will finish looking at logging and error handling and begin considering how to store data and where." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-03-03T18:25:52-0500">
+<meta name="modified" content="2022-03-10T12:56:31-0500">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
-<meta property="og:title" content="w07 Errors and storing data">
+<meta property="og:title" content="w07 Logging">
 <meta property="og:url" content="https://comp426.johndmart.in/w/07/">
 <meta property="og:type" content="article">
 
@@ -1110,9 +1110,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "w07 Errors and storing data",
+    "headline": "w07 Logging",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-03-03T18:25:52-05:00",
+    "dateModified": "2022-03-10T12:56:31-05:00",
     "url" : "https://comp426.johndmart.in/w/07/",
     "description": "This week we will finish looking at logging and error handling and begin considering how to store data and where.",
     "mainEntityOfPage": {
@@ -1163,7 +1163,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      w07 Errors and storing data
+      w07 Logging
     
   </h6>
   <ul>
@@ -1348,7 +1348,7 @@
   
   <li class="active">
     <a href="https://comp426.johndmart.in/w/07/"
-      class="menu__title active">w07 Errors and storing data</a>
+      class="menu__title active">w07 Logging</a>
   </li>
   
 
@@ -1417,7 +1417,7 @@
   
   <li class="">
     <a href="https://comp426.johndmart.in/w/10/"
-      class="menu__title ">JavaScript in the browser</a>
+      class="menu__title ">w10 JavaScript in the browser</a>
   </li>
   
 
@@ -1440,7 +1440,7 @@
   
   <li class="">
     <a href="https://comp426.johndmart.in/w/11/"
-      class="menu__title ">Fetch and login</a>
+      class="menu__title ">w11 Fetch and login</a>
   </li>
   
 
@@ -1761,7 +1761,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">w07 Errors and storing data</h2>
+        <h2 class="title">w07 Logging</h2>
       </div>
     </div>
   </div>
@@ -1795,7 +1795,7 @@
   
   <li  class="is-active" >
     
-      <span>w07 Errors and storing data</span>
+      <span>w07 Logging</span>
     
   </li>
   
@@ -1805,9 +1805,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/74f563a1bb89e52ae61e37805d04d7e6068569ad" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/0d447f631e5e82c05f0c8fdacfa93332f8d29237" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-03-03 18:25:52 -0500 -0500
+        This page updated: 2022-03-10 12:56:31 -0500 -0500
       </button>
     </a>
 
@@ -1858,7 +1858,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      w07 Errors and storing data
+      w07 Logging
     
   </h6>
   <ul>
@@ -2043,7 +2043,7 @@
   
   <li class="active">
     <a href="https://comp426.johndmart.in/w/07/"
-      class="menu__title active">w07 Errors and storing data</a>
+      class="menu__title active">w07 Logging</a>
   </li>
   
 
@@ -2112,7 +2112,7 @@
   
   <li class="">
     <a href="https://comp426.johndmart.in/w/10/"
-      class="menu__title ">JavaScript in the browser</a>
+      class="menu__title ">w10 JavaScript in the browser</a>
   </li>
   
 
@@ -2135,7 +2135,7 @@
   
   <li class="">
     <a href="https://comp426.johndmart.in/w/11/"
-      class="menu__title ">Fetch and login</a>
+      class="menu__title ">w11 Fetch and login</a>
   </li>
   
 
@@ -2153,7 +2153,7 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <h2 id="what-to-do-with-errors">What to do with errors</h2>
+    <h2 id="logging-to-file">Logging to file</h2>
 <p><code>2022-03-01T15:30:00-05:00</code></p>
 <h3 id="agenda">Agenda</h3>
 <ol>
@@ -2162,7 +2162,6 @@
 <li>Errors in Express</li>
 <li>Writing error and other logs to file</li>
 </ol>
-<h3 id="slides">Slides</h3>
 <h3 id="useful-links">Useful links</h3>
 <h4 id="generating-logs">Generating logs</h4>
 <p><a href="https://www.loggly.com/use-cases/express-js-and-morgan-logging/" target="_blank">Express.js and Morgan Logging</a></p>
@@ -2422,10 +2421,9 @@ And that <code>const</code> has several hyphens (<code>&quot;-&quot;</code>) in 
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#what-to-do-with-errors">What to do with errors</a>
+    <li><a href="#logging-to-file">Logging to file</a>
       <ul>
         <li><a href="#agenda">Agenda</a></li>
-        <li><a href="#slides">Slides</a></li>
         <li><a href="#useful-links">Useful links</a>
           <ul>
             <li><a href="#generating-logs">Generating logs</a></li>

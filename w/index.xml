@@ -119,18 +119,19 @@ Nodemon Nodemon is like browsersync but for your Node apps.</description>
       </item>
       
       <item>
-        <title>w07 Errors and storing data</title>
+        <title>w07 Logging</title>
         <link>https://comp426.johndmart.in/w/07/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://comp426.johndmart.in/w/07/</guid>
-        <description>What to do with errors 2022-03-01T15:30:00-05:00
-Agenda  Logging wrap-up Thinking about sources of error Errors in Express Writing error and other logs to file  Slides Useful links Generating logs Express.js and Morgan Logging
+        <description>Logging to file 2022-03-01T15:30:00-05:00
+Agenda  Logging wrap-up Thinking about sources of error Errors in Express Writing error and other logs to file  Useful links Generating logs Express.js and Morgan Logging
 How to use morgan in your Express project - Cooper Makhijani
 Morgan NPM Logger - The Beginner&amp;rsquo;s Guide - Fernando Doglio
 Morgan NPM Logger (source code)
 Morgan (npm package)
-A guide to Node.js logging - Dominik Kundel</description>
+A guide to Node.js logging - Dominik Kundel
+Node.js logging made easy: A tutorial on just about everything you need to know - Adnan Rahić</description>
       </item>
       
       <item>
@@ -161,7 +162,7 @@ Take some time for yourself, rest, and don&amp;rsquo;t do anything for this clas
       </item>
       
       <item>
-        <title>JavaScript in the browser</title>
+        <title>w10 JavaScript in the browser</title>
         <link>https://comp426.johndmart.in/w/10/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -171,7 +172,7 @@ Client-side scripting 2022-03-24T15:30:00-5:00</description>
       </item>
       
       <item>
-        <title>Fetch and login</title>
+        <title>w11 Fetch and login</title>
         <link>https://comp426.johndmart.in/w/11/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
