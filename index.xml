@@ -195,7 +195,7 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
         
         <guid>https://comp426.johndmart.in/a/04/</guid>
         <description>DUE: 2022-03-29T00:00:00-5:00
-GitHub Classroom Assignment Invite:
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/GQsrzvZT
 Issues: https://github.com/comp426-2022-spring/a04/issues
 Logging transactions and handling errors This assignment for COMP 426 will help you to create and connect a database and to record access logs and test errors for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software.</description>
       </item>
