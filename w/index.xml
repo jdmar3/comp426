@@ -162,17 +162,21 @@ Take some time for yourself, rest, and don&amp;rsquo;t do anything for this clas
       </item>
       
       <item>
-        <title>w10 JavaScript in the browser</title>
+        <title>w10 Human interfaces</title>
         <link>https://comp426.johndmart.in/w/10/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://comp426.johndmart.in/w/10/</guid>
-        <description>HTML, CSS, JS, and the DOM 2022-03-22T15:30:00-05:00
-Client-side scripting 2022-03-24T15:30:00-5:00</description>
+        <description>Making interface design decisions 2022-03-22T15:30:00-05:00
+Agenda  What is a human interface? Accessibility and Usability Components and features of an interface  Interactions Use flows / pathways Skeuomorphs Information architecture   How do we decide what goes into the interface? Specifying design parameters  Slides https://comp426-2022-spring.github.io/slides/w10-00.html
+Useful links User Interface Elements Every Designer Should Know - UXPin
+User Interface Design - IxDF
+Skeuomorphism - IxDF
+usability.gov User Interface Elements</description>
       </item>
       
       <item>
-        <title>w11 Fetch and login</title>
+        <title>w11 Client-side scripting</title>
         <link>https://comp426.johndmart.in/w/11/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
