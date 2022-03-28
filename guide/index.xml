@@ -176,6 +176,18 @@ Each video guide links out to other helpful information as well.
 WSL in VSCode The Windows Subsystem for Linux allows you to set up a Linux development environment without installing a virtual machine or manually setting up a separate container.</description>
       </item>
       
+      <item>
+        <title>Web API</title>
+        <link>https://comp426.johndmart.in/guide/api/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/api/</guid>
+        <description>Web Application Programming Interfaces (APIs) are the core of everything else we do. They provide an interface between one piece of software and another.
+A web API exposes the underlying functions of a given program so that they can be used through web protocols. It also restricts access to a program by defining endpoints that only allow certain information to pass through.
+What is API design? - RedHat
+RESTful API design - MicroSoft</description>
+      </item>
+      
     
   </channel>
 </rss>
