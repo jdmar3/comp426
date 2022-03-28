@@ -1,4 +1,4 @@
-name: Build Test and Publish
+name: Build and Publish
 
 on:
   push:
@@ -12,10 +12,19 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          cname: comp426.johndmart.in
+          hugoVersion: extended_0.80.0
+          args: --gc --cleanDestinationDir --enableGitInfo
 
 #      - uses: actions/cache@v2
 #        with:
@@ -40,10 +49,3 @@ jobs:
 #          github_token: ${{ secrets.GITHUB_TOKEN }}
 #          publish_dir: ./public
 #
-      - name: Publish Site
-        uses: chabad360/hugo-gh-pages@master
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          cname: comp426.johndmart.in
-          hugoVersion: extended_0.80.0
-          args: --gc --cleanDestinationDir --enableGitInfo
