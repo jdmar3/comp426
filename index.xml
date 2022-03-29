@@ -381,11 +381,14 @@ usability.gov User Interface Elements</description>
         
         <guid>https://comp426.johndmart.in/w/11/</guid>
         <description>Fetch 2022-03-29T15:30:00-05:00
-Agenda  Revisit button click Add a result field Add an image Make an API call with fetch() Use the response from fetch() to manipulate elements.  Slides Useful links HTML DOM Element setAttribute() - w3schools
+Agenda  Revisit button click Add a result field Add an image Make an API call with fetch() Use the response from fetch() to manipulate elements.  Slides https://comp426-2022-spring.github.io/slides/w11-00.html
+Useful links HTML DOM Element setAttribute() - w3schools
 Use Express to deliver HTML files - Chris Sev
+Promises - MDN
+Buttons and Forms HTML DOM Button Object
+HTML DOM Form Object
 fetch Introduction to fetch() - Matt Gaunt
-How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover
-fetch() - MDN</description>
+How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
       </item>
       
       <item>
