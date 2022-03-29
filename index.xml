@@ -381,7 +381,11 @@ usability.gov User Interface Elements</description>
         
         <guid>https://comp426.johndmart.in/w/11/</guid>
         <description>Fetch 2022-03-29T15:30:00-05:00
-Login sessions 2022-03-31T15:30:00-05:00</description>
+Agenda  Revisit button click Add a result field Add an image Make an API call with fetch() Use the response from fetch() to manipulate elements.  Slides Useful links HTML DOM Element setAttribute() - w3schools
+Use Express to deliver HTML files - Chris Sev
+fetch Introduction to fetch() - Matt Gaunt
+How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover
+fetch() - MDN</description>
       </item>
       
       <item>
