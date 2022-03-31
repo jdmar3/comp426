@@ -1075,7 +1075,7 @@
     <meta name="description" content="This week we will discuss getting and sending information between a browser-based client to and an API. We will also learn how to set up a login session." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-03-31T15:32:33-0400">
+<meta name="modified" content="2022-03-31T17:58:38-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "w11 Client-side scripting",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-03-31T15:32:33-04:00",
+    "dateModified": "2022-03-31T17:58:38-04:00",
     "url" : "https://comp426.johndmart.in/w/11/",
     "description": "This week we will discuss getting and sending information between a browser-based client to and an API. We will also learn how to set up a login session.",
     "mainEntityOfPage": {
@@ -1805,9 +1805,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/11bc1ef143543e0e5a029fd60e0ab6568758efa1" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/75fab7c9a10099ccaef23eb137f3e583a618ebc2" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-03-31 15:32:33 -0400 -0400
+        This page updated: 2022-03-31 17:58:38 -0400 -0400
       </button>
     </a>
 
@@ -2324,7 +2324,185 @@ It will serve on port 3000.</p>
 <p><a href="https://simonplend.com/how-to-use-fetch-to-post-form-data-as-json-to-your-api/" target="_blank">How to use fetch to POST form data as JSON to your API</a> - Simon Plenderleith</p>
 <p><a href="https://stackabuse.com/serving-static-files-with-node-and-express-js/" target="_blank">Serving static files with Node and Express.js</a> - Janith Kasun</p>
 <h3 id="notes-1">Notes</h3>
+<p>Here is the working example for a simple form that sends a POST request to an API endpoint defined at http://localhost:5000/app/flip/coins/.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-index.html" data-lang="index.html"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Demo Coin<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+	<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;multi&#34;</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Flip many coins<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">form</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;coins&#34;</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;number&#34;</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>How many coins?<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;number&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;number&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;number&#34;</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;submit&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;Flip &#39;em!&#34;</span><span class="p">&gt;</span>
+			<span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
 
+			<span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Results<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">p</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;heads&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">p</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;tails&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+		<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+			<span class="c1">// Our flip many coins form
+</span><span class="c1"></span>			<span class="kr">const</span> <span class="nx">coins</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;coins&#34;</span><span class="p">)</span>
+			<span class="c1">// Add event listener for coins form
+</span><span class="c1"></span>			<span class="nx">coins</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&#34;submit&#34;</span><span class="p">,</span> <span class="nx">flipCoins</span><span class="p">)</span>
+			<span class="c1">// Create the submit handler
+</span><span class="c1"></span>			<span class="kr">async</span> <span class="kd">function</span> <span class="nx">flipCoins</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+				<span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
+				
+				<span class="kr">const</span> <span class="nx">endpoint</span> <span class="o">=</span> <span class="s2">&#34;app/flip/coins/&#34;</span>
+				<span class="kr">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">baseURI</span><span class="o">+</span><span class="nx">endpoint</span>
+
+				<span class="kr">const</span> <span class="nx">formEvent</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">currentTarget</span>
+
+				<span class="k">try</span> <span class="p">{</span>
+					<span class="kr">const</span> <span class="nx">formData</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">FormData</span><span class="p">(</span><span class="nx">formEvent</span><span class="p">);</span>
+					<span class="kr">const</span> <span class="nx">flips</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">sendFlips</span><span class="p">({</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">formData</span> <span class="p">});</span>
+
+					<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">flips</span><span class="p">);</span>
+					<span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;heads&#34;</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;Heads: &#34;</span><span class="o">+</span><span class="nx">flips</span><span class="p">.</span><span class="nx">summary</span><span class="p">.</span><span class="nx">heads</span><span class="p">;</span>
+					<span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;tails&#34;</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;Tails: &#34;</span><span class="o">+</span><span class="nx">flips</span><span class="p">.</span><span class="nx">summary</span><span class="p">.</span><span class="nx">tails</span><span class="p">;</span>
+				<span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+					<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+				<span class="p">}</span>
+			<span class="p">}</span>
+			<span class="c1">// Create a data sender
+</span><span class="c1"></span>			<span class="kr">async</span> <span class="kd">function</span> <span class="nx">sendFlips</span><span class="p">({</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">formData</span> <span class="p">})</span> <span class="p">{</span>
+				<span class="kr">const</span> <span class="nx">plainFormData</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">fromEntries</span><span class="p">(</span><span class="nx">formData</span><span class="p">.</span><span class="nx">entries</span><span class="p">());</span>
+				<span class="kr">const</span> <span class="nx">formDataJson</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">plainFormData</span><span class="p">);</span>
+				<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">formDataJson</span><span class="p">);</span>
+
+				<span class="kr">const</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{</span>
+					<span class="nx">method</span><span class="o">:</span> <span class="s2">&#34;POST&#34;</span><span class="p">,</span>
+					<span class="nx">headers</span><span class="o">:</span> <span class="p">{</span>
+						<span class="s2">&#34;Content-Type&#34;</span><span class="o">:</span> <span class="s2">&#34;application/json&#34;</span><span class="p">,</span>
+						<span class="nx">Accept</span><span class="o">:</span> <span class="s2">&#34;application/json&#34;</span>
+					<span class="p">},</span>
+					<span class="nx">body</span><span class="o">:</span> <span class="nx">formDataJson</span>
+				<span class="p">};</span>
+
+				<span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
+				<span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">()</span>
+			<span class="p">}</span>
+		<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+	<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>To make this work, you will need to have the following body parser middleware (built into Express) enabled in your <code>server.js</code> script:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-server.js" data-lang="server.js"><span class="c1">// Allow JSON body messages on all endpoints
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>In addition, you will need this endpoint defined, which differs slightly from the versions that you might have developed for previous assignments:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-server.js" data-lang="server.js"><span class="c1">// Flip a bunch of coins with one body variable (number)
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">&#39;/app/flip/coins/&#39;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">flips</span> <span class="o">=</span> <span class="nx">coinFlips</span><span class="p">(</span><span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">number</span><span class="p">)</span>
+    <span class="kr">const</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">countFlips</span><span class="p">(</span><span class="nx">flips</span><span class="p">)</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">).</span><span class="nx">json</span><span class="p">({</span><span class="s2">&#34;raw&#34;</span><span class="o">:</span><span class="nx">flips</span><span class="p">,</span><span class="s2">&#34;summary&#34;</span><span class="o">:</span><span class="nx">count</span><span class="p">})</span>
+<span class="p">})</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>And finally, if you place <code>index.html</code> into a subdirectory named <code>www</code>, you can add this line to your server script and it will serve the interface along with the API when you run <code>node server.js</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-server.js" data-lang="server.js"><span class="c1">// Serve static HTML files
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="kr">static</span><span class="p">(</span><span class="s1">&#39;./www&#39;</span><span class="p">))</span>
+</code></pre></td></tr></table>
+</div>
+</div>
   </article>
 </div>
 
