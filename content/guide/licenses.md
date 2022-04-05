@@ -15,7 +15,7 @@ Choosing a license for your work can seem daunting, but it is a matter of decidi
 
 GitHub has a very good guide to choosing licenses for your repositories and also a tool to help you through the process. 
 
-[Customize your repository > Licensing a repository - GitHub Docs)[https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository]
+[Customize your repository > Licensing a repository - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 [Choose a License](https://choosealicense.com/licenses/)
 
