@@ -1075,7 +1075,7 @@
     <meta name="description" content="This assignment for COMP 426 will help you create and connect a database and to record access and error logs and for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-04-06T16:20:29-0400">
+<meta name="modified" content="2022-04-06T16:29:45-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "a04 Databases, logs, errors, and middleware",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-04-06T16:20:29-04:00",
+    "dateModified": "2022-04-06T16:29:45-04:00",
     "url" : "https://comp426.johndmart.in/a/04/",
     "description": "This assignment for COMP 426 will help you create and connect a database and to record access and error logs and for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software.",
     "mainEntityOfPage": {
@@ -1690,9 +1690,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/3750ce3b4f3d326e27a1f9680a02ee75857fa698" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/76bf40a9839f237fcdc08971c7b73460302ccb8e" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-04-06 16:20:29 -0400 -0400
+        This page updated: 2022-04-06 16:29:45 -0400 -0400
       </button>
     </a>
 
@@ -1953,14 +1953,86 @@ Also, in order for this to work properly, the conditional has to come before all
 
   --help	Return this message and exit.
 </code></pre><p>As you can see, you will need to include multiple command line options with defaults.</p>
+<blockquote>
+<p>TIP: You can store help text in a variable spanning multiple lines by wrapping in with backticks.</p>
+</blockquote>
 <p>If you are using minimist, to do this, look at the documentation to see how arguments are stored in the <code>argv</code> object that minimist gives you: <a href="https://github.com/substack/minimist">https://github.com/substack/minimist</a></p>
-<h3 id="creating-a-database">Creating a database</h3>
+<blockquote>
+<p>TIP: If you use minimist in the way that we have done in the past to process command line arguments (see below), you can see what it is storing in the object that we create from it by dumping into console log. This gives you access in real time for debugging.</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-server.js" data-lang="server.js"><span class="c1">// Require minimist module
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">args</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;minimist&#39;</span><span class="p">)(</span><span class="nx">process</span><span class="p">.</span><span class="nx">argv</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+<span class="c1">// See what is stored in the object produced by minimist
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">args</span><span class="p">)</span>
+<span class="c1">// Store help text 
+</span><span class="c1"></span><span class="kr">const</span> <span class="nx">help</span> <span class="o">=</span> <span class="p">(</span><span class="sb">`
+</span><span class="sb">server.js [options]
+</span><span class="sb">
+</span><span class="sb">--port	Set the port number for the server to listen on. Must be an integer
+</span><span class="sb">            between 1 and 65535.
+</span><span class="sb">
+</span><span class="sb">--debug	If set to true, creates endlpoints /app/log/access/ which returns
+</span><span class="sb">            a JSON access log from the database and /app/error which throws 
+</span><span class="sb">            an error with the message &#34;Error test successful.&#34; Defaults to 
+</span><span class="sb">            false.
+</span><span class="sb">
+</span><span class="sb">--log		If set to false, no log files are written. Defaults to true.
+</span><span class="sb">            Logs are always written to database.
+</span><span class="sb">
+</span><span class="sb">--help	Return this message and exit.
+</span><span class="sb">`</span><span class="p">)</span>
+<span class="c1">// If --help or -h, echo help text to STDOUT and exit
+</span><span class="c1"></span><span class="k">if</span> <span class="p">(</span><span class="nx">args</span><span class="p">.</span><span class="nx">help</span> <span class="o">||</span> <span class="nx">args</span><span class="p">.</span><span class="nx">h</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">help</span><span class="p">)</span>
+    <span class="nx">process</span><span class="p">.</span><span class="nx">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><pre><code class="language-run" data-lang="run">john@code:~/comp426/a04-johnmar3$ node server.js --debug --log=false --port=54321 --help
+Command line arguments:  { _: [], debug: true, log: 'false', port: 54321, help: true }
+
+server.js [options]
+
+--port  Set the port number for the server to listen on. Must be an integer
+            between 1 and 65535.
+...
+</code></pre><h3 id="creating-a-database">Creating a database</h3>
 <p>Use the methods that we have gone over in class to create a database file called <code>log.db</code> using <code>better-sqlite3</code> with a table named <code>accesslog</code>.
 Set up the <code>accesslog</code> table with columns corresponding to variables listed below.</p>
 <p>The notes from <a href="/w/08">w08</a> should help with this.</p>
 <h3 id="logging-to-database">Logging to database</h3>
 <p>Write a middleware function that inserts a new record in a database containing all of the variables in the following data object:</p>
-<pre><code>	let logdata = {
+<pre><code>    let logdata = {
         remoteaddr: req.ip,
         remoteuser: req.user,
         time: Date.now(),
