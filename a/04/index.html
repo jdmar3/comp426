@@ -1075,7 +1075,7 @@
     <meta name="description" content="This assignment for COMP 426 will help you create and connect a database and to record access and error logs and for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-04-06T16:29:45-0400">
+<meta name="modified" content="2022-04-06T16:47:52-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
@@ -1112,7 +1112,7 @@
     "@type": "WebPage",
     "headline": "a04 Databases, logs, errors, and middleware",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-04-06T16:29:45-04:00",
+    "dateModified": "2022-04-06T16:47:52-04:00",
     "url" : "https://comp426.johndmart.in/a/04/",
     "description": "This assignment for COMP 426 will help you create and connect a database and to record access and error logs and for your API server from a03 with some middleware. This is an important piece of building an API, because it allows you to break down what happened if something goes wrong. It also helps other developers use and deploy your software.",
     "mainEntityOfPage": {
@@ -1690,9 +1690,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/76bf40a9839f237fcdc08971c7b73460302ccb8e" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/d1d110a384d5f4e3c4dcc84fbac4c4a36c47bebe" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-04-06 16:29:45 -0400 -0400
+        This page updated: 2022-04-06 16:47:52 -0400 -0400
       </button>
     </a>
 
@@ -2063,7 +2063,8 @@ Set up the <code>accesslog</code> table with columns corresponding to variables 
 <p>HINT: This should <em>just work</em> if you model your endpoint on the first example in the error documentation from Express: <a href="http://expressjs.com/en/guide/error-handling.html">http://expressjs.com/en/guide/error-handling.html</a></p>
 </blockquote>
 <h3 id="create-an-access-log-file">Create an access log file</h3>
-<p>In addition to the log in your database, if AND ONLY IF <code>--log=true</code> is passed when running <code>server.js</code>, then your server should create a file called <code>access.log</code> and write your access log to it in a <em>combined</em> format.</p>
+<p>In addition to the log in your database, if <code>--log=false</code> is passed when running <code>server.js</code>, then your server should NOT create a log file.
+Otherwise, your server should create a FILE called <code>access.log</code> and write your access log to it in a <em>combined</em> FORMAT (default behavior).</p>
 <p>Use <code>morgan</code> to accomplish this by sending its output to a write stream from the <code>fs</code> builtin:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
