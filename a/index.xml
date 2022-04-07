@@ -104,6 +104,18 @@ Assignment requirements  A web interface with:  a landing page &amp;lt;div&amp;g
       </item>
       
       <item>
+        <title>HTML&#43;CSS (extra credit)</title>
+        <link>https://comp426.johndmart.in/a/html-css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/html-css/</guid>
+        <description>DUE: N/A
+GitHub Classroom Assignment Invite: COMING SOON
+Issues: https://github.com/comp426-2022-spring/html+css/issues
+Description: This optional assignment is intended to help you add a little polish to your HTML and CSS if you wish to do so. You can receive extra credit for it if you wish to submit it.</description>
+      </item>
+      
+      <item>
         <title>a06 React</title>
         <link>https://comp426.johndmart.in/a/06/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -113,6 +125,19 @@ Assignment requirements  A web interface with:  a landing page &amp;lt;div&amp;g
 GitHub Classroom Assignment Invite: COMING SOON
 Issues: https://github.com/comp426-2022-spring/a06/issues
 Convert your existing web app with API into a React app.</description>
+      </item>
+      
+      <item>
+        <title>Final</title>
+        <link>https://comp426.johndmart.in/a/final/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/final/</guid>
+        <description>DUE: 2022-04-30T15:00:00-5:00
+GitHub Classroom invite link: COMING SOON
+The instructions for the final are in the repository that will be automatically created for you when you accept the assignment using the link above.
+You are responsible for completing this on your own.
+You have until the end of the designated exam period to complete the final.</description>
       </item>
       
       <item>
