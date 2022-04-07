@@ -1,5 +1,5 @@
 ---
-title: "Midterm"
+title: "MIDTERM"
 description: "The midterm for COMP 426 is a survey, but it is also an exercise in following instructions and using the skills that you have been developing in this course."
 draft: false
 category: assignment
