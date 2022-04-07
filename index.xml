@@ -224,6 +224,20 @@ You have until the beginning of Spring break to complete the midterm.</descripti
       </item>
       
       <item>
+        <title>a05 Human Interface</title>
+        <link>https://comp426.johndmart.in/a/05/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/05/</guid>
+        <description>DUE: 2022-04-15T00:00:00-5:00
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/PUVGxeMe
+Issues: https://github.com/comp426-2022-spring/a05/issues
+Packaging an interface In this assignment, you will build an HTML human interface for your API. You will also document your API endpoints and consider package structure.
+We are going to take our rudimentary interface from in-class examples and expand upon it somewhat for this assignment.
+Assignment requirements  A web interface with:  a landing page &amp;lt;div&amp;gt;  an explanation of the game and basic instructions   a navigation of some kind using buttons that will highlight the active &amp;lt;div&amp;gt; and hide others a flip-one-coin &amp;lt;div&amp;gt;  a button that makes an API call to /app/flip/ and then presents the resulting data to the person using the interface a graphical representation of the resulting coin flip   a flip-many-coins &amp;lt;div&amp;gt;  a button that makes an API call to /app/flip/ and then presents the resulting data to the person using the interface a graphical representation of the resulting coin flips summary information   a guess-flip &amp;lt;div&amp;gt;  Two buttons that make an API call to /app/flip/call and then present the resulting data to the person using the interface a graphical representation of the guess, and the actual result of the coin flip win or loss     Document the API endpoints listed in README.</description>
+      </item>
+      
+      <item>
         <title>Grading</title>
         <link>https://comp426.johndmart.in/syllabus/grading/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
