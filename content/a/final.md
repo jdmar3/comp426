@@ -1,9 +1,9 @@
 ---
-title: "Final"
+title: "FINAL"
 description: "The final for COMP 426 is a survey, just like the midterm. You will submit it in exactly the same way. It includes a self-assessment and a team assessment."
 draft: false
 category: assignment
-weight: 90
+weight: 1000
 ---
 
 DUE: `2022-04-30T15:00:00-5:00`
