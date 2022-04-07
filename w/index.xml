@@ -192,6 +192,56 @@ fetch Introduction to fetch() - Matt Gaunt
 How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
       </item>
       
+      <item>
+        <title>Single-page interfaces and package structure</title>
+        <link>https://comp426.johndmart.in/w/12/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/12/</guid>
+        <description>Team Work Day 2022-04-05T15:30:00-05:00
+Agenda Meet with your teams and check in.
+Package structure 2022-04-07T15:30:00-05:00
+Agenda  Where things happen is important Structure is communicative Documentation is important Assume nothing Getting started with a05  Useful links Project structure for an Express REST API whrn there is no &amp;ldquo;standard way&amp;rdquo; - Corey Cleary
+ExpressJS How to structure an application? - StackOverflow
+Express Code Structure - @focusaurus
+Organizing your Express.js project structure for better productivity - Geshan Manandhar</description>
+      </item>
+      
+      <item>
+        <title>React</title>
+        <link>https://comp426.johndmart.in/w/13/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/13/</guid>
+        <description>Intro to React 2022-04-12T15:30:00-05:00
+Agenda  What is React? Why React? React structure Using React with an existing API  Useful links https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/
+https://reactjs.org/docs/create-a-new-react-app.html
+https://www.npmjs.com/package/create-app-react-express
+https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/
+Adding authentication Agenda 2022-04-14T15:30:00-05:00
+ Types of authentication OAuth vs. app-managed Implementing OAuth  Useful links </description>
+      </item>
+      
+      <item>
+        <title>w14 Deploy</title>
+        <link>https://comp426.johndmart.in/w/14/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/14/</guid>
+        <description>Authentication continued in React app 2022-04-19T15:30:00-05:00
+Deploy to Heroku 2022-04-21T15:30:00-05:00</description>
+      </item>
+      
+      <item>
+        <title>w15 Logging out</title>
+        <link>https://comp426.johndmart.in/w/15/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/15/</guid>
+        <description>Course wrap up 2022-04-26T15:30:00-05:00
+Agenda  What can I say that I learned here? What else is there? How do I learn more? General discussion and inquiries  </description>
+      </item>
+      
     
   </channel>
 </rss>

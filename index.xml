@@ -264,6 +264,18 @@ There is A LOT of information out there about using Express to build an API. Don
       </item>
       
       <item>
+        <title>a06 React</title>
+        <link>https://comp426.johndmart.in/a/06/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/06/</guid>
+        <description>DUE: 2022-04-27T00:00:00-5:00
+GitHub Classroom Assignment Invite: COMING SOON
+Issues: https://github.com/comp426-2022-spring/a06/issues
+Convert your existing web app with API into a React app.</description>
+      </item>
+      
+      <item>
         <title>Honor Code</title>
         <link>https://comp426.johndmart.in/syllabus/honor/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -403,6 +415,56 @@ Buttons and Forms HTML DOM Button Object
 HTML DOM Form Object
 fetch Introduction to fetch() - Matt Gaunt
 How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
+      </item>
+      
+      <item>
+        <title>Single-page interfaces and package structure</title>
+        <link>https://comp426.johndmart.in/w/12/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/12/</guid>
+        <description>Team Work Day 2022-04-05T15:30:00-05:00
+Agenda Meet with your teams and check in.
+Package structure 2022-04-07T15:30:00-05:00
+Agenda  Where things happen is important Structure is communicative Documentation is important Assume nothing Getting started with a05  Useful links Project structure for an Express REST API whrn there is no &amp;ldquo;standard way&amp;rdquo; - Corey Cleary
+ExpressJS How to structure an application? - StackOverflow
+Express Code Structure - @focusaurus
+Organizing your Express.js project structure for better productivity - Geshan Manandhar</description>
+      </item>
+      
+      <item>
+        <title>React</title>
+        <link>https://comp426.johndmart.in/w/13/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/13/</guid>
+        <description>Intro to React 2022-04-12T15:30:00-05:00
+Agenda  What is React? Why React? React structure Using React with an existing API  Useful links https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/
+https://reactjs.org/docs/create-a-new-react-app.html
+https://www.npmjs.com/package/create-app-react-express
+https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/
+Adding authentication Agenda 2022-04-14T15:30:00-05:00
+ Types of authentication OAuth vs. app-managed Implementing OAuth  Useful links </description>
+      </item>
+      
+      <item>
+        <title>w14 Deploy</title>
+        <link>https://comp426.johndmart.in/w/14/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/14/</guid>
+        <description>Authentication continued in React app 2022-04-19T15:30:00-05:00
+Deploy to Heroku 2022-04-21T15:30:00-05:00</description>
+      </item>
+      
+      <item>
+        <title>w15 Logging out</title>
+        <link>https://comp426.johndmart.in/w/15/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/w/15/</guid>
+        <description>Course wrap up 2022-04-26T15:30:00-05:00
+Agenda  What can I say that I learned here? What else is there? How do I learn more? General discussion and inquiries  </description>
       </item>
       
       <item>
@@ -570,6 +632,16 @@ Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>
       </item>
       
       <item>
+        <title>Public APIs</title>
+        <link>https://comp426.johndmart.in/guide/publicapi/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/publicapi/</guid>
+        <description>https://github.com/public-apis/public-apis
+https://postman-toolboxes.github.io/covid-19/</description>
+      </item>
+      
+      <item>
         <title>Software Setup for Mac OSX</title>
         <link>https://comp426.johndmart.in/guide/software/mac/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -624,6 +696,16 @@ WSL in VSCode The Windows Subsystem for Linux allows you to set up a Linux devel
 A web API exposes the underlying functions of a given program so that they can be used through web protocols. It also restricts access to a program by defining endpoints that only allow certain information to pass through.
 What is API design? - RedHat
 RESTful API design - MicroSoft</description>
+      </item>
+      
+      <item>
+        <title>Web API</title>
+        <link>https://comp426.johndmart.in/guide/fetch/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/fetch/</guid>
+        <description>Introduction to fetch() - Matt Gaunt
+How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
       </item>
       
     
