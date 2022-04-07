@@ -15,9 +15,9 @@ Choosing a license for your work can seem daunting, but it is a matter of decidi
 
 GitHub has a very good guide to choosing licenses for your repositories and also a tool to help you through the process. 
 
-[Customize your repository > Licensing a repository - GitHub Docs)[https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository]
+[Choose a License](https://choosealicense.com)
 
-[Choose a License](https://choosealicense.com/licenses/)
+[Customize your repository > Licensing a repository - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 ### Node.js
 
@@ -43,7 +43,7 @@ In any case, it is good to be aware of how licenses for content work and how you
 
 [Public Domain Licenses](https://tldrlegal.com/licenses/tags/Public%20Domain)
 
-### Licenses for software
+## Licenses for software
 
 Ultimately, software (in the form of source code) is content. 
 There is no special difference between licensing for content v. source, aside from the way that these licenses are used in practice.
