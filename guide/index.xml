@@ -23,6 +23,19 @@
       </item>
       
       <item>
+        <title>Authentication</title>
+        <link>https://comp426.johndmart.in/guide/authentication/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/authentication/</guid>
+        <description>OAuth Implementing OAuth 2.0 with Node.js - Soham Kamani
+Understanding and Implementing OAuth2 in Node.js - Diogo Souza
+Implementing an OAuth Server with Node.js and Express - Valeri Karpov
+Express JS OAuth 2 server using oauth2-server package - Nick B. Alcala
+Passport Node.js and Express authentication using Passport - Dan Arias</description>
+      </item>
+      
+      <item>
         <title>Bash</title>
         <link>https://comp426.johndmart.in/guide/bash/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

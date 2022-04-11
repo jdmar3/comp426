@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bash – Modern Web Programming</title>
+    <title>Authentication – Modern Web Programming</title>
     
 
 
@@ -30,7 +30,7 @@
     
     var baseurl = JSON.parse("\"https://comp426.johndmart.in\"");
     
-    var permalink = JSON.parse("\"https://comp426.johndmart.in/guide/bash/\"");
+    var permalink = JSON.parse("\"https://comp426.johndmart.in/guide/authentication/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1072,21 +1072,21 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-    <meta name="description" content="Bash is your best friend if you work on remote machines. You can navigate a system with no GUI and you can automate practically anything because it is a scripting language as well." />
+    <meta name="description" content="Links about OAuth and integrating third-party authentication into authentication flows for Node/Express apps." />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-01-26T18:24:05-0500">
+<meta name="modified" content="2022-04-11T19:01:46-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
-<meta property="og:title" content="Bash">
-<meta property="og:url" content="https://comp426.johndmart.in/guide/bash/">
+<meta property="og:title" content="Authentication">
+<meta property="og:url" content="https://comp426.johndmart.in/guide/authentication/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://comp426.johndmart.in/guide/bash/">
+<link rel="canonical" href="https://comp426.johndmart.in/guide/authentication/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1110,11 +1110,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Bash",
+    "headline": "Authentication",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-01-26T18:24:05-05:00",
-    "url" : "https://comp426.johndmart.in/guide/bash/",
-    "description": "Bash is your best friend if you work on remote machines. You can navigate a system with no GUI and you can automate practically anything because it is a scripting language as well.",
+    "dateModified": "2022-04-11T19:01:46-04:00",
+    "url" : "https://comp426.johndmart.in/guide/authentication/",
+    "description": "Links about OAuth and integrating third-party authentication into authentication flows for Node/Express apps.",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://comp426.johndmart.in"
@@ -1163,7 +1163,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      Bash
+      Authentication
     
   </h6>
   <ul>
@@ -1208,9 +1208,9 @@
   
   
   
-  <li class="">
+  <li class="active">
     <a href="https://comp426.johndmart.in/guide/authentication/"
-      class="menu__title ">Authentication</a>
+      class="menu__title active">Authentication</a>
   </li>
   
 
@@ -1231,9 +1231,9 @@
   
   
   
-  <li class="active">
+  <li class="">
     <a href="https://comp426.johndmart.in/guide/bash/"
-      class="menu__title active">Bash</a>
+      class="menu__title ">Bash</a>
   </li>
   
 
@@ -1922,7 +1922,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Bash</h2>
+        <h2 class="title">Authentication</h2>
       </div>
     </div>
   </div>
@@ -1956,7 +1956,7 @@
   
   <li  class="is-active" >
     
-      <span>Bash</span>
+      <span>Authentication</span>
     
   </li>
   
@@ -1966,9 +1966,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/265d409d6a42500683e335abc522b7713bb84266" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/696d98b487ea957902d343765ddf909c13899df7" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-01-26 18:24:05 -0500 -0500
+        This page updated: 2022-04-11 19:01:46 -0400 -0400
       </button>
     </a>
 
@@ -1978,7 +1978,7 @@
   
   
     
-    <a href="https://github.com/jdmar3/comp426/edit/main/content/guide/bash.md" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/edit/main/content/guide/authentication.md" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Edit This Page Button">
         EDIT THIS PAGE
       </button>
@@ -2019,7 +2019,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      Bash
+      Authentication
     
   </h6>
   <ul>
@@ -2064,9 +2064,9 @@
   
   
   
-  <li class="">
+  <li class="active">
     <a href="https://comp426.johndmart.in/guide/authentication/"
-      class="menu__title ">Authentication</a>
+      class="menu__title active">Authentication</a>
   </li>
   
 
@@ -2087,9 +2087,9 @@
   
   
   
-  <li class="active">
+  <li class="">
     <a href="https://comp426.johndmart.in/guide/bash/"
-      class="menu__title active">Bash</a>
+      class="menu__title ">Bash</a>
   </li>
   
 
@@ -2475,17 +2475,13 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p><strong>Bash</strong> is the name of the shell and command language that we use most frequently in Linux and other UNIX clones.
-Mac OSX is a UNIX clone.
-When you open &ldquo;Terminal,&rdquo; you are looking at Bash.
-It is a text-interface command line envrionment but it can also read commands from files in the form of scripts.</p>
-<p><a href="http://linuxcommand.org/lc3_learning_the_shell.php" target="_blank">Learning the shell - William E. Shotts, Jr.</a></p>
-<p><a href="http://linuxcommand.org/lc3_writing_shell_scripts.php" target="_blank">Writing shell scripts - William E. Shotts, Jr.</a></p>
-<p><a href="http://bconnelly.net/working-with-csvs-on-the-command-line/" target="_blank">Working with CSVs on the Command Line - Brian Connelly</a></p>
-<p><a href="http://steve-parker.org/sh/cheatsheet.pdf" target="_blank">Shell Scripting Cheat Sheet for Unix and Linux - Steve Parker</a></p>
-<p><a href="https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/" target="_blank">The Ultimate Linux Command Line Guide - Full Bash Tutorial - freeCodeCamp</a></p>
-<p><a href="https://linuxconfig.org/bash-scripting-tutorial-for-beginners" target="_blank">Bash Scripting Tutorial for Beginners - Lubos Rendek - LinuxConfig</a></p>
-<p><a href="https://linuxconfig.org/bash-scripting-tutorial" target="_blank">Bash scripting Tutorial - LinuxConfig</a></p>
+    <h2 id="oauth">OAuth</h2>
+<p><a href="https://www.sohamkamani.com/nodejs/oauth/" target="_blank">Implementing OAuth 2.0 with Node.js</a> - Soham Kamani</p>
+<p><a href="https://www.honeybadger.io/blog/oauth-nodejs-javascript/" target="_blank">Understanding and Implementing OAuth2 in Node.js</a> - Diogo Souza</p>
+<p><a href="https://thecodebarbarian.com/oauth-with-node-js-and-express.html" target="_blank">Implementing an OAuth Server with Node.js and Express</a> - Valeri Karpov</p>
+<p><a href="https://niceprogrammer.com/express-js-oauth-2-server-using-oauth2-server-package/" target="_blank">Express JS OAuth 2 server using oauth2-server package</a> - Nick B. Alcala</p>
+<h2 id="passport">Passport</h2>
+<p><a href="https://auth0.com/blog/create-a-simple-and-secure-node-express-app/" target="_blank">Node.js and Express authentication using Passport</a> - Dan Arias</p>
 
   </article>
 </div>
@@ -2495,17 +2491,10 @@ It is a text-interface command line envrionment but it can also read commands fr
 <nav class="pagination-single">
   
     
-      <a href="https://comp426.johndmart.in/guide/authentication/" title="Authentication" class="pagination-single__left">
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
-        </div>
-        <div class="pagination-single__right-title">Authentication</div>
-      </a>
-    
     <div class="grow"></div>
     
-      <a href="https://comp426.johndmart.in/guide/css3/" title="CSS3" class="pagination-single__right">
-        <div class="pagination-single__left-title">CSS3</div>
+      <a href="https://comp426.johndmart.in/guide/bash/" title="Bash" class="pagination-single__right">
+        <div class="pagination-single__left-title">Bash</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -2523,7 +2512,12 @@ It is a text-interface command line envrionment but it can also read commands fr
         <div class="toc">
   <h6 class="toc__label">What&#39;s on this Page</h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#oauth">OAuth</a></li>
+    <li><a href="#passport">Passport</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       
