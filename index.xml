@@ -538,6 +538,16 @@ W3CSchools CSS Tutorial</description>
       </item>
       
       <item>
+        <title>Fetch</title>
+        <link>https://comp426.johndmart.in/guide/fetch/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/guide/fetch/</guid>
+        <description>Introduction to fetch() - Matt Gaunt
+How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
+      </item>
+      
+      <item>
         <title>git</title>
         <link>https://comp426.johndmart.in/guide/git/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -722,16 +732,6 @@ WSL in VSCode The Windows Subsystem for Linux allows you to set up a Linux devel
 A web API exposes the underlying functions of a given program so that they can be used through web protocols. It also restricts access to a program by defining endpoints that only allow certain information to pass through.
 What is API design? - RedHat
 RESTful API design - MicroSoft</description>
-      </item>
-      
-      <item>
-        <title>Web API</title>
-        <link>https://comp426.johndmart.in/guide/fetch/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://comp426.johndmart.in/guide/fetch/</guid>
-        <description>Introduction to fetch() - Matt Gaunt
-How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
       </item>
       
     
