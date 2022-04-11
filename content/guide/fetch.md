@@ -1,9 +1,6 @@
 ---
-title: "Web API"
-description: "Web APIs are the core of everything else we do. 
-They provide an interface between one piece of software and another. 
-A web API exposes the underlying functions of a given program so that they can be used through web protocols.
-It also restricts access to a program by defining endpoints that only allow certain information to pass through."
+title: "Fetch"
+description: "Fetch allows you to make API calls so that you can use the resulting data in a browser-based or other client-side interface."
 draft: false
 weight: 0
 enableToc: true
