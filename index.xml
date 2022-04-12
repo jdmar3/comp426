@@ -451,14 +451,14 @@ Organizing your Express.js project structure for better productivity - Geshan Ma
         
         <guid>https://comp426.johndmart.in/w/13/</guid>
         <description>Intro to React 2022-04-12T15:30:00-05:00
-Agenda  What is React? Why React? React structure Using React with an existing API  Useful links Where to start with React Create React App
+Agenda  What is React? Why React? Some React terms Make a grade calculator app with React  Useful links Where to start with React Create React App
 Create a New React App - React
-React tutorials How to build a basic form calculator in React.js - Guarav Singhal
+React tutorials Main Concepts - Hello World - React
+How to build a basic form calculator in React.js - Guarav Singhal
 React with Node/Express https://www.npmjs.com/package/create-app-react-express
 https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/
 Thoughts on React https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/
-Notes Adding authentication Agenda 2022-04-14T15:30:00-05:00
- Types of authentication OAuth vs.</description>
+Notes Adding authentication Agenda 2022-04-14T15:30:00-05:00</description>
       </item>
       
       <item>
