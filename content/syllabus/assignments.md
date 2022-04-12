@@ -13,7 +13,7 @@ This is a tentative list of assignments.
 These may be adjusted or merged depending on how the course flows. 
 
 | Assignment | Title | Topics covered | Points |
-|---|---|---|
+|---|---|---|---:|
 | a00 | Setup | Installing software; git and Github; bash/command line | 71,428 |
 | a01 | Node | Package management; creating packages; Node.js; npm | 71,429 |
 | a02 | Functions and modules | Running JavaScript as program; JavaScript functions | 71,428 |
