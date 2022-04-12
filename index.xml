@@ -687,9 +687,11 @@ Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://comp426.johndmart.in/guide/publicapis/</guid>
-        <description>https://github.com/public-apis/public-apis
-https://postman-toolboxes.github.io/covid-19/
-https://developer.twitter.com/en/docs/twitter-api/tweets/covid-19-stream/api-reference/get-tweets-stream-covid19</description>
+        <description>General public APIs Public APIs - @public-apis
+COVID-19 APIs COVID Act Now - Data API
+Postman COVID-19 API Resource Center
+COVID-19 stream - Twitter Developer Platform
+Data reference (not APIs) NCDHHS COVID-19 dashboard data</description>
       </item>
       
       <item>
