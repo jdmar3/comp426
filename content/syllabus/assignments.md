@@ -12,19 +12,16 @@ tocLevels: ["h2", "h3", "h4"]
 This is a tentative list of assignments.
 These may be adjusted or merged depending on how the course flows. 
 
-| Assignment | Title | Topics covered |
+| Assignment | Title | Topics covered | Points |
 |---|---|---|
-| a00 | Setup | Installing software; git and Github; bash/command line |
-| a01 | Node | Package management; creating packages; Node.js; npm |
-| a02 | Functions | Running JavaScript as program; JavaScript functions |
-| a03 | API | Turning functions into endpoints; REST; Express |
-| a04 | Get | Getting information from an API in a web interface; Next.js |
-| a05 | Post | Sending information to an API from a web interface |
-| a06 | Async | Asynchronous interactions; Database interactions |
-| a07 | DOM | Manipulating the Document Object Model; CSS and HTML |
-| a08 | Users | Implementing login; React; Wouter |
-| a09 | Security | Passwords; Protecting user info |
-| a99 | Final project | Collaboration; Project planning and management |
+| a00 | Setup | Installing software; git and Github; bash/command line | 71,428 |
+| a01 | Node | Package management; creating packages; Node.js; npm | 71,429 |
+| a02 | Functions and modules | Running JavaScript as program; JavaScript functions | 71,428 |
+| a03 | API | Turning functions into endpoints; REST; Express | 71,429 |
+| a04 | Logging and database | Interface an API with a database; store logs | 71,428 |
+| a05 | Web interface | Connect an interface to your API | 71,429 |
+| a06 | React and auth | Reactify your app; add authentication | 71,429 |
+| a99 | Final project | Collaboration; Project planning and management | 300,000 |
 
 ### Assignment submission
 
@@ -60,7 +57,11 @@ You will also create demos as part of that documentation.
 
 ### Presenting final projects
 
-You will present your final project to the class on 19, 21, or 26 April.
+There will be no in-class presentation for your final project.
+Instead, your team will produce a demo video.
+
+See [a99](a/99) instructions for details.
+
 It is okay for your project to still be a work in progress when presented.
 
 All final project materials will be due on the day scheduled for the final exam.
@@ -73,6 +74,12 @@ You will take a questionnaire at the beginning of the course that gives us a bas
 
 There will also be midterm and final questionnaires, but they will not assess specific knowledge in the way a traditional exam does.
 Instead they will assess your familiarity with concepts and tools that we are using in the course and allow us to compare across the semester.
+
+| Assessment | Purpose | Form | Points |
+|:--- |:--- |:--- | ---:|
+| Beginning | Establish a baseline for skills and topic familiarity| Questionnaire | 50,000 |
+| Midterm | Progress and check-in | GitHub + Questionnaire | 50,000 |
+| Final | Self- and team-assessment | GitHub + Questionnaire | 50,000 |
 
 The midterm and final will include a self-assessment component and also an assessment of your team dynamics.
 
