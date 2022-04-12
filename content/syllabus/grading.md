@@ -16,11 +16,14 @@ The breakdown is as follows.
 
 | **Component** | **Description** | **Quantity** | **Points** | **Subtotal** |
 |:--- |:--- | ---:| ---:| ---:|
-| Assignments | Individual programming assignments | 10 | 50,000 | 500,000 |
+| Assignments | Individual programming assignments | 7 | 71,428\* | 500,000 |
+| | Extra credit available | 1 | 25,000 | (25,000) |
 | Final project | Team-based app development | 1 | 300,000 | 300,000 |
 | Assessments | Questionnaires | 3 | 50,000 | 150,000 |
 | Engagement | GitHub commits | 100 | 500 | 50,000 | 
 | **Total** |   |   |   | **1,000,000** |
+
+\* Three of the assignments will be worth 71,429 points because of rounding.
 
 ## Components
 
