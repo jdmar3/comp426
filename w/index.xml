@@ -225,13 +225,16 @@ Notes Wellness day 2022-04-14T15:30:00-05:00</description>
       </item>
       
       <item>
-        <title>w14 Deploy</title>
+        <title>w14 Auth</title>
         <link>https://comp426.johndmart.in/w/14/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://comp426.johndmart.in/w/14/</guid>
-        <description>Authentication continued in React app 2022-04-19T15:30:00-05:00
-Deploy to Heroku 2022-04-21T15:30:00-05:00</description>
+        <description>Local Auth Agenda 2022-04-21T15:30:00-05:00
+ Roll-your-own Auth Implementing Auth with MongoDB, Express, and Node using Passport.js  Useful links Passport Passport.js
+Node.js and Express Authentication Using Passport - Dan Arias
+hey(node) This site required that you sign up for an account, but it IMMENSELY useful and the following links will the the basis for the demos this week.
+What Is the Difference Between Authorization and Authentication? (Part 1) - hey(node)</description>
       </item>
       
       <item>

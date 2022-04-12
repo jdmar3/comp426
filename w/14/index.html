@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>w14 Deploy – Modern Web Programming</title>
+    <title>w14 Auth – Modern Web Programming</title>
     
 
 
@@ -1075,11 +1075,11 @@
     <meta name="description" content="This week we will continue to look at single-page v. multi-page apps in React AND we will deploy a React app using Heroku" />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
-<meta name="modified" content="2022-04-07T13:52:05-0400">
+<meta name="modified" content="2022-04-12T19:03:36-0400">
 
 
 <meta property="og:site_name" content="Modern Web Programming">
-<meta property="og:title" content="w14 Deploy">
+<meta property="og:title" content="w14 Auth">
 <meta property="og:url" content="https://comp426.johndmart.in/w/14/">
 <meta property="og:type" content="article">
 
@@ -1110,9 +1110,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "w14 Deploy",
+    "headline": "w14 Auth",
     "datePublished": "0001-01-01T00:00:00Z",
-    "dateModified": "2022-04-07T13:52:05-04:00",
+    "dateModified": "2022-04-12T19:03:36-04:00",
     "url" : "https://comp426.johndmart.in/w/14/",
     "description": "This week we will continue to look at single-page v. multi-page apps in React AND we will deploy a React app using Heroku",
     "mainEntityOfPage": {
@@ -1163,7 +1163,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      w14 Deploy
+      w14 Auth
     
   </h6>
   <ul>
@@ -1509,7 +1509,7 @@
   
   <li class="active">
     <a href="https://comp426.johndmart.in/w/14/"
-      class="menu__title active">w14 Deploy</a>
+      class="menu__title active">w14 Auth</a>
   </li>
   
 
@@ -1853,7 +1853,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">w14 Deploy</h2>
+        <h2 class="title">w14 Auth</h2>
       </div>
     </div>
   </div>
@@ -1887,7 +1887,7 @@
   
   <li  class="is-active" >
     
-      <span>w14 Deploy</span>
+      <span>w14 Auth</span>
     
   </li>
   
@@ -1897,9 +1897,9 @@
         
         <div class="grow"></div>
         
-    <a href="https://github.com/jdmar3/comp426/commit/220cc8560d2b9a9cfce0470539bb0fc8853a6a35" target="_blank" rel="noreferrer">
+    <a href="https://github.com/jdmar3/comp426/commit/69b73a7d1a8ce8b3e990df2949103a54d22fc4a8" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Updated Button">
-        This page updated: 2022-04-07 13:52:05 -0400 -0400
+        This page updated: 2022-04-12 19:03:36 -0400 -0400
       </button>
     </a>
 
@@ -1950,7 +1950,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      w14 Deploy
+      w14 Auth
     
   </h6>
   <ul>
@@ -2296,7 +2296,7 @@
   
   <li class="active">
     <a href="https://comp426.johndmart.in/w/14/"
-      class="menu__title active">w14 Deploy</a>
+      class="menu__title active">w14 Auth</a>
   </li>
   
 
@@ -2337,10 +2337,48 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <h2 id="authentication-continued-in-react-app">Authentication continued in React app</h2>
-<p><code>2022-04-19T15:30:00-05:00</code></p>
-<h2 id="deploy-to-heroku">Deploy to Heroku</h2>
+    <h2 id="local-auth">Local Auth</h2>
+<h3 id="agenda">Agenda</h3>
 <p><code>2022-04-21T15:30:00-05:00</code></p>
+<ol>
+<li>Roll-your-own Auth</li>
+<li>Implementing Auth with MongoDB, Express, and Node using Passport.js</li>
+</ol>
+<h3 id="useful-links">Useful links</h3>
+<h4 id="passport">Passport</h4>
+<p><a href="https://www.passportjs.org/" target="_blank">Passport.js</a></p>
+<p><a href="https://auth0.com/blog/create-a-simple-and-secure-node-express-app/" target="_blank">Node.js and Express Authentication Using Passport</a> - Dan Arias</p>
+<h4 id="heynode">hey(node)</h4>
+<p>This site required that you sign up for an account, but it IMMENSELY useful and the following links will the the basis for the demos this week.</p>
+<p><a href="https://heynode.com/tutorial/what-difference-between-authorization-and-authentication" target="_blank">What Is the Difference Between Authorization and Authentication? (Part 1)</a> - hey(node)</p>
+<p><a href="https://heynode.com/tutorial/what-are-form-validation-and-sanitization" target="_blank">What Are Form Validation and Sanitization? (Part 2</a></p>
+<p><a href="https://heynode.com/tutorial/process-user-login-form-expressjs" target="_blank">Process a User Login Form with ExpressJS (Part 3</a></p>
+<p><a href="https://heynode.com/tutorial/how-validate-and-sanitize-expressjs-form" target="_blank">How to Validate and Sanitize an ExpressJS Form (Part 4</a></p>
+<p><a href="https://heynode.com/tutorial/what-difference-between-sessions-and-json-web-tokens-jwt-authentication" target="_blank">What Is the Difference Between Sessions and JSON Web Tokens (JWT) Authentication? (Part 5</a></p>
+<p><a href="https://heynode.com/tutorial/set-expressjs-session-authentication-node-applications" target="_blank">Set Up ExpressJS Session Authentication for Node Applications (Part 6</a></p>
+<p><a href="https://heynode.com/tutorial/authenticate-users-node-expressjs-and-passportjs/" target="_blank">Authenticate Users With Node ExpressJS and Passport.js (Part 7)</a> - hey(node)</p>
+<h3 id="node--express-authentication">Node / Express Authentication</h3>
+<p><a href="https://stackabuse.com/handling-authentication-in-express-js/" target="_blank">Handling Authentication in Express.js</a> - Janith Kasun</p>
+<p><a href="https://www.tutorialspoint.com/expressjs/expressjs_authentication.htm" target="_blank">ExpressJS - Authentication</a> - TutorialsPoint</p>
+<p><a href="https://www.npmjs.com/package/express-basic-auth" target="_blank">express-basic-auth</a> - NPM</p>
+<h2 id="third-party-auth">Third-party Auth</h2>
+<p><code>2022-04-19T15:30:00-05:00</code></p>
+<h3 id="agenda-1">Agenda</h3>
+<ol start="2">
+<li>Third-party Auth</li>
+<li>OAuth</li>
+<li>Social login</li>
+<li>Passport.js</li>
+</ol>
+<h3 id="useful-links-1">Useful Links</h3>
+<h4 id="passport-1">Passport</h4>
+<p><a href="https://www.passportjs.org/concepts/authentication/oauth/" target="_blank">Oauth</a></p>
+<p><a href="http://www.passportjs.org/packages/passport-oauth2/" target="_blank">passport-oauth2</a></p>
+<h4 id="oauth">OAuth</h4>
+<p><a href="https://www.sohamkamani.com/nodejs/oauth/" target="_blank">Implementing OAuth 2.0 with Node.js</a> - Soham Kamani</p>
+<p><a href="https://www.honeybadger.io/blog/oauth-nodejs-javascript/" target="_blank">Understanding and Implementing OAuth2 in Node.js</a> - Diogo Souza</p>
+<p><a href="https://thecodebarbarian.com/oauth-with-node-js-and-express.html" target="_blank">Implementing an OAuth Server with Node.js and Express</a> - Valeri Karpov</p>
+<p><a href="https://niceprogrammer.com/express-js-oauth-2-server-using-oauth2-server-package/" target="_blank">Express JS OAuth 2 server using oauth2-server package</a> - Nick B. Alcala</p>
 
   </article>
 </div>
@@ -2380,8 +2418,29 @@
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authentication-continued-in-react-app">Authentication continued in React app</a></li>
-    <li><a href="#deploy-to-heroku">Deploy to Heroku</a></li>
+    <li><a href="#local-auth">Local Auth</a>
+      <ul>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#useful-links">Useful links</a>
+          <ul>
+            <li><a href="#passport">Passport</a></li>
+            <li><a href="#heynode">hey(node)</a></li>
+          </ul>
+        </li>
+        <li><a href="#node--express-authentication">Node / Express Authentication</a></li>
+      </ul>
+    </li>
+    <li><a href="#third-party-auth">Third-party Auth</a>
+      <ul>
+        <li><a href="#agenda-1">Agenda</a></li>
+        <li><a href="#useful-links-1">Useful Links</a>
+          <ul>
+            <li><a href="#passport-1">Passport</a></li>
+            <li><a href="#oauth">OAuth</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
