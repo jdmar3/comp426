@@ -29,9 +29,11 @@ The breakdown is as follows.
 
 ### Assignments
 
-Each of the individual programmin assignments will be worth 50,000 points and will be automatically evaluated.
+Each of the individual programming assignments will be worth 71,428 points and will be automatically evaluated.
 
-The autograders will give you feedback so that you can make adjustments to your code to debug it so that it passes the unit tests. 
+The autograders will give you feedback so that you can make adjustments to your code to debug it so that it passes the unit tests.
+
+The grade is not the point of any of this. Writing working code is the point of this.
 
 #### Assignment due dates
 
@@ -52,7 +54,10 @@ You will not lose points for push or updating your repos after the due date has 
 | Demo | Walkthrough/clickthrough screencap demo of your app and presentation to class. | 50,000 |
 | **Total**  |   | **300,000** |
 
-Every member of your team will receive the same number of points for the final project. 
+Every member of your team will receive the same number of points for the final project.
+
+The grade breakdown will not be more granular than what is listed above.
+Your team's project must have the five components above. 
 
 You will check in with a TA assigned to your team throughout the semester as you plan and build.
 We will give you qualitative feedback on your work throughout and as part of the final presentation.
