@@ -110,9 +110,11 @@ Assignment requirements  A web interface with:  a landing page &amp;lt;div&amp;g
         
         <guid>https://comp426.johndmart.in/a/html-css/</guid>
         <description>DUE: N/A
-GitHub Classroom Assignment Invite: COMING SOON
-Issues: https://github.com/comp426-2022-spring/html+css/issues
-Description: This optional assignment is intended to help you add a little polish to your HTML and CSS if you wish to do so. You can receive extra credit for it if you wish to submit it.</description>
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/VGa4L5eC
+Issues: https://github.com/comp426-2022-spring/e01/issues
+Description: This optional assignment is intended to help you add a little polish to your HTML and CSS if you wish to do so. You can receive extra credit for it if you wish to submit it.
+Instructions Follow the instructions in the comments in files listed inside the /public directory.
+1  &amp;lt;!-- HTML comments look like this --&amp;gt;   1  /* CSS comments look like this */   Useful links General HTML https://www.</description>
       </item>
       
       <item>
