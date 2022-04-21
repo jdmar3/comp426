@@ -104,6 +104,33 @@ Assignment requirements  A web interface with:  a landing page &amp;lt;div&amp;g
       </item>
       
       <item>
+        <title>e01 HTML&#43;CSS</title>
+        <link>https://comp426.johndmart.in/a/e01/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/e01/</guid>
+        <description>DUE: N/A
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/VGa4L5eC
+Issues: https://github.com/comp426-2022-spring/e01/issues
+Description This optional assignment is intended to help you develop a general sense of familiarity with HTML and CSS or add a little polish to your HTML and CSS skills.
+You can receive extra credit for it if you wish to submit it.
+Instructions Follow the instructions in the NUMBERED comments in the .html and .css files listed inside the /public directory.</description>
+      </item>
+      
+      <item>
+        <title>e02 React</title>
+        <link>https://comp426.johndmart.in/a/e02/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://comp426.johndmart.in/a/e02/</guid>
+        <description>DUE: N/A
+GitHub Classroom Assignment Invite: https://classroom.github.com/a/aOrxrAKB
+Issues: https://github.com/comp426-2022-spring/e02/issues
+Description Instructions Use NVM to make sure that you are running the most current LTS version of NodeJS.
+nvm list iojs-v3.3.1 -&amp;gt; v16.14.2 default -&amp;gt; lts/* (-&amp;gt; v16.14.2) unstable -&amp;gt; N/A (default) node -&amp;gt; stable (-&amp;gt; v16.14.2) (default) stable -&amp;gt; 16.14 (-&amp;gt; v16.14.2) (default) iojs -&amp;gt; iojs-v3.3 (-&amp;gt; iojs-v3.3.1) (default) lts/* -&amp;gt; lts/gallium (-&amp;gt; v16.14.2) lts/argon -&amp;gt; v4.9.1 (-&amp;gt; N/A) lts/boron -&amp;gt; v6.</description>
+      </item>
+      
+      <item>
         <title>a99 Final Project</title>
         <link>https://comp426.johndmart.in/a/99/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
