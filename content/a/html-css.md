@@ -16,14 +16,14 @@ Description: This optional assignment is intended to help you add a little polis
 
 ## Instructions
 
-Follow the instructions in the comments in files listed inside the `/public` directory.
+Follow the instructions in the NUMBERED comments in the `.html` and `.css` files listed inside the `/public` directory.
 
 ```html
-<!-- HTML comments look like this -->
+<!-- 0. HTML comments look like this -->
 ```
 
 ```css
-/* CSS comments look like this */
+/* 00. CSS comments look like this */
 ```
 
 ## Useful links
