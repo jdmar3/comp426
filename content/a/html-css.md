@@ -12,7 +12,11 @@ GitHub Classroom Assignment Invite: https://classroom.github.com/a/VGa4L5eC
 
 Issues: https://github.com/comp426-2022-spring/e01/issues
 
-Description: This optional assignment is intended to help you add a little polish to your HTML and CSS if you wish to do so. You can receive extra credit for it if you wish to submit it.
+## Description 
+
+This optional assignment is intended to help you develop a general sense of familiarity with HTML and CSS or add a little polish to your HTML and CSS skills.
+
+You can receive extra credit for it if you wish to submit it.
 
 ## Instructions
 
