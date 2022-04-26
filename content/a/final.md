@@ -6,9 +6,9 @@ category: assignment
 weight: 1000
 ---
 
-DUE: `2022-04-30T15:00:00-5:00`
+DUE: `2022-04-30T23:59:59-5:00`
 
-GitHub Classroom invite link: COMING SOON
+GitHub Classroom invite link: https://classroom.github.com/a/CIzB6zD- 
 
 The instructions for the final are in the repository that will be automatically created for you when you accept the assignment using the link above.
 
