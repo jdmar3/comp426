@@ -1,4 +1,4 @@
-baseURL = "https://comp426.johndmart.in"
+baseURL = "https://johndmart.in/comp426/"
 title = "Modern Web Programming (COMP 426)"
 author = "John D. Martin III"
 theme = "hugo-theme-zdoc"
