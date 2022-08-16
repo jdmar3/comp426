@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agenda on Modern Web Programming</title>
-    <link>https://comp426.johndmart.in/w/</link>
+    <link>https://johndmart.in/comp426/w/</link>
     <description>Recent content in Agenda on Modern Web Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;span xmlns:cc=&#34;http://creativecommons.org/ns#&#34; xmlns:dct=&#34;http://purl.org/dc/terms/&#34;&gt;&lt;a property=&#34;dct:title&#34; rel=&#34;cc:attributionURL&#34; href=&#34;https://comp426.johndmart.in&#34;&gt;COMP 426: Modern Web Programming&lt;/a&gt; &amp;copy; {year} by &lt;a rel=&#34;cc:attributionURL dct:creator&#34; property=&#34;cc:attributionName&#34; href=&#34;https://johndmart.in&#34;&gt;John D. Martin III&lt;/a&gt; is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;CC BY-NC-SA 4.0&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1&#34;&gt;&lt;/a&gt;&lt;/span&gt;</copyright>
     
-        <atom:link href="https://comp426.johndmart.in/w/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://johndmart.in/comp426/w/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>w00 Onboarding</title>
-        <link>https://comp426.johndmart.in/w/00/</link>
+        <link>https://johndmart.in/comp426/w/00/</link>
         <pubDate>Tue, 11 Jan 2022 15:30:00 -0500</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/00/</guid>
+        <guid>https://johndmart.in/comp426/w/00/</guid>
         <description>Syllabus day 2022-01-11T15:30:00-05:00
 Read the syllabus and learn how you can get a million points!
 Using GitHub for class 2022-01-13T15:30:00-05:00
@@ -30,20 +30,20 @@ For questions and general troubleshooting/problems/etc. related to this class, c
       
       <item>
         <title>w01 Node</title>
-        <link>https://comp426.johndmart.in/w/01/</link>
+        <link>https://johndmart.in/comp426/w/01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/01/</guid>
+        <guid>https://johndmart.in/comp426/w/01/</guid>
         <description>a00 walkthrough + Node.js setup 2022-01-18T15:30:00-05:00
  Installing Node with NVM Setting up SSH key authentication Accepting assignments Cloning a repository Getting started with NPM Write and edit some HTML Using browser-sync Write and edit some HTML Ports for testing Adding, committing, and pushing your changes Troubleshooting the output from autograders on GitHub  Notes Installing NVM If you install NVM using the supremely straightforward instructions linked below, don&amp;rsquo;t make the mistake of over-thinking it the way that your instructor did today.</description>
       </item>
       
       <item>
         <title>w02 HTTP, Scripting, and Testing</title>
-        <link>https://comp426.johndmart.in/w/02/</link>
+        <link>https://johndmart.in/comp426/w/02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/02/</guid>
+        <guid>https://johndmart.in/comp426/w/02/</guid>
         <description>Headers, requests, responses, status, and curl 2022-01-25T15:30:00-05:00
  Pearl Hacks What do headers do? How can we see them?  curl Inspector   Requests and responses What do statuses tell us?  Slides https://comp426-2022-spring.github.io/slides/w02-00.html
 Pearl Hacks We will have a brief presentation from a member of the planning committee for Pearl Hacks, a beginner-friendly hackathon for women and non-binady students.
@@ -52,10 +52,10 @@ Please see the Pearl Hacks site for more information about the program: https://
       
       <item>
         <title>w03 Functions and Modules</title>
-        <link>https://comp426.johndmart.in/w/03/</link>
+        <link>https://johndmart.in/comp426/w/03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/03/</guid>
+        <guid>https://johndmart.in/comp426/w/03/</guid>
         <description>Functions and Evolution 2022-01-27T15:30:00-05:00
  Old-school JS and modern JS History and evolution Functions three ways  Slides https://comp426-2022-spring.github.io/slides/w03-00.html
 Useful links Evolution JavaScript History - w3schools
@@ -73,10 +73,10 @@ ES6 arrow functions Javascript Arrow Function</description>
       
       <item>
         <title>w04 Collaborative workflows and APIs</title>
-        <link>https://comp426.johndmart.in/w/04/</link>
+        <link>https://johndmart.in/comp426/w/04/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/04/</guid>
+        <guid>https://johndmart.in/comp426/w/04/</guid>
         <description>Collaborative workflows 2022-02-08T15:30:00-05:00
 Today we are mostly going to spend class time orienting ourselves within a99 teams and beginning a brainstorming session with your team.
 At the beginning of today&amp;rsquo;s session, I will go over the tools that I want you to use in GitHub to get yourselves into a collaborative workflow habit.
@@ -86,10 +86,10 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
       
       <item>
         <title>w05 Time to make the APIs</title>
-        <link>https://comp426.johndmart.in/w/05/</link>
+        <link>https://johndmart.in/comp426/w/05/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/05/</guid>
+        <guid>https://johndmart.in/comp426/w/05/</guid>
         <description>Getting started with Express 2022-02-15T15:30:00-05:00
 Agenda  API anatomy Walkthrough: create your own API in Express (aka a03)  Useful links Node HTTP interfaces documentation
 Express API reference
@@ -102,10 +102,10 @@ There is A LOT of information out there about using Express to build an API. Don
       
       <item>
         <title>w06 More fun with APIs</title>
-        <link>https://comp426.johndmart.in/w/06/</link>
+        <link>https://johndmart.in/comp426/w/06/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/06/</guid>
+        <guid>https://johndmart.in/comp426/w/06/</guid>
         <description>Request body and middleware 2022-02-22T15:30:00-05:00
 Agenda  Questions about a99 Review endpoints Middleware Request body  Slides https://comp426-2022-spring.github.io/slides/w06-00.html
 Useful links req variables Request (req object)
@@ -120,10 +120,10 @@ Nodemon Nodemon is like browsersync but for your Node apps.</description>
       
       <item>
         <title>w07 Logging</title>
-        <link>https://comp426.johndmart.in/w/07/</link>
+        <link>https://johndmart.in/comp426/w/07/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/07/</guid>
+        <guid>https://johndmart.in/comp426/w/07/</guid>
         <description>Logging to file 2022-03-01T15:30:00-05:00
 Agenda  Logging wrap-up Thinking about sources of error Errors in Express Writing error and other logs to file  Useful links Generating logs Express.js and Morgan Logging
 How to use morgan in your Express project - Cooper Makhijani
@@ -136,10 +136,10 @@ Node.js logging made easy: A tutorial on just about everything you need to know 
       
       <item>
         <title>w08 Data from endpoints to database</title>
-        <link>https://comp426.johndmart.in/w/08/</link>
+        <link>https://johndmart.in/comp426/w/08/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/08/</guid>
+        <guid>https://johndmart.in/comp426/w/08/</guid>
         <description>Database interaction endpoints 2022-03-08T15:30:00-05:00
  Create database for arbitrary data Create endpoint to send arbitrary data to DB Read data through endpoint Update data through endpoint Delete data through endpoint  Useful links General database integration Express Database Integration Guide
 Database integration in Express
@@ -152,10 +152,10 @@ Notes Below is the database service script that I used in class today:
       
       <item>
         <title>w09 Spring Break</title>
-        <link>https://comp426.johndmart.in/w/09/</link>
+        <link>https://johndmart.in/comp426/w/09/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/09/</guid>
+        <guid>https://johndmart.in/comp426/w/09/</guid>
         <description>No class No class on 2022-03-15T15:30:00-05:00 or 2022-03-17T15:30:00-05:00.
 There will be no office hours held the week of spring break.
 Take some time for yourself, rest, and don&amp;rsquo;t do anything for this class.</description>
@@ -163,10 +163,10 @@ Take some time for yourself, rest, and don&amp;rsquo;t do anything for this clas
       
       <item>
         <title>w10 Human interfaces</title>
-        <link>https://comp426.johndmart.in/w/10/</link>
+        <link>https://johndmart.in/comp426/w/10/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/10/</guid>
+        <guid>https://johndmart.in/comp426/w/10/</guid>
         <description>Making interface design decisions 2022-03-22T15:30:00-05:00
 Agenda  What is a human interface? Accessibility and Usability Components and features of an interface  Interactions Use flows / pathways Skeuomorphs Information architecture   How do we decide what goes into the interface? Specifying design parameters  Slides https://comp426-2022-spring.github.io/slides/w10-00.html
 Useful links User Interface Elements Every Designer Should Know - UXPin
@@ -177,10 +177,10 @@ usability.gov User Interface Elements</description>
       
       <item>
         <title>w11 Client-side scripting</title>
-        <link>https://comp426.johndmart.in/w/11/</link>
+        <link>https://johndmart.in/comp426/w/11/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/11/</guid>
+        <guid>https://johndmart.in/comp426/w/11/</guid>
         <description>Fetch 2022-03-29T15:30:00-05:00
 Agenda  Revisit button click Add a result field Add an image Make an API call with fetch() Use the response from fetch() to manipulate elements.  Slides https://comp426-2022-spring.github.io/slides/w11-00.html
 Useful links HTML DOM Element setAttribute() - w3schools
@@ -194,10 +194,10 @@ How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</desc
       
       <item>
         <title>w12 Single-page interfaces and package structure</title>
-        <link>https://comp426.johndmart.in/w/12/</link>
+        <link>https://johndmart.in/comp426/w/12/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/12/</guid>
+        <guid>https://johndmart.in/comp426/w/12/</guid>
         <description>Team Work Day 2022-04-05T15:30:00-05:00
 Agenda Meet with your teams and check in.
 Package structure 2022-04-07T15:30:00-05:00
@@ -209,10 +209,10 @@ Organizing your Express.js project structure for better productivity - Geshan Ma
       
       <item>
         <title>w13 React</title>
-        <link>https://comp426.johndmart.in/w/13/</link>
+        <link>https://johndmart.in/comp426/w/13/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/13/</guid>
+        <guid>https://johndmart.in/comp426/w/13/</guid>
         <description>Intro to React 2022-04-12T15:30:00-05:00
 Agenda  What is React? Why React? Some React terms Make a grade calculator app with React  Useful links Where to start with React Create React App
 Create a New React App - React
@@ -224,10 +224,10 @@ React with Node/Express create-app-react-express - NPM</description>
       
       <item>
         <title>w14 Auth</title>
-        <link>https://comp426.johndmart.in/w/14/</link>
+        <link>https://johndmart.in/comp426/w/14/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/14/</guid>
+        <guid>https://johndmart.in/comp426/w/14/</guid>
         <description>Local Auth Agenda 2022-04-21T15:30:00-05:00
  Roll-your-own Auth Implementing Auth with MongoDB, Express, and Node using Passport.js  Useful links Passport Passport.js
 Node.js and Express Authentication Using Passport - Dan Arias
@@ -237,10 +237,10 @@ What Is the Difference Between Authorization and Authentication? (Part 1) - hey(
       
       <item>
         <title>w15 Logging out</title>
-        <link>https://comp426.johndmart.in/w/15/</link>
+        <link>https://johndmart.in/comp426/w/15/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/15/</guid>
+        <guid>https://johndmart.in/comp426/w/15/</guid>
         <description>Course wrap up 2022-04-26T15:30:00-05:00
 Agenda  What can I say that I learned here? What else is there? How do I learn more? General discussion and inquiries  </description>
       </item>

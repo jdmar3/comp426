@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assignments on Modern Web Programming</title>
-    <link>https://comp426.johndmart.in/a/</link>
+    <link>https://johndmart.in/comp426/a/</link>
     <description>Recent content in Assignments on Modern Web Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;span xmlns:cc=&#34;http://creativecommons.org/ns#&#34; xmlns:dct=&#34;http://purl.org/dc/terms/&#34;&gt;&lt;a property=&#34;dct:title&#34; rel=&#34;cc:attributionURL&#34; href=&#34;https://comp426.johndmart.in&#34;&gt;COMP 426: Modern Web Programming&lt;/a&gt; &amp;copy; {year} by &lt;a rel=&#34;cc:attributionURL dct:creator&#34; property=&#34;cc:attributionName&#34; href=&#34;https://johndmart.in&#34;&gt;John D. Martin III&lt;/a&gt; is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;CC BY-NC-SA 4.0&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1&#34;&gt;&lt;/a&gt;&lt;/span&gt;</copyright>
     
-        <atom:link href="https://comp426.johndmart.in/a/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://johndmart.in/comp426/a/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>a00 Setup</title>
-        <link>https://comp426.johndmart.in/a/00/</link>
+        <link>https://johndmart.in/comp426/a/00/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/00/</guid>
+        <guid>https://johndmart.in/comp426/a/00/</guid>
         <description>DUE: 2022-01-21T00:00:00-5:00
 The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
 Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
@@ -27,10 +27,10 @@ Install Required Software Below are links to guides for installing the required 
       
       <item>
         <title>a01 Node</title>
-        <link>https://comp426.johndmart.in/a/01/</link>
+        <link>https://johndmart.in/comp426/a/01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/01/</guid>
+        <guid>https://johndmart.in/comp426/a/01/</guid>
         <description>DUE: 2022-01-28T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/KxHQIQzJ
 Issues: https://github.com/comp426-2022-spring/a01/issues
@@ -40,10 +40,10 @@ Build your own web server from scratch!</description>
       
       <item>
         <title>a02 Functions and modules</title>
-        <link>https://comp426.johndmart.in/a/02/</link>
+        <link>https://johndmart.in/comp426/a/02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/02/</guid>
+        <guid>https://johndmart.in/comp426/a/02/</guid>
         <description>DUE: 2022-02-11T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/4U2bhooL
 Issues: https://github.com/comp426-2022-spring/a02/issues
@@ -53,10 +53,10 @@ Write some functions and make a module in Node.</description>
       
       <item>
         <title>a03 Make an API</title>
-        <link>https://comp426.johndmart.in/a/03/</link>
+        <link>https://johndmart.in/comp426/a/03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/03/</guid>
+        <guid>https://johndmart.in/comp426/a/03/</guid>
         <description>DUE: 2022-02-25T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/cyXk13b7
 Issues: https://github.com/comp426-2022-spring/a03/issues
@@ -66,10 +66,10 @@ The instructions for this are very sparse because I want you to be creative in h
       
       <item>
         <title>a04 Databases, logs, errors, and middleware</title>
-        <link>https://comp426.johndmart.in/a/04/</link>
+        <link>https://johndmart.in/comp426/a/04/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/04/</guid>
+        <guid>https://johndmart.in/comp426/a/04/</guid>
         <description>DUE: 2022-03-29T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/GQsrzvZT
 Issues: https://github.com/comp426-2022-spring/a04/issues
@@ -78,10 +78,10 @@ Logging transactions and handling errors This assignment for COMP 426 will help 
       
       <item>
         <title>MIDTERM</title>
-        <link>https://comp426.johndmart.in/a/midterm/</link>
+        <link>https://johndmart.in/comp426/a/midterm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/midterm/</guid>
+        <guid>https://johndmart.in/comp426/a/midterm/</guid>
         <description>DUE: 2022-03-11T00:00:00-5:00
 GitHub Classroom invite link: https://classroom.github.com/a/LEjr-By8
 The instructions for the midterm are in the repository that will be automatically created for you when you accept the assignment using the link above.
@@ -91,10 +91,10 @@ You have until the beginning of Spring break to complete the midterm.</descripti
       
       <item>
         <title>a05 Human Interface</title>
-        <link>https://comp426.johndmart.in/a/05/</link>
+        <link>https://johndmart.in/comp426/a/05/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/05/</guid>
+        <guid>https://johndmart.in/comp426/a/05/</guid>
         <description>DUE: 2022-04-15T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/PUVGxeMe
 Issues: https://github.com/comp426-2022-spring/a05/issues
@@ -105,10 +105,10 @@ Assignment requirements  A web interface with:  a landing page &amp;lt;div&amp;g
       
       <item>
         <title>e01 HTML&#43;CSS</title>
-        <link>https://comp426.johndmart.in/a/e01/</link>
+        <link>https://johndmart.in/comp426/a/e01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/e01/</guid>
+        <guid>https://johndmart.in/comp426/a/e01/</guid>
         <description>DUE: N/A
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/VGa4L5eC
 Issues: https://github.com/comp426-2022-spring/e01/issues
@@ -119,10 +119,10 @@ Instructions Follow the instructions in the NUMBERED comments in the .html and .
       
       <item>
         <title>e02 React</title>
-        <link>https://comp426.johndmart.in/a/e02/</link>
+        <link>https://johndmart.in/comp426/a/e02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/e02/</guid>
+        <guid>https://johndmart.in/comp426/a/e02/</guid>
         <description>DUE: N/A
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/aOrxrAKB
 Issues: https://github.com/comp426-2022-spring/e02/issues
@@ -132,10 +132,10 @@ nvm list iojs-v3.3.1 -&amp;gt; v16.14.2 default -&amp;gt; lts/* (-&amp;gt; v16.1
       
       <item>
         <title>a99 Final Project</title>
-        <link>https://comp426.johndmart.in/a/99/</link>
+        <link>https://johndmart.in/comp426/a/99/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/99/</guid>
+        <guid>https://johndmart.in/comp426/a/99/</guid>
         <description>DUE: 2022-04-30T19:00:00-5:00 (End of Exam Period)
 GitHub Classroom Assignment Invite: [REDACTED]
 UPDATE 2022-02-17: You don&amp;rsquo;t need to accept this assignment since you are already assigned to teams. So, there is not assignment invite link for a99.
@@ -146,10 +146,10 @@ NOTE: You are all each individually responsible for submitting a final self- and
       
       <item>
         <title>FINAL</title>
-        <link>https://comp426.johndmart.in/a/final/</link>
+        <link>https://johndmart.in/comp426/a/final/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/final/</guid>
+        <guid>https://johndmart.in/comp426/a/final/</guid>
         <description>DUE: 2022-04-30T23:59:59-5:00
 GitHub Classroom invite link: https://classroom.github.com/a/CIzB6zD-
 The instructions for the final are in the repository that will be automatically created for you when you accept the assignment using the link above.

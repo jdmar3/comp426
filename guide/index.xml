@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guides on Modern Web Programming</title>
-    <link>https://comp426.johndmart.in/guide/</link>
+    <link>https://johndmart.in/comp426/guide/</link>
     <description>Recent content in Guides on Modern Web Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;span xmlns:cc=&#34;http://creativecommons.org/ns#&#34; xmlns:dct=&#34;http://purl.org/dc/terms/&#34;&gt;&lt;a property=&#34;dct:title&#34; rel=&#34;cc:attributionURL&#34; href=&#34;https://comp426.johndmart.in&#34;&gt;COMP 426: Modern Web Programming&lt;/a&gt; &amp;copy; {year} by &lt;a rel=&#34;cc:attributionURL dct:creator&#34; property=&#34;cc:attributionName&#34; href=&#34;https://johndmart.in&#34;&gt;John D. Martin III&lt;/a&gt; is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;CC BY-NC-SA 4.0&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1&#34;&gt;&lt;/a&gt;&lt;/span&gt;</copyright>
     
-        <atom:link href="https://comp426.johndmart.in/guide/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://johndmart.in/comp426/guide/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Software install guides</title>
-        <link>https://comp426.johndmart.in/guide/software/</link>
+        <link>https://johndmart.in/comp426/guide/software/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/software/</guid>
+        <guid>https://johndmart.in/comp426/guide/software/</guid>
         <description>These guides will help you install software required for COMP 426 on different operating systems.</description>
       </item>
       
       <item>
         <title>Authentication</title>
-        <link>https://comp426.johndmart.in/guide/authentication/</link>
+        <link>https://johndmart.in/comp426/guide/authentication/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/authentication/</guid>
+        <guid>https://johndmart.in/comp426/guide/authentication/</guid>
         <description>OAuth Implementing OAuth 2.0 with Node.js - Soham Kamani
 Understanding and Implementing OAuth2 in Node.js - Diogo Souza
 Implementing an OAuth Server with Node.js and Express - Valeri Karpov
@@ -37,10 +37,10 @@ Passport Node.js and Express authentication using Passport - Dan Arias</descript
       
       <item>
         <title>Bash</title>
-        <link>https://comp426.johndmart.in/guide/bash/</link>
+        <link>https://johndmart.in/comp426/guide/bash/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/bash/</guid>
+        <guid>https://johndmart.in/comp426/guide/bash/</guid>
         <description>Bash is the name of the shell and command language that we use most frequently in Linux and other UNIX clones. Mac OSX is a UNIX clone. When you open &amp;ldquo;Terminal,&amp;rdquo; you are looking at Bash. It is a text-interface command line envrionment but it can also read commands from files in the form of scripts.
 Learning the shell - William E. Shotts, Jr.
 Writing shell scripts - William E. Shotts, Jr.</description>
@@ -48,10 +48,10 @@ Writing shell scripts - William E. Shotts, Jr.</description>
       
       <item>
         <title>CSS3</title>
-        <link>https://comp426.johndmart.in/guide/css3/</link>
+        <link>https://johndmart.in/comp426/guide/css3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/css3/</guid>
+        <guid>https://johndmart.in/comp426/guide/css3/</guid>
         <description>CSS is an acronym for &amp;ldquo;Cascading Style Sheet.&amp;rdquo; If HTML is the medium for web content, then CSS is the palette for the visual styling of the web. Whenever a website looks like anything other than just a blank page, there is CSS involved.
 CSS3 Cheat Sheet - Leslie Franke
 W3CSchools CSS Tutorial</description>
@@ -59,20 +59,20 @@ W3CSchools CSS Tutorial</description>
       
       <item>
         <title>Fetch</title>
-        <link>https://comp426.johndmart.in/guide/fetch/</link>
+        <link>https://johndmart.in/comp426/guide/fetch/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/fetch/</guid>
+        <guid>https://johndmart.in/comp426/guide/fetch/</guid>
         <description>Introduction to fetch() - Matt Gaunt
 How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
       </item>
       
       <item>
         <title>git</title>
-        <link>https://comp426.johndmart.in/guide/git/</link>
+        <link>https://johndmart.in/comp426/guide/git/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/git/</guid>
+        <guid>https://johndmart.in/comp426/guide/git/</guid>
         <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
 git basics git official documentation
 You should become conversant with the official documentation for git.</description>
@@ -80,10 +80,10 @@ You should become conversant with the official documentation for git.</descripti
       
       <item>
         <title>GitHub</title>
-        <link>https://comp426.johndmart.in/guide/github/</link>
+        <link>https://johndmart.in/comp426/guide/github/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/github/</guid>
+        <guid>https://johndmart.in/comp426/guide/github/</guid>
         <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
 GitHub Basics Hello World - GitHub Guides
 Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
@@ -92,20 +92,20 @@ Syncing a fork - GitHub Help</description>
       
       <item>
         <title>GitHub Actions</title>
-        <link>https://comp426.johndmart.in/guide/github-actions/</link>
+        <link>https://johndmart.in/comp426/guide/github-actions/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/github-actions/</guid>
+        <guid>https://johndmart.in/comp426/guide/github-actions/</guid>
         <description>GitHub Actions allows for testing, compiling, and other workflow tasks to be performed on GitHub after you push to a repository housed there. COMP 426 uses these for autograding and other basic evaluation of assignments when you submit them. It is useful to become familiar with how it works so that you can monitor your autograded assignments when you submit them.
 GitHub Actions - GitHub Docs</description>
       </item>
       
       <item>
         <title>GitHub Classroom</title>
-        <link>https://comp426.johndmart.in/guide/github-classroom/</link>
+        <link>https://johndmart.in/comp426/guide/github-classroom/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/github-classroom/</guid>
+        <guid>https://johndmart.in/comp426/guide/github-classroom/</guid>
         <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
 You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
 Install GitHub Classroom extension on VSCode</description>
@@ -113,10 +113,10 @@ Install GitHub Classroom extension on VSCode</description>
       
       <item>
         <title>HTML5</title>
-        <link>https://comp426.johndmart.in/guide/html5/</link>
+        <link>https://johndmart.in/comp426/guide/html5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/html5/</guid>
+        <guid>https://johndmart.in/comp426/guide/html5/</guid>
         <description>HTML is an acronym for &amp;ldquo;HyperText Markup Language.&amp;rdquo; &amp;ldquo;Hypertext&amp;rdquo; is text that contains links to other text. The Web, as we know it, relies on hypertext to for us to communicate with systems and with other humans. It is the medium of Web content.
 HTML5 Cheat Sheet - WebsiteSetup.org
 W3CSchools HTML(5) Tutorial</description>
@@ -124,19 +124,19 @@ W3CSchools HTML(5) Tutorial</description>
       
       <item>
         <title>Javascript</title>
-        <link>https://comp426.johndmart.in/guide/javascript/</link>
+        <link>https://johndmart.in/comp426/guide/javascript/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/javascript/</guid>
+        <guid>https://johndmart.in/comp426/guide/javascript/</guid>
         <description></description>
       </item>
       
       <item>
         <title>JS Functions</title>
-        <link>https://comp426.johndmart.in/guide/functions/</link>
+        <link>https://johndmart.in/comp426/guide/functions/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/functions/</guid>
+        <guid>https://johndmart.in/comp426/guide/functions/</guid>
         <description>JavaScript Functions - w3schools
 Functions - JavaScript - Mozilla Developer Network
 Differences Between var and let - JavaScript Tutorials</description>
@@ -144,10 +144,10 @@ Differences Between var and let - JavaScript Tutorials</description>
       
       <item>
         <title>Licenses</title>
-        <link>https://comp426.johndmart.in/guide/licenses/</link>
+        <link>https://johndmart.in/comp426/guide/licenses/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/licenses/</guid>
+        <guid>https://johndmart.in/comp426/guide/licenses/</guid>
         <description>Choosing licenses Choosing a license for your work can seem daunting, but it is a matter of deciding what you want to be able to do with your content or source code and how you want it to be distributed.
 GitHub GitHub has a very good guide to choosing licenses for your repositories and also a tool to help you through the process.
 Choose a License
@@ -156,20 +156,20 @@ Customize your repository &amp;gt; Licensing a repository - GitHub Docs</descrip
       
       <item>
         <title>Networks</title>
-        <link>https://comp426.johndmart.in/guide/networks/</link>
+        <link>https://johndmart.in/comp426/guide/networks/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/networks/</guid>
+        <guid>https://johndmart.in/comp426/guide/networks/</guid>
         <description>Network layer Cloudflare has an excellent tutorial series on the network layer. It is worth reading through the entire thing just to have a good general sense of the parts of networks, how they work, were they are, and what they do. The glossary is also excellent.
 What is the network layer? - Cloudflare</description>
       </item>
       
       <item>
         <title>Node</title>
-        <link>https://comp426.johndmart.in/guide/node/</link>
+        <link>https://johndmart.in/comp426/guide/node/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/node/</guid>
+        <guid>https://johndmart.in/comp426/guide/node/</guid>
         <description>Node.js v16.10.0 documentation
 ECMAScript Modules (ESM) ECMAScript Modules (ESM) documentation
 Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>
@@ -177,10 +177,10 @@ Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>
       
       <item>
         <title>Public APIs</title>
-        <link>https://comp426.johndmart.in/guide/publicapis/</link>
+        <link>https://johndmart.in/comp426/guide/publicapis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/publicapis/</guid>
+        <guid>https://johndmart.in/comp426/guide/publicapis/</guid>
         <description>General public APIs Public APIs - @public-apis
 COVID-19 APIs COVID Act Now - Data API
 Postman COVID-19 API Resource Center
@@ -190,10 +190,10 @@ Data reference (not APIs) NCDHHS COVID-19 dashboard data</description>
       
       <item>
         <title>Validators</title>
-        <link>https://comp426.johndmart.in/guide/validators/</link>
+        <link>https://johndmart.in/comp426/guide/validators/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/validators/</guid>
+        <guid>https://johndmart.in/comp426/guide/validators/</guid>
         <description>Here are some links to validators that you can use to check your assignment code. We will run all your code through a validator as part of your assignment submission. You should too.
 Validators will tell you exactly what you need to know to fix the errors in your code.
 HTML, CSS, etc. W3C Markup Validation Service (HTML)
@@ -202,10 +202,10 @@ W3C has a bunch of different validators that can check CSS, web platforms (mobil
       
       <item>
         <title>Visual Studio Code</title>
-        <link>https://comp426.johndmart.in/guide/vscode/</link>
+        <link>https://johndmart.in/comp426/guide/vscode/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/vscode/</guid>
+        <guid>https://johndmart.in/comp426/guide/vscode/</guid>
         <description>Getting started guides This is a great series of video tutorials to help you get started using VSCode:
 https://code.visualstudio.com/docs/getstarted/introvideos
 I recommend starting with the first one and working your way through until you are comfortable using the various features in VSCode.
@@ -215,10 +215,10 @@ WSL in VSCode The Windows Subsystem for Linux allows you to set up a Linux devel
       
       <item>
         <title>Web API</title>
-        <link>https://comp426.johndmart.in/guide/api/</link>
+        <link>https://johndmart.in/comp426/guide/api/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/api/</guid>
+        <guid>https://johndmart.in/comp426/guide/api/</guid>
         <description>Web Application Programming Interfaces (APIs) are the core of everything else we do. They provide an interface between one piece of software and another.
 A web API exposes the underlying functions of a given program so that they can be used through web protocols. It also restricts access to a program by defining endpoints that only allow certain information to pass through.
 What is API design? - RedHat

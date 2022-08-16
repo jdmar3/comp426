@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content Modules on Modern Web Programming</title>
-    <link>https://comp426.johndmart.in/module/</link>
+    <link>https://johndmart.in/comp426/module/</link>
     <description>Recent content in Content Modules on Modern Web Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;span xmlns:cc=&#34;http://creativecommons.org/ns#&#34; xmlns:dct=&#34;http://purl.org/dc/terms/&#34;&gt;&lt;a property=&#34;dct:title&#34; rel=&#34;cc:attributionURL&#34; href=&#34;https://comp426.johndmart.in&#34;&gt;COMP 426: Modern Web Programming&lt;/a&gt; &amp;copy; {year} by &lt;a rel=&#34;cc:attributionURL dct:creator&#34; property=&#34;cc:attributionName&#34; href=&#34;https://johndmart.in&#34;&gt;John D. Martin III&lt;/a&gt; is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;CC BY-NC-SA 4.0&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1&#34;&gt;&lt;/a&gt;&lt;/span&gt;</copyright>
     <lastBuildDate>Tue, 24 Aug 2021 04:00:37 -0400</lastBuildDate>
     
-        <atom:link href="https://comp426.johndmart.in/module/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://johndmart.in/comp426/module/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>mod01 HTML &#43; CSS Crash Course</title>
-        <link>https://comp426.johndmart.in/module/mod01/</link>
+        <link>https://johndmart.in/comp426/module/mod01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod01/</guid>
+        <guid>https://johndmart.in/comp426/module/mod01/</guid>
         <description>HTML and CSS The first real assignment is meant to get you comfortable with the basics of HTML and CSS. Whether you know it very well already or if you need a refresher, going through this module and then a01 should put you in a good position to continue through the rest of the assignments.
 Knowing these markup languages is very important for being a good web developer. Both HTML and CSS are straightforward and well-documented.</description>
       </item>
       
       <item>
         <title>mod03 JavaScript Functions</title>
-        <link>https://comp426.johndmart.in/module/mod03/</link>
+        <link>https://johndmart.in/comp426/module/mod03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod03/</guid>
+        <guid>https://johndmart.in/comp426/module/mod03/</guid>
         <description>In a03, we&amp;rsquo;re writing some basic JS functions that can be called to return values outside of a web browser. This module includes some information and links about JS functions and a walkthrough of creating a very basic set. Some of this is covered in the a03 instructions as well. You can use this as a reference to expand on the information presented in the instructions.
 How do functions work in JavaScript?</description>
       </item>
       
       <item>
         <title>Mod05</title>
-        <link>https://comp426.johndmart.in/module/mod05/</link>
+        <link>https://johndmart.in/comp426/module/mod05/</link>
         <pubDate>Thu, 11 Nov 2021 12:53:01 -0500</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod05/</guid>
+        <guid>https://johndmart.in/comp426/module/mod05/</guid>
         <description></description>
       </item>
       
       <item>
         <title>mod04 REST, CRUD, and databases</title>
-        <link>https://comp426.johndmart.in/module/mod04/</link>
+        <link>https://johndmart.in/comp426/module/mod04/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod04/</guid>
+        <guid>https://johndmart.in/comp426/module/mod04/</guid>
         <description>Application Programming Interface (API) An API is the interface layer between two pieces of software that don&amp;rsquo;t necessarily speak the same langauge. The function of an API is to translate from one platform/piece of software to another.
 An API call is a process through which requests are made and data is retrieved from an API by a client. It looks something like this:
  A client makes a request for some data.</description>

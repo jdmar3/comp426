@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COMP 426 on Modern Web Programming</title>
-    <link>https://comp426.johndmart.in/</link>
+    <link>https://johndmart.in/comp426/</link>
     <description>Recent content in COMP 426 on Modern Web Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;span xmlns:cc=&#34;http://creativecommons.org/ns#&#34; xmlns:dct=&#34;http://purl.org/dc/terms/&#34;&gt;&lt;a property=&#34;dct:title&#34; rel=&#34;cc:attributionURL&#34; href=&#34;https://comp426.johndmart.in&#34;&gt;COMP 426: Modern Web Programming&lt;/a&gt; &amp;copy; {year} by &lt;a rel=&#34;cc:attributionURL dct:creator&#34; property=&#34;cc:attributionName&#34; href=&#34;https://johndmart.in&#34;&gt;John D. Martin III&lt;/a&gt; is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1&#34; target=&#34;_blank&#34; rel=&#34;license noopener noreferrer&#34; style=&#34;display:inline-block;&#34;&gt;CC BY-NC-SA 4.0&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1&#34;&gt;&lt;img style=&#34;height:13px!important;margin-left:3px;vertical-align:text-bottom;&#34; src=&#34;https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1&#34;&gt;&lt;/a&gt;&lt;/span&gt;</copyright>
     <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
     
-        <atom:link href="https://comp426.johndmart.in/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://johndmart.in/comp426/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>w00 Onboarding</title>
-        <link>https://comp426.johndmart.in/w/00/</link>
+        <link>https://johndmart.in/comp426/w/00/</link>
         <pubDate>Tue, 11 Jan 2022 15:30:00 -0500</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/00/</guid>
+        <guid>https://johndmart.in/comp426/w/00/</guid>
         <description>Syllabus day 2022-01-11T15:30:00-05:00
 Read the syllabus and learn how you can get a million points!
 Using GitHub for class 2022-01-13T15:30:00-05:00
@@ -31,10 +31,10 @@ For questions and general troubleshooting/problems/etc. related to this class, c
       
       <item>
         <title>a00 Setup</title>
-        <link>https://comp426.johndmart.in/a/00/</link>
+        <link>https://johndmart.in/comp426/a/00/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/00/</guid>
+        <guid>https://johndmart.in/comp426/a/00/</guid>
         <description>DUE: 2022-01-21T00:00:00-5:00
 The purpose of this is assignment is to get familiar with the tools that we will be using in COMP 426 for the rest of the semester as well as the assignment submission process.
 Note that this first assignment, a00, is graded only for general completion. Future assignments will be much deeper in scope, and you should expect to spend significantly more time on them.
@@ -43,10 +43,10 @@ Install Required Software Below are links to guides for installing the required 
       
       <item>
         <title>a01 Node</title>
-        <link>https://comp426.johndmart.in/a/01/</link>
+        <link>https://johndmart.in/comp426/a/01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/01/</guid>
+        <guid>https://johndmart.in/comp426/a/01/</guid>
         <description>DUE: 2022-01-28T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/KxHQIQzJ
 Issues: https://github.com/comp426-2022-spring/a01/issues
@@ -56,20 +56,20 @@ Build your own web server from scratch!</description>
       
       <item>
         <title>mod01 HTML &#43; CSS Crash Course</title>
-        <link>https://comp426.johndmart.in/module/mod01/</link>
+        <link>https://johndmart.in/comp426/module/mod01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod01/</guid>
+        <guid>https://johndmart.in/comp426/module/mod01/</guid>
         <description>HTML and CSS The first real assignment is meant to get you comfortable with the basics of HTML and CSS. Whether you know it very well already or if you need a refresher, going through this module and then a01 should put you in a good position to continue through the rest of the assignments.
 Knowing these markup languages is very important for being a good web developer. Both HTML and CSS are straightforward and well-documented.</description>
       </item>
       
       <item>
         <title>tl;dr</title>
-        <link>https://comp426.johndmart.in/syllabus/tldr/</link>
+        <link>https://johndmart.in/comp426/syllabus/tldr/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/tldr/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/tldr/</guid>
         <description>What is it? This is a class about building things that make the web go. We&amp;rsquo;re going to learn how to do that by doing that.
 What are we doing? This semester we are going to focus on systems for collecting and managing public health information because we are in an ongoing public health crisis and that seems really relevant.
 COVID-19 is still a thing We&amp;rsquo;re going to be doing Zoom class for the first few weeks until we see how things are going around campus with COVID-19.</description>
@@ -77,20 +77,20 @@ COVID-19 is still a thing We&amp;rsquo;re going to be doing Zoom class for the f
       
       <item>
         <title>w01 Node</title>
-        <link>https://comp426.johndmart.in/w/01/</link>
+        <link>https://johndmart.in/comp426/w/01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/01/</guid>
+        <guid>https://johndmart.in/comp426/w/01/</guid>
         <description>a00 walkthrough + Node.js setup 2022-01-18T15:30:00-05:00
  Installing Node with NVM Setting up SSH key authentication Accepting assignments Cloning a repository Getting started with NPM Write and edit some HTML Using browser-sync Write and edit some HTML Ports for testing Adding, committing, and pushing your changes Troubleshooting the output from autograders on GitHub  Notes Installing NVM If you install NVM using the supremely straightforward instructions linked below, don&amp;rsquo;t make the mistake of over-thinking it the way that your instructor did today.</description>
       </item>
       
       <item>
         <title>a02 Functions and modules</title>
-        <link>https://comp426.johndmart.in/a/02/</link>
+        <link>https://johndmart.in/comp426/a/02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/02/</guid>
+        <guid>https://johndmart.in/comp426/a/02/</guid>
         <description>DUE: 2022-02-11T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/4U2bhooL
 Issues: https://github.com/comp426-2022-spring/a02/issues
@@ -100,20 +100,20 @@ Write some functions and make a module in Node.</description>
       
       <item>
         <title>Course objectives</title>
-        <link>https://comp426.johndmart.in/syllabus/objectives/</link>
+        <link>https://johndmart.in/comp426/syllabus/objectives/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/objectives/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/objectives/</guid>
         <description>Technical skills Working through this course facliltates students to exercise a range of skils:
  Design and build RESTful API endpoints for access to a server-side information source (database, third-party API, etc.) Design objects using the JavaScript prototype-based object model Employ functional programming techniques implemented in JavaScript for asynchronous event-handling Use asynchronous techniques to implement client-server interactions with a RESTful API Manipulate the Document Oject Model (DOM) using a variety of techniques for presenting information client-side Construct client-side/browesr-based interactive applications/interfaces Use CSS and HTML for basic aesthetics in interface design  Planning and management skills In addition to the above, students will be able to:</description>
       </item>
       
       <item>
         <title>w02 HTTP, Scripting, and Testing</title>
-        <link>https://comp426.johndmart.in/w/02/</link>
+        <link>https://johndmart.in/comp426/w/02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/02/</guid>
+        <guid>https://johndmart.in/comp426/w/02/</guid>
         <description>Headers, requests, responses, status, and curl 2022-01-25T15:30:00-05:00
  Pearl Hacks What do headers do? How can we see them?  curl Inspector   Requests and responses What do statuses tell us?  Slides https://comp426-2022-spring.github.io/slides/w02-00.html
 Pearl Hacks We will have a brief presentation from a member of the planning committee for Pearl Hacks, a beginner-friendly hackathon for women and non-binady students.
@@ -122,10 +122,10 @@ Please see the Pearl Hacks site for more information about the program: https://
       
       <item>
         <title>a03 Make an API</title>
-        <link>https://comp426.johndmart.in/a/03/</link>
+        <link>https://johndmart.in/comp426/a/03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/03/</guid>
+        <guid>https://johndmart.in/comp426/a/03/</guid>
         <description>DUE: 2022-02-25T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/cyXk13b7
 Issues: https://github.com/comp426-2022-spring/a03/issues
@@ -135,10 +135,10 @@ The instructions for this are very sparse because I want you to be creative in h
       
       <item>
         <title>Course structure</title>
-        <link>https://comp426.johndmart.in/syllabus/structure/</link>
+        <link>https://johndmart.in/comp426/syllabus/structure/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/structure/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/structure/</guid>
         <description>Class sessions We will combine demonstrations and lectures with hand-on work in class. Some class time will be reserved for you to work with your teams.
 Remote availability Class sessions are all going to be available to stream live on Zoom. This is intended to help manage dealing with the uncertainty of conditions this semester.
 Session recordings Sessions will all be recorded and archived in Panopto so that you can access them later.</description>
@@ -146,20 +146,20 @@ Session recordings Sessions will all be recorded and archived in Panopto so that
       
       <item>
         <title>mod03 JavaScript Functions</title>
-        <link>https://comp426.johndmart.in/module/mod03/</link>
+        <link>https://johndmart.in/comp426/module/mod03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod03/</guid>
+        <guid>https://johndmart.in/comp426/module/mod03/</guid>
         <description>In a03, we&amp;rsquo;re writing some basic JS functions that can be called to return values outside of a web browser. This module includes some information and links about JS functions and a walkthrough of creating a very basic set. Some of this is covered in the a03 instructions as well. You can use this as a reference to expand on the information presented in the instructions.
 How do functions work in JavaScript?</description>
       </item>
       
       <item>
         <title>w03 Functions and Modules</title>
-        <link>https://comp426.johndmart.in/w/03/</link>
+        <link>https://johndmart.in/comp426/w/03/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/03/</guid>
+        <guid>https://johndmart.in/comp426/w/03/</guid>
         <description>Functions and Evolution 2022-01-27T15:30:00-05:00
  Old-school JS and modern JS History and evolution Functions three ways  Slides https://comp426-2022-spring.github.io/slides/w03-00.html
 Useful links Evolution JavaScript History - w3schools
@@ -177,10 +177,10 @@ ES6 arrow functions Javascript Arrow Function</description>
       
       <item>
         <title>w04 Collaborative workflows and APIs</title>
-        <link>https://comp426.johndmart.in/w/04/</link>
+        <link>https://johndmart.in/comp426/w/04/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/04/</guid>
+        <guid>https://johndmart.in/comp426/w/04/</guid>
         <description>Collaborative workflows 2022-02-08T15:30:00-05:00
 Today we are mostly going to spend class time orienting ourselves within a99 teams and beginning a brainstorming session with your team.
 At the beginning of today&amp;rsquo;s session, I will go over the tools that I want you to use in GitHub to get yourselves into a collaborative workflow habit.
@@ -190,10 +190,10 @@ GitHub projects Using project boards for task management - lecoursen (GitHub sup
       
       <item>
         <title>a04 Databases, logs, errors, and middleware</title>
-        <link>https://comp426.johndmart.in/a/04/</link>
+        <link>https://johndmart.in/comp426/a/04/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/04/</guid>
+        <guid>https://johndmart.in/comp426/a/04/</guid>
         <description>DUE: 2022-03-29T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/GQsrzvZT
 Issues: https://github.com/comp426-2022-spring/a04/issues
@@ -202,20 +202,20 @@ Logging transactions and handling errors This assignment for COMP 426 will help 
       
       <item>
         <title>Deliverables and assessments</title>
-        <link>https://comp426.johndmart.in/syllabus/assignments/</link>
+        <link>https://johndmart.in/comp426/syllabus/assignments/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/assignments/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/assignments/</guid>
         <description>Assignments This is a tentative list of assignments. These may be adjusted or merged depending on how the course flows.
    Assignment Title Topics covered Points     a00 Setup Installing software; git and Github; bash/command line 71,428   a01 Node Package management; creating packages; Node.js; npm 71,429   a02 Functions and modules Running JavaScript as program; JavaScript functions 71,428   a03 API Turning functions into endpoints; REST; Express 71,429   a04 Logging and database Interface an API with a database; store logs 71,428   a05 Web interface Connect an interface to your API 71,429   a06 React and auth Reactify your app; add authentication 71,429   a99 Final project Collaboration; Project planning and management 300,000    Assignment submission All assignments will be handled by GitHub classroom.</description>
       </item>
       
       <item>
         <title>MIDTERM</title>
-        <link>https://comp426.johndmart.in/a/midterm/</link>
+        <link>https://johndmart.in/comp426/a/midterm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/midterm/</guid>
+        <guid>https://johndmart.in/comp426/a/midterm/</guid>
         <description>DUE: 2022-03-11T00:00:00-5:00
 GitHub Classroom invite link: https://classroom.github.com/a/LEjr-By8
 The instructions for the midterm are in the repository that will be automatically created for you when you accept the assignment using the link above.
@@ -225,10 +225,10 @@ You have until the beginning of Spring break to complete the midterm.</descripti
       
       <item>
         <title>a05 Human Interface</title>
-        <link>https://comp426.johndmart.in/a/05/</link>
+        <link>https://johndmart.in/comp426/a/05/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/05/</guid>
+        <guid>https://johndmart.in/comp426/a/05/</guid>
         <description>DUE: 2022-04-15T00:00:00-5:00
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/PUVGxeMe
 Issues: https://github.com/comp426-2022-spring/a05/issues
@@ -239,20 +239,20 @@ Assignment requirements  A web interface with:  a landing page &amp;lt;div&amp;g
       
       <item>
         <title>Grading</title>
-        <link>https://comp426.johndmart.in/syllabus/grading/</link>
+        <link>https://johndmart.in/comp426/syllabus/grading/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/grading/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/grading/</guid>
         <description>Grade breakdown Grading will be based on 1,000,000 points. The breakdown is as follows.
    Component Description Quantity Points Subtotal     Assignments Individual programming assignments 6 83,333* 500,000    Extra credit assignment available 2 25,000 (25,000)   Final project Team-based app development 1 300,000 300,000   Assessments Questionnaires 3 50,000 150,000   Engagement GitHub commits 100 500 50,000   Total    1,000,000    * Two assignments are worth 83,334 because of rounding.</description>
       </item>
       
       <item>
         <title>w05 Time to make the APIs</title>
-        <link>https://comp426.johndmart.in/w/05/</link>
+        <link>https://johndmart.in/comp426/w/05/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/05/</guid>
+        <guid>https://johndmart.in/comp426/w/05/</guid>
         <description>Getting started with Express 2022-02-15T15:30:00-05:00
 Agenda  API anatomy Walkthrough: create your own API in Express (aka a03)  Useful links Node HTTP interfaces documentation
 Express API reference
@@ -265,10 +265,10 @@ There is A LOT of information out there about using Express to build an API. Don
       
       <item>
         <title>e01 HTML&#43;CSS</title>
-        <link>https://comp426.johndmart.in/a/e01/</link>
+        <link>https://johndmart.in/comp426/a/e01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/e01/</guid>
+        <guid>https://johndmart.in/comp426/a/e01/</guid>
         <description>DUE: N/A
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/VGa4L5eC
 Issues: https://github.com/comp426-2022-spring/e01/issues
@@ -279,10 +279,10 @@ Instructions Follow the instructions in the NUMBERED comments in the .html and .
       
       <item>
         <title>e02 React</title>
-        <link>https://comp426.johndmart.in/a/e02/</link>
+        <link>https://johndmart.in/comp426/a/e02/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/e02/</guid>
+        <guid>https://johndmart.in/comp426/a/e02/</guid>
         <description>DUE: N/A
 GitHub Classroom Assignment Invite: https://classroom.github.com/a/aOrxrAKB
 Issues: https://github.com/comp426-2022-spring/e02/issues
@@ -292,19 +292,19 @@ nvm list iojs-v3.3.1 -&amp;gt; v16.14.2 default -&amp;gt; lts/* (-&amp;gt; v16.1
       
       <item>
         <title>Honor Code</title>
-        <link>https://comp426.johndmart.in/syllabus/honor/</link>
+        <link>https://johndmart.in/comp426/syllabus/honor/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/honor/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/honor/</guid>
         <description>The University of North Carolina at Chapel Hill has had a student-led honor system for over 100 years. Academic integrity is at the heart of Carolina and we all are responsible for upholding the ideals of honor and integrity. The student-led Honor System is responsible for adjudicating any suspected violations of the Honor Code and all suspected instances of academic dishonesty will be reported to the Honor System. Information, including your responsibilities as a student, is outlined in the Instrument of Student Judicial Governance.</description>
       </item>
       
       <item>
         <title>w06 More fun with APIs</title>
-        <link>https://comp426.johndmart.in/w/06/</link>
+        <link>https://johndmart.in/comp426/w/06/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/06/</guid>
+        <guid>https://johndmart.in/comp426/w/06/</guid>
         <description>Request body and middleware 2022-02-22T15:30:00-05:00
 Agenda  Questions about a99 Review endpoints Middleware Request body  Slides https://comp426-2022-spring.github.io/slides/w06-00.html
 Useful links req variables Request (req object)
@@ -319,10 +319,10 @@ Nodemon Nodemon is like browsersync but for your Node apps.</description>
       
       <item>
         <title>Mental health and well-being</title>
-        <link>https://comp426.johndmart.in/syllabus/wellbeing/</link>
+        <link>https://johndmart.in/comp426/syllabus/wellbeing/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/wellbeing/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/wellbeing/</guid>
         <description>Counseling and Psychological Services (CAPS) CAPS is strongly committed to addressing the mental health needs of a diverse student body throughtimely access to consultation and connection to clinically appropriate services, whether for short or long-term needs.
 Go to their website: https://caps.unc.edu/ or visit their facilities on the third floor of the Campus Health Services building for a walk-in evaluation to learn more.
 Help us help you If you are struggling, speak to a TA and/or the instructor.</description>
@@ -330,10 +330,10 @@ Help us help you If you are struggling, speak to a TA and/or the instructor.</de
       
       <item>
         <title>w07 Logging</title>
-        <link>https://comp426.johndmart.in/w/07/</link>
+        <link>https://johndmart.in/comp426/w/07/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/07/</guid>
+        <guid>https://johndmart.in/comp426/w/07/</guid>
         <description>Logging to file 2022-03-01T15:30:00-05:00
 Agenda  Logging wrap-up Thinking about sources of error Errors in Express Writing error and other logs to file  Useful links Generating logs Express.js and Morgan Logging
 How to use morgan in your Express project - Cooper Makhijani
@@ -346,20 +346,20 @@ Node.js logging made easy: A tutorial on just about everything you need to know 
       
       <item>
         <title>Accessibility</title>
-        <link>https://comp426.johndmart.in/syllabus/accessibility/</link>
+        <link>https://johndmart.in/comp426/syllabus/accessibility/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/accessibility/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/accessibility/</guid>
         <description>Accessibility Resources The University of North Carolina at Chapel Hill facilitates the implementation of reasonable accommodations, including resources and services, for students with disabilities, chronic medical conditions, a temporary disability or pregnancy complications resulting in barriers to fully accessing University courses, programs and activities.
 Accommodations are determined through the Office of Accessibility. Resources and Service (ARS) for individuals with documented qualifying disabilities in accordance with applicable state and federal laws. See the ARS Website for contact information: https://ars.</description>
       </item>
       
       <item>
         <title>w08 Data from endpoints to database</title>
-        <link>https://comp426.johndmart.in/w/08/</link>
+        <link>https://johndmart.in/comp426/w/08/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/08/</guid>
+        <guid>https://johndmart.in/comp426/w/08/</guid>
         <description>Database interaction endpoints 2022-03-08T15:30:00-05:00
  Create database for arbitrary data Create endpoint to send arbitrary data to DB Read data through endpoint Update data through endpoint Delete data through endpoint  Useful links General database integration Express Database Integration Guide
 Database integration in Express
@@ -372,20 +372,20 @@ Notes Below is the database service script that I used in class today:
       
       <item>
         <title>Title IX</title>
-        <link>https://comp426.johndmart.in/syllabus/title9/</link>
+        <link>https://johndmart.in/comp426/syllabus/title9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/title9/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/title9/</guid>
         <description>Title IX Resources Any student who is impacted by discrimination, harassment, interpersonal (relationship) violence, sexual violence, sexual exploitation, or stalking is encouraged to seek resources on campus or in the community.
 Please contact the Director of Title IX Compliance (Adrienne Allison – Adrienne.allison@unc.edu), Report and Response Coordinators in the Equal Opportunity and Compliance Office (reportandresponse@unc.edu), Counseling and Psychological Services (confidential), or the Gender Violence Services Coordinators (gvsc@unc.edu; confidential) to discuss your specific needs.</description>
       </item>
       
       <item>
         <title>w09 Spring Break</title>
-        <link>https://comp426.johndmart.in/w/09/</link>
+        <link>https://johndmart.in/comp426/w/09/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/09/</guid>
+        <guid>https://johndmart.in/comp426/w/09/</guid>
         <description>No class No class on 2022-03-15T15:30:00-05:00 or 2022-03-17T15:30:00-05:00.
 There will be no office hours held the week of spring break.
 Take some time for yourself, rest, and don&amp;rsquo;t do anything for this class.</description>
@@ -393,20 +393,20 @@ Take some time for yourself, rest, and don&amp;rsquo;t do anything for this clas
       
       <item>
         <title>Disclaimer</title>
-        <link>https://comp426.johndmart.in/syllabus/disclaimer/</link>
+        <link>https://johndmart.in/comp426/syllabus/disclaimer/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/syllabus/disclaimer/</guid>
+        <guid>https://johndmart.in/comp426/syllabus/disclaimer/</guid>
         <description>Ch-ch-ch-ch-changes The instructor reserves to right to make changes to the syllabus, including any project due dates, assessment dates, assignments, or other aspects of the schedule and structure.
 Things change. We live in uncertain times. We will adjust the course accordingly if it becomes necessary to do so.</description>
       </item>
       
       <item>
         <title>w10 Human interfaces</title>
-        <link>https://comp426.johndmart.in/w/10/</link>
+        <link>https://johndmart.in/comp426/w/10/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/10/</guid>
+        <guid>https://johndmart.in/comp426/w/10/</guid>
         <description>Making interface design decisions 2022-03-22T15:30:00-05:00
 Agenda  What is a human interface? Accessibility and Usability Components and features of an interface  Interactions Use flows / pathways Skeuomorphs Information architecture   How do we decide what goes into the interface? Specifying design parameters  Slides https://comp426-2022-spring.github.io/slides/w10-00.html
 Useful links User Interface Elements Every Designer Should Know - UXPin
@@ -417,10 +417,10 @@ usability.gov User Interface Elements</description>
       
       <item>
         <title>w11 Client-side scripting</title>
-        <link>https://comp426.johndmart.in/w/11/</link>
+        <link>https://johndmart.in/comp426/w/11/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/11/</guid>
+        <guid>https://johndmart.in/comp426/w/11/</guid>
         <description>Fetch 2022-03-29T15:30:00-05:00
 Agenda  Revisit button click Add a result field Add an image Make an API call with fetch() Use the response from fetch() to manipulate elements.  Slides https://comp426-2022-spring.github.io/slides/w11-00.html
 Useful links HTML DOM Element setAttribute() - w3schools
@@ -434,10 +434,10 @@ How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</desc
       
       <item>
         <title>w12 Single-page interfaces and package structure</title>
-        <link>https://comp426.johndmart.in/w/12/</link>
+        <link>https://johndmart.in/comp426/w/12/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/12/</guid>
+        <guid>https://johndmart.in/comp426/w/12/</guid>
         <description>Team Work Day 2022-04-05T15:30:00-05:00
 Agenda Meet with your teams and check in.
 Package structure 2022-04-07T15:30:00-05:00
@@ -449,10 +449,10 @@ Organizing your Express.js project structure for better productivity - Geshan Ma
       
       <item>
         <title>w13 React</title>
-        <link>https://comp426.johndmart.in/w/13/</link>
+        <link>https://johndmart.in/comp426/w/13/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/13/</guid>
+        <guid>https://johndmart.in/comp426/w/13/</guid>
         <description>Intro to React 2022-04-12T15:30:00-05:00
 Agenda  What is React? Why React? Some React terms Make a grade calculator app with React  Useful links Where to start with React Create React App
 Create a New React App - React
@@ -464,10 +464,10 @@ React with Node/Express create-app-react-express - NPM</description>
       
       <item>
         <title>w14 Auth</title>
-        <link>https://comp426.johndmart.in/w/14/</link>
+        <link>https://johndmart.in/comp426/w/14/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/14/</guid>
+        <guid>https://johndmart.in/comp426/w/14/</guid>
         <description>Local Auth Agenda 2022-04-21T15:30:00-05:00
  Roll-your-own Auth Implementing Auth with MongoDB, Express, and Node using Passport.js  Useful links Passport Passport.js
 Node.js and Express Authentication Using Passport - Dan Arias
@@ -477,20 +477,20 @@ What Is the Difference Between Authorization and Authentication? (Part 1) - hey(
       
       <item>
         <title>w15 Logging out</title>
-        <link>https://comp426.johndmart.in/w/15/</link>
+        <link>https://johndmart.in/comp426/w/15/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/w/15/</guid>
+        <guid>https://johndmart.in/comp426/w/15/</guid>
         <description>Course wrap up 2022-04-26T15:30:00-05:00
 Agenda  What can I say that I learned here? What else is there? How do I learn more? General discussion and inquiries  </description>
       </item>
       
       <item>
         <title>a99 Final Project</title>
-        <link>https://comp426.johndmart.in/a/99/</link>
+        <link>https://johndmart.in/comp426/a/99/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/99/</guid>
+        <guid>https://johndmart.in/comp426/a/99/</guid>
         <description>DUE: 2022-04-30T19:00:00-5:00 (End of Exam Period)
 GitHub Classroom Assignment Invite: [REDACTED]
 UPDATE 2022-02-17: You don&amp;rsquo;t need to accept this assignment since you are already assigned to teams. So, there is not assignment invite link for a99.
@@ -501,10 +501,10 @@ NOTE: You are all each individually responsible for submitting a final self- and
       
       <item>
         <title>FINAL</title>
-        <link>https://comp426.johndmart.in/a/final/</link>
+        <link>https://johndmart.in/comp426/a/final/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/a/final/</guid>
+        <guid>https://johndmart.in/comp426/a/final/</guid>
         <description>DUE: 2022-04-30T23:59:59-5:00
 GitHub Classroom invite link: https://classroom.github.com/a/CIzB6zD-
 The instructions for the final are in the repository that will be automatically created for you when you accept the assignment using the link above.
@@ -514,19 +514,19 @@ You have until the end of the designated exam period to complete the final.</des
       
       <item>
         <title>Mod05</title>
-        <link>https://comp426.johndmart.in/module/mod05/</link>
+        <link>https://johndmart.in/comp426/module/mod05/</link>
         <pubDate>Thu, 11 Nov 2021 12:53:01 -0500</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod05/</guid>
+        <guid>https://johndmart.in/comp426/module/mod05/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Authentication</title>
-        <link>https://comp426.johndmart.in/guide/authentication/</link>
+        <link>https://johndmart.in/comp426/guide/authentication/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/authentication/</guid>
+        <guid>https://johndmart.in/comp426/guide/authentication/</guid>
         <description>OAuth Implementing OAuth 2.0 with Node.js - Soham Kamani
 Understanding and Implementing OAuth2 in Node.js - Diogo Souza
 Implementing an OAuth Server with Node.js and Express - Valeri Karpov
@@ -536,10 +536,10 @@ Passport Node.js and Express authentication using Passport - Dan Arias</descript
       
       <item>
         <title>Bash</title>
-        <link>https://comp426.johndmart.in/guide/bash/</link>
+        <link>https://johndmart.in/comp426/guide/bash/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/bash/</guid>
+        <guid>https://johndmart.in/comp426/guide/bash/</guid>
         <description>Bash is the name of the shell and command language that we use most frequently in Linux and other UNIX clones. Mac OSX is a UNIX clone. When you open &amp;ldquo;Terminal,&amp;rdquo; you are looking at Bash. It is a text-interface command line envrionment but it can also read commands from files in the form of scripts.
 Learning the shell - William E. Shotts, Jr.
 Writing shell scripts - William E. Shotts, Jr.</description>
@@ -547,10 +547,10 @@ Writing shell scripts - William E. Shotts, Jr.</description>
       
       <item>
         <title>CSS3</title>
-        <link>https://comp426.johndmart.in/guide/css3/</link>
+        <link>https://johndmart.in/comp426/guide/css3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/css3/</guid>
+        <guid>https://johndmart.in/comp426/guide/css3/</guid>
         <description>CSS is an acronym for &amp;ldquo;Cascading Style Sheet.&amp;rdquo; If HTML is the medium for web content, then CSS is the palette for the visual styling of the web. Whenever a website looks like anything other than just a blank page, there is CSS involved.
 CSS3 Cheat Sheet - Leslie Franke
 W3CSchools CSS Tutorial</description>
@@ -558,20 +558,20 @@ W3CSchools CSS Tutorial</description>
       
       <item>
         <title>Fetch</title>
-        <link>https://comp426.johndmart.in/guide/fetch/</link>
+        <link>https://johndmart.in/comp426/guide/fetch/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/fetch/</guid>
+        <guid>https://johndmart.in/comp426/guide/fetch/</guid>
         <description>Introduction to fetch() - Matt Gaunt
 How to Use the JavaScript Fetch API to Perform HTTP Requests - Ryan Glover</description>
       </item>
       
       <item>
         <title>git</title>
-        <link>https://comp426.johndmart.in/guide/git/</link>
+        <link>https://johndmart.in/comp426/guide/git/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/git/</guid>
+        <guid>https://johndmart.in/comp426/guide/git/</guid>
         <description>git is a distributed version control system that keeps track of the changes between plaintext source files. It can be used for collaboration or for managing and keeping track of workflows for individuals. While primarily intended for software source code, git works with any plaintext files, and so can also be used for authoring of other kinds.
 git basics git official documentation
 You should become conversant with the official documentation for git.</description>
@@ -579,10 +579,10 @@ You should become conversant with the official documentation for git.</descripti
       
       <item>
         <title>GitHub</title>
-        <link>https://comp426.johndmart.in/guide/github/</link>
+        <link>https://johndmart.in/comp426/guide/github/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/github/</guid>
+        <guid>https://johndmart.in/comp426/guide/github/</guid>
         <description>GitHub is a platform that allows for users to keep copies of their open source, plaintext repositories online, in a single centralized location. It also adds a social interaction layer to the process of managing version-controlled source files.
 GitHub Basics Hello World - GitHub Guides
 Keeping GitHub forks up to date with upstream source Keeping your forked repo synced with the upstream source - Nitin Venkatesh
@@ -591,20 +591,20 @@ Syncing a fork - GitHub Help</description>
       
       <item>
         <title>GitHub Actions</title>
-        <link>https://comp426.johndmart.in/guide/github-actions/</link>
+        <link>https://johndmart.in/comp426/guide/github-actions/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/github-actions/</guid>
+        <guid>https://johndmart.in/comp426/guide/github-actions/</guid>
         <description>GitHub Actions allows for testing, compiling, and other workflow tasks to be performed on GitHub after you push to a repository housed there. COMP 426 uses these for autograding and other basic evaluation of assignments when you submit them. It is useful to become familiar with how it works so that you can monitor your autograded assignments when you submit them.
 GitHub Actions - GitHub Docs</description>
       </item>
       
       <item>
         <title>GitHub Classroom</title>
-        <link>https://comp426.johndmart.in/guide/github-classroom/</link>
+        <link>https://johndmart.in/comp426/guide/github-classroom/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/github-classroom/</guid>
+        <guid>https://johndmart.in/comp426/guide/github-classroom/</guid>
         <description>GitHub Classroom allows your instructors to distribute starter code for assignments, automatically create and manage repositories for student work, and automatically grade work sumbitted by push to GitHub. This is how all assignments will be managed for COMP426.
 You can install an extension in VSCode that will let you simplify the process of accepting and submitting assignments.
 Install GitHub Classroom extension on VSCode</description>
@@ -612,10 +612,10 @@ Install GitHub Classroom extension on VSCode</description>
       
       <item>
         <title>HTML5</title>
-        <link>https://comp426.johndmart.in/guide/html5/</link>
+        <link>https://johndmart.in/comp426/guide/html5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/html5/</guid>
+        <guid>https://johndmart.in/comp426/guide/html5/</guid>
         <description>HTML is an acronym for &amp;ldquo;HyperText Markup Language.&amp;rdquo; &amp;ldquo;Hypertext&amp;rdquo; is text that contains links to other text. The Web, as we know it, relies on hypertext to for us to communicate with systems and with other humans. It is the medium of Web content.
 HTML5 Cheat Sheet - WebsiteSetup.org
 W3CSchools HTML(5) Tutorial</description>
@@ -623,19 +623,19 @@ W3CSchools HTML(5) Tutorial</description>
       
       <item>
         <title>Javascript</title>
-        <link>https://comp426.johndmart.in/guide/javascript/</link>
+        <link>https://johndmart.in/comp426/guide/javascript/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/javascript/</guid>
+        <guid>https://johndmart.in/comp426/guide/javascript/</guid>
         <description></description>
       </item>
       
       <item>
         <title>JS Functions</title>
-        <link>https://comp426.johndmart.in/guide/functions/</link>
+        <link>https://johndmart.in/comp426/guide/functions/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/functions/</guid>
+        <guid>https://johndmart.in/comp426/guide/functions/</guid>
         <description>JavaScript Functions - w3schools
 Functions - JavaScript - Mozilla Developer Network
 Differences Between var and let - JavaScript Tutorials</description>
@@ -643,10 +643,10 @@ Differences Between var and let - JavaScript Tutorials</description>
       
       <item>
         <title>Licenses</title>
-        <link>https://comp426.johndmart.in/guide/licenses/</link>
+        <link>https://johndmart.in/comp426/guide/licenses/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/licenses/</guid>
+        <guid>https://johndmart.in/comp426/guide/licenses/</guid>
         <description>Choosing licenses Choosing a license for your work can seem daunting, but it is a matter of deciding what you want to be able to do with your content or source code and how you want it to be distributed.
 GitHub GitHub has a very good guide to choosing licenses for your repositories and also a tool to help you through the process.
 Choose a License
@@ -655,10 +655,10 @@ Customize your repository &amp;gt; Licensing a repository - GitHub Docs</descrip
       
       <item>
         <title>mod04 REST, CRUD, and databases</title>
-        <link>https://comp426.johndmart.in/module/mod04/</link>
+        <link>https://johndmart.in/comp426/module/mod04/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/module/mod04/</guid>
+        <guid>https://johndmart.in/comp426/module/mod04/</guid>
         <description>Application Programming Interface (API) An API is the interface layer between two pieces of software that don&amp;rsquo;t necessarily speak the same langauge. The function of an API is to translate from one platform/piece of software to another.
 An API call is a process through which requests are made and data is retrieved from an API by a client. It looks something like this:
  A client makes a request for some data.</description>
@@ -666,20 +666,20 @@ An API call is a process through which requests are made and data is retrieved f
       
       <item>
         <title>Networks</title>
-        <link>https://comp426.johndmart.in/guide/networks/</link>
+        <link>https://johndmart.in/comp426/guide/networks/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/networks/</guid>
+        <guid>https://johndmart.in/comp426/guide/networks/</guid>
         <description>Network layer Cloudflare has an excellent tutorial series on the network layer. It is worth reading through the entire thing just to have a good general sense of the parts of networks, how they work, were they are, and what they do. The glossary is also excellent.
 What is the network layer? - Cloudflare</description>
       </item>
       
       <item>
         <title>Node</title>
-        <link>https://comp426.johndmart.in/guide/node/</link>
+        <link>https://johndmart.in/comp426/guide/node/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/node/</guid>
+        <guid>https://johndmart.in/comp426/guide/node/</guid>
         <description>Node.js v16.10.0 documentation
 ECMAScript Modules (ESM) ECMAScript Modules (ESM) documentation
 Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>
@@ -687,10 +687,10 @@ Using ECMAScript modules (ESM) with Node.js - Diogo Souza</description>
       
       <item>
         <title>Public APIs</title>
-        <link>https://comp426.johndmart.in/guide/publicapis/</link>
+        <link>https://johndmart.in/comp426/guide/publicapis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/publicapis/</guid>
+        <guid>https://johndmart.in/comp426/guide/publicapis/</guid>
         <description>General public APIs Public APIs - @public-apis
 COVID-19 APIs COVID Act Now - Data API
 Postman COVID-19 API Resource Center
@@ -700,30 +700,30 @@ Data reference (not APIs) NCDHHS COVID-19 dashboard data</description>
       
       <item>
         <title>Software Setup for Mac OSX</title>
-        <link>https://comp426.johndmart.in/guide/software/mac/</link>
+        <link>https://johndmart.in/comp426/guide/software/mac/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/software/mac/</guid>
+        <guid>https://johndmart.in/comp426/guide/software/mac/</guid>
         <description>To be a successful web developer in COMP 426, you&amp;rsquo;ll need to install some software on your computer. Follow the guide on this page if you have a Mac running OSX.
 Chrome Web Browser Your projects in this course will run in a web browser. While most web browsers should work, we only support and test in the Google Chrome web browser. Install it by following the instructions below. We suggest making it your computer&amp;rsquo;s default web browser.</description>
       </item>
       
       <item>
         <title>Software setup for Windows</title>
-        <link>https://comp426.johndmart.in/guide/software/windows/</link>
+        <link>https://johndmart.in/comp426/guide/software/windows/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/software/windows/</guid>
+        <guid>https://johndmart.in/comp426/guide/software/windows/</guid>
         <description>To be a successful web developer in COMP 426, you&amp;rsquo;ll need to install some software on your computer. Follow the guide on this page if you have a Windows computer.
 Chrome Web Browser Your projects in this course will run in a web browser. While most web browsers should work, we only support and test in the Google Chrome web browser. Install it by following the instructions below. We suggest making it your computer&amp;rsquo;s default web browser.</description>
       </item>
       
       <item>
         <title>Validators</title>
-        <link>https://comp426.johndmart.in/guide/validators/</link>
+        <link>https://johndmart.in/comp426/guide/validators/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/validators/</guid>
+        <guid>https://johndmart.in/comp426/guide/validators/</guid>
         <description>Here are some links to validators that you can use to check your assignment code. We will run all your code through a validator as part of your assignment submission. You should too.
 Validators will tell you exactly what you need to know to fix the errors in your code.
 HTML, CSS, etc. W3C Markup Validation Service (HTML)
@@ -732,10 +732,10 @@ W3C has a bunch of different validators that can check CSS, web platforms (mobil
       
       <item>
         <title>Visual Studio Code</title>
-        <link>https://comp426.johndmart.in/guide/vscode/</link>
+        <link>https://johndmart.in/comp426/guide/vscode/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/vscode/</guid>
+        <guid>https://johndmart.in/comp426/guide/vscode/</guid>
         <description>Getting started guides This is a great series of video tutorials to help you get started using VSCode:
 https://code.visualstudio.com/docs/getstarted/introvideos
 I recommend starting with the first one and working your way through until you are comfortable using the various features in VSCode.
@@ -745,10 +745,10 @@ WSL in VSCode The Windows Subsystem for Linux allows you to set up a Linux devel
       
       <item>
         <title>Web API</title>
-        <link>https://comp426.johndmart.in/guide/api/</link>
+        <link>https://johndmart.in/comp426/guide/api/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://comp426.johndmart.in/guide/api/</guid>
+        <guid>https://johndmart.in/comp426/guide/api/</guid>
         <description>Web Application Programming Interfaces (APIs) are the core of everything else we do. They provide an interface between one piece of software and another.
 A web API exposes the underlying functions of a given program so that they can be used through web protocols. It also restricts access to a program by defining endpoints that only allow certain information to pass through.
 What is API design? - RedHat
